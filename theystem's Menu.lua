@@ -147,6 +147,17 @@ Tabs.Scripts:CreateButton({
     end
 })
 
+Tabs.Scripts:CreateButton({
+    Name = "Roblox Chat Filter Bypass Script",
+    Callback = function()
+        Rayfield:Destroy()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/cheatplug/usercreated/refs/heads/main/main.lua'))()
+    end
+})
+
+Tabs.Scripts:CreateLabel("This script has a key system. To use this script, you need the key. Here is the key: patchmeplease", "sticky-note")
+Tabs.Scripts:CreateLabel("(The key changes weekly. To get the new key, join the discord server of the script: discord.gg/usercreated)", "sticky-note")
+
 Tabs.Cameras:CreateToggle({
     Name = "Freeze Camera (a little bit broken)",
     CurrentValue = toggles.FreezeCamera,
@@ -162,25 +173,6 @@ Tabs.Cameras:CreateToggle({
                 end
             end)
             frozenCFrame = camera.CFrame
-        else
-        end
-
-        if value then
-            local character = Player.Character
-            if character then
-                local humanoid = character:FindFirstChildOfClass("Humanoid")
-                if humanoid then
-                    humanoid.CameraOffset = Vector3.new(0, 0, 0)
-                end
-            end
-        else
-            local character = Player.Character
-            if character then
-                local humanoid = character:FindFirstChildOfClass("Humanoid")
-                if humanoid then
-                    humanoid.CameraOffset = Vector3.new(0, 0, 0)
-                end
-            end
         end
         
         Rayfield:Notify({
