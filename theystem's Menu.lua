@@ -13,7 +13,7 @@ if not success then
 end
 
 local Window = Rayfield:CreateWindow({
-    Name = "theystem's Menu (more mods coming soon!)",
+    Name = "theystem's Menu",
     LoadingTitle = "Menu has been loaded successfully!",
     LoadingSubtitle = "Menu made by @theystem.",
     Theme = "AmberGlow",
@@ -34,7 +34,9 @@ local Tabs = {
     Cameras = Window:CreateTab("Cameras", "camera")
 }
 
-Tabs.Universal:CreateSection("(These mods are made with ChatGPT. These mods may not work properly.)")
+for _, tab in pairs(Tabs) do
+    tab:CreateSection("(These mods are made with ChatGPT. These mods may not work properly.)")
+end
 
 local toggles = {
     SpeedBoost = false,
