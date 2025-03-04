@@ -13,7 +13,7 @@ if not success then
 end
 
 local Window = Rayfield:CreateWindow({
-    Name = "theystem's Menu",
+    Name = "theystem's Menu (more mods coming soon!)",
     LoadingTitle = "Menu has been loaded successfully!",
     LoadingSubtitle = "Menu made by @theystem.",
     Theme = "AmberGlow",
