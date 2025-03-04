@@ -30,7 +30,7 @@ local Tabs = {
     Movement = Window:CreateTab("Movement Mods", "move"),
     Combat = Window:CreateTab("Combat Mods", "swords"),
     Utility = Window:CreateTab("Utility Mods", "wrench"),
-    Scripts = Window:CreateTab("Scripts (more scripts coming soon!)", "terminal"),
+    Scripts = Window:CreateTab("Scripts", "terminal"),
     Cameras = Window:CreateTab("Cameras", "camera")
 }
 
