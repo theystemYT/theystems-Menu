@@ -155,8 +155,18 @@ Tabs.Scripts:CreateButton({
     end
 })
 
-Tabs.Scripts:CreateLabel("This script has a key system. To use this script, you need the key. Here is the key: patchmeplease", "sticky-note")
-Tabs.Scripts:CreateLabel("(The key changes weekly. To get the new key, join the discord server of the script: discord.gg/usercreated)", "sticky-note")
+Tabs.Scripts:CreateButton({
+    Name = "Copy Key for Roblox Chat Filter Bypass Script",
+    Callback = function()
+        setclipboard("patchmeplease")
+        Rayfield:Notify({
+            Title = "Key",
+            Content = "The key has been copied to your clipboard.",
+            Duration = 3,
+            Image = "clipboard"
+        })
+    end
+})
 
 Tabs.Cameras:CreateToggle({
     Name = "Freeze Camera (a little bit broken)",
