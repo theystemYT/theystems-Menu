@@ -150,7 +150,6 @@ Tabs.Scripts:CreateButton({
 Tabs.Scripts:CreateButton({
     Name = "Roblox Chat Filter Bypass Script",
     Callback = function()
-        Rayfield:Destroy()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/cheatplug/usercreated/refs/heads/main/main.lua'))()
     end
 })
@@ -165,6 +164,34 @@ Tabs.Scripts:CreateButton({
             Duration = 3,
             Image = "clipboard"
         })
+    end
+})
+
+Tabs.Scripts:CreateButton({
+    Name = "Sirius",
+    Callback = function()
+        loadstring(game:HttpGet('https://sirius.menu/sirius'))()
+    end
+})
+
+Tabs.Scripts:CreateButton({
+    Name = "LHUB",
+    Callback = function()
+        loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-LHUB-30857"))()
+    end
+})
+
+Tabs.Scripts:CreateButton({
+    Name = "YARHM",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Joystickplays/psychic-octo-invention/main/yarhm.lua", false))()
+    end
+})
+
+Tabs.Scripts:CreateButton({
+    Name = "Null Fire",
+    Callback = function()
+        loadstring(game:HttpGet("https://rawscripts.net/raw/Natural-Disaster-Survival-NullFire-NDS-24033"))()
     end
 })
 
