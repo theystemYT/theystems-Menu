@@ -20,29 +20,6 @@ local Window = Rayfield:CreateWindow({
     ConfigurationSaving = {Enabled = true, FolderName = "theystem's Menu Configuration Saving", FileName = "theystem's Menu"}
 })
 
-local RunService = game:GetService("RunService")
-local Stats = game:GetService("Stats")
-local LastFPS
-
-task.spawn(function()
-    while true do
-        local CurrentFPS = Stats.PerformanceStats.PS_FPS:GetValue()
-
-        if not LastFPS then
-            LastFPS = CurrentFPS
-        elseif CurrentFPS < LastFPS then
-            Rayfield:Notify({
-                Title = "Performance Decrease Detected",
-                Content = "Your client's FPS has dropped. Try closing unnecessary background applications to improve performance.",
-                Duration = 5,
-                Image = "circle-alert"
-            })
-            LastFPS = CurrentFPS
-            wait(10)
-        end
-    end
-end)
-
 local Tabs = {
     Universal = Window:CreateTab("Universal Mods", "globe"),
     Gun = Window:CreateTab("Gun Mods", "crosshair"),
