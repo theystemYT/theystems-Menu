@@ -197,6 +197,13 @@ Tabs.Scripts:CreateButton({
     end
 })
 
+Tabs.Scripts:CreateButton({
+    Name = "Sensation/Sexsation Doors Script",
+    Callback = function()
+        loadstring(game:HttpGet("https://rawscripts.net/raw/FLOOR-2-DOORS-Sensation-V2-20105"))()
+    end
+})
+
 Tabs.Cameras:CreateToggle({
     Name = "Freeze Camera (a little bit broken)",
     CurrentValue = toggles.FreezeCamera,
