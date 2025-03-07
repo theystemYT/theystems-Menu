@@ -1,4 +1,4 @@
--- DO NOT STEAL THIS CODE WITHOUT PERMISSION BY THE CREATOR.
+-- DO NOT STEAL THIS CODE WITHOUT THE CREATORS PERMISSION.
 local success, Rayfield = pcall(function()
     return loadstring(game:HttpGet('https://raw.githubusercontent.com/SiriusSoftwareLtd/Rayfield/main/source.lua'))()
 end)
@@ -150,6 +150,7 @@ Tabs.Scripts:CreateButton({
 Tabs.Scripts:CreateButton({
     Name = "Roblox Chat Filter Bypass Script",
     Callback = function()
+        Rayfield:Destroy()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/cheatplug/usercreated/refs/heads/main/main.lua'))()
     end
 })
@@ -177,6 +178,7 @@ Tabs.Scripts:CreateButton({
 Tabs.Scripts:CreateButton({
     Name = "LHUB",
     Callback = function()
+        Rayfield:Destroy()
         loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-LHUB-30857"))()
     end
 })
