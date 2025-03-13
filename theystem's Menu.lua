@@ -212,4 +212,18 @@ Tabs.Scripts:CreateButton({
     end
 })
 
+Tabs.Scripts:CreateButton({
+    Name = "Skibidi Hub (Orion Library)",
+    Callback = function()
+        loadstring(game:HttpGet("https://gitlab.com/skibidi7575006/skibidiidi/-/raw/main/SKIBIDIIHUBB"))()
+    end
+})
+
+Tabs.Scripts:CreateButton({
+    Name = "Gunfight Arena Script (Orion Library)",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ScriptHub/Orion-Gunfight-Arena/main/script.lua"))()
+    end
+})
+
 Window:SelectTab(Tabs.Universal)
