@@ -15,5 +15,6 @@
 - The script is free to use.
 
 ## Credits  
-Menu devloped by [@theystem](https://www.youtube.com/@theystem)
-Menu coded by [ChatGPT](https://www.chatgpt.com)
+Menu devloped by [@theystem.](https://www.youtube.com/@theystem)
+
+Menu coded by [ChatGPT.](https://www.chatgpt.com)
