@@ -1,6 +1,4 @@
-# Why can I not find the file for the menu?
-Well, sadly, I have deleted the file for the menu. To get the menu, you will have to copy the code here.
-Here is the code:
+Let me guess, you went here because you couldn't find the mod file. If you want the code, it is right here for you to copy and paste.
 ```lua
 -- DO NOT STEAL THIS CODE WITHOUT THE CREATORS PERMISSION.
 local success, Rayfield = pcall(function()
@@ -19,7 +17,7 @@ end
 local Window = Rayfield:CreateWindow({
     Name = "theystem's Menu",
     LoadingTitle = "Menu has been loaded successfully!",
-    LoadingSubtitle = "Menu made by @theystem.",
+     LoadingSubtitle = "Menu made by @theystem.",
     Theme = "AmberGlow",
     ConfigurationSaving = {Enabled = true, FolderName = "theystem's Menu Configuration Saving", FileName = "theystem's Menu"}
 })
