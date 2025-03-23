@@ -17,7 +17,7 @@ local Window = Rayfield:CreateWindow({
     LoadingTitle = "Menu has been loaded successfully!",
     LoadingSubtitle = "Menu made by @theystem.",
     Theme = "AmberGlow",
-    ConfigurationSaving = {Enabled = false, FolderName = "theystem's Menu Configuration Saving", FileName = "theystem's Menu"}
+    ConfigurationSaving = {Enabled = true, FolderName = "theystem's Menu Configuration Saving", FileName = "theystem's Menu"}
 })
 
 local Tabs = {
