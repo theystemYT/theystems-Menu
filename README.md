@@ -19,4 +19,4 @@ Menu devloped by [@theystem.](https://www.youtube.com/@theystem)
 
 Menu coded by [ChatGPT.](https://www.chatgpt.com)
 # Notice
-If you are wondering why you can not find the file of the menu is because, sadly, I deleted it. If you want the menu, go to the new [README2](README2)file to copy the code for the menu there.
+If you are wondering why you can not find the file of the menu is because, sadly, I deleted it. If you want the menu, go to the new [README2](README2) file to copy the code for the menu there.
