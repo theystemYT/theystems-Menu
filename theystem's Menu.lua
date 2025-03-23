@@ -1,4 +1,4 @@
--- DO NOT STEAL THIS CODE WITHOUT THE [CREATORS](https://www.youtube.com/@theystem) PERMISSION.
+-- DO NOT STEAL THIS CODE WITHOUT THE CREATORS PERMISSION.
 local success, Rayfield = pcall(function()
     return loadstring(game:HttpGet('https://raw.githubusercontent.com/SiriusSoftwareLtd/Rayfield/main/source.lua'))()
 end)
