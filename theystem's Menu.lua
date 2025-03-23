@@ -441,7 +441,7 @@ Tabs.Scripts:CreateButton({
 })
 
 Tabs.Scripts:CreateButton({
-    Name = "Gunfight Arena Script (theystem's Library)",
+    Name = "Gunfight Arena Script (Orion Library)",
     Callback = function()
         loadstring(game:HttpGet("https://rawscripts.net/raw/Gunfight-Arena-Script-31232"))()
     end
