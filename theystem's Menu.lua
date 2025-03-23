@@ -379,7 +379,7 @@ Tabs.Scripts:CreateButton({
 Tabs.Scripts:CreateButton({
     Name = "Copy Key for Roblox Chat Filter Bypass Script",
     Callback = function()
-        setclipboard("patchmeplease")
+        setclipboard("friday")
         Rayfield:Notify({
             Title = "Key",
             Content = "The key has been copied to your clipboard.",
