@@ -73,63 +73,40 @@ Tabs.Universal:CreateToggle({
     end
 })
 
-Tabs.Lights:CreateToggle({
-    Name = "Brighten Area",
-    CurrentValue = toggles.BrightenArea,
+Tabs.Universal:CreateToggle({
+    Name = "Noclip",
+    CurrentValue = toggles.Noclip,
     Callback = function(value)
-        toggles.BrightenArea = value
-        local Lighting = game:GetService("Lighting")
-        if value then
-            Lighting.Brightness = 2
-            Lighting.Ambient = Color3.fromRGB(255, 255, 255)
-            Lighting.OutdoorAmbient = Color3.fromRGB(255, 255, 255)
-            Rayfield:Notify({
-                Title = "Brighten Area",
-                Content = "The area has been brightened.",
-                Duration = 3,
-                Image = "check"
-            })
-        else
-            Lighting.Brightness = 1
-            Lighting.Ambient = Color3.fromRGB(127, 127, 127)
-            Lighting.OutdoorAmbient = Color3.fromRGB(127, 127, 127)
-            Rayfield:Notify({
-                Title = "Brighten Area",
-                Content = "The area has been dimmed.",
-                Duration = 3,
-                Image = "x"
-            })
+        toggles.Noclip = value
+        local Character = game.Players.LocalPlayer.Character
+        if Character then
+            for _, part in ipairs(Character:GetChildren()) do
+                if part:IsA("BasePart") then
+                    part.CanCollide = not value
+                end
+            end
         end
+        Rayfield:Notify({
+            Title = "Noclip " .. (value and "Enabled" or "Disabled"),
+            Content = "You can " .. (value and "now pass through walls." or "no longer pass through walls."),
+            Duration = 3,
+            Image = value and "check" or "x"
+        })
     end
 })
 
-Tabs.Lights:CreateToggle({
-    Name = "Disable Shadows",
-    CurrentValue = toggles.DisableShadows,
-    Callback = function(value)
-        toggles.DisableShadows = value
-        local Lighting = game:GetService("Lighting")
-        if value then
-            Lighting.ShadowColor = Color3.fromRGB(255, 255, 255)
-            Lighting.GlobalShadows = false
-            Rayfield:Notify({
-                Title = "Disable Shadows",
-                Content = "Shadows have been disabled.",
-                Duration = 3,
-                Image = "check"
-            })
-        else
-            Lighting.ShadowColor = Color3.fromRGB(0, 0, 0)
-            Lighting.GlobalShadows = true
-            Rayfield:Notify({
-                Title = "Disable Shadows",
-                Content = "Shadows have been re-enabled.",
-                Duration = 3,
-                Image = "x"
-            })
+game:GetService("RunService").Heartbeat:Connect(function()
+    if toggles.Noclip then
+        local Character = game.Players.LocalPlayer.Character
+        if Character then
+            for _, part in ipairs(Character:GetChildren()) do
+                if part:IsA("BasePart") then
+                    part.CanCollide = false
+                end
+            end
         end
     end
-})
+end)
 
 Tabs.Gun:CreateButton({ Name = "Aimbot (Enemies Only)", Callback = function() print("Aimbot activated.") end })
 Tabs.Gun:CreateButton({ Name = "Rapid Fire", Callback = function() print("Rapid Fire activated.") end })
@@ -142,6 +119,36 @@ Tabs.Visual:CreateButton({ Name = "Wallhack", Callback = function() print("Wallh
 
 Tabs.ESP:CreateButton({ Name = "Box ESP", Callback = function() print("Box ESP activated.") end })
 Tabs.ESP:CreateButton({ Name = "Name ESP", Callback = function() print("Name ESP activated.") end })
+
+Tabs.Lights:CreateToggle({
+    Name = "Brighten Area",
+    CurrentValue = toggles.BrightenArea,
+    Callback = function(value)
+        toggles.BrightenArea = value
+        game.Lighting.Brightness = value and 2 or 1
+        Rayfield:Notify({
+            Title = "Brighten Area " .. (value and "Enabled" or "Disabled"),
+            Content = "The area is now " .. (value and "brightened." or "normal."),
+            Duration = 3,
+            Image = value and "check" or "x"
+        })
+    end
+})
+
+Tabs.Lights:CreateToggle({
+    Name = "Disable Shadows",
+    CurrentValue = toggles.DisableShadows,
+    Callback = function(value)
+        toggles.DisableShadows = value
+        game.Lighting.ShadowSoftness = value and 0 or 0.5
+        Rayfield:Notify({
+            Title = "Disable Shadows " .. (value and "Enabled" or "Disabled"),
+            Content = "Shadows are now " .. (value and "disabled." or "enabled."),
+            Duration = 3,
+            Image = value and "check" or "x"
+        })
+    end
+})
 
 Tabs.Movement:CreateButton({ Name = "Super Jump", Callback = function() print("Super Jump activated.") end })
 Tabs.Movement:CreateButton({ Name = "Teleport", Callback = function() print("Teleport activated.") end })
