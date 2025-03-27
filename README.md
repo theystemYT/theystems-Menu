@@ -1,7 +1,7 @@
 # theystem's Menu  
 
 **theystem's Menu** is a **basic Roblox script menu** designed to enhance gameplay with a few essential mods. Built with **Rayfield UI**, this menu provides a simple and easy-to-use interface.
-To get the script, go into the [theystem's Menu.lua](github.com/theystemYT/theystems-Menu/blob/main/theystem's%20Menu.lua) file and copy the code for the script.
+To get the script, go into the [theystem's Menu.lua](github.com/theystemYT/theystems-Menu/theystem's Menu.lua) file and copy the code for the script.
 
 ## Features of theystem's Menu
 - **Universal Mods**: Includes features like Speed Boost and Noclip.  
