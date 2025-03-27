@@ -31,7 +31,8 @@ local Tabs = {
     Combat = Window:CreateTab("Combat Mods", "swords"),
     Utility = Window:CreateTab("Utility Mods", "wrench"),
     Scripts = Window:CreateTab("Scripts", "terminal"),
-    Cameras = Window:CreateTab("Cameras", "camera")
+    Cameras = Window:CreateTab("Cameras", "camera"),
+    Settings = Window:CreateTab("Settings", "settings")
 }
 
 for _, tab in pairs(Tabs) do
@@ -45,6 +46,8 @@ local toggles = {
     BrightenArea = false,
     DisableShadows = false
 }
+
+local selectedColor = "AmberGlow"
 
 Tabs.Universal:CreateToggle({
     Name = "Speed Boost",
@@ -125,7 +128,11 @@ Tabs.Lights:CreateToggle({
     CurrentValue = toggles.BrightenArea,
     Callback = function(value)
         toggles.BrightenArea = value
-        game.Lighting.Brightness = value and 2 or 1
+        if value then
+            game.Lighting.Brightness = 2
+        else
+            game.Lighting.Brightness = 1
+        end
         Rayfield:Notify({
             Title = "Brighten Area " .. (value and "Enabled" or "Disabled"),
             Content = "The area is now " .. (value and "brightened." or "normal."),
@@ -140,7 +147,13 @@ Tabs.Lights:CreateToggle({
     CurrentValue = toggles.DisableShadows,
     Callback = function(value)
         toggles.DisableShadows = value
-        game.Lighting.ShadowSoftness = value and 0 or 0.5
+        if value then
+            game.Lighting.ShadowSoftness = 0
+            game.Lighting.GlobalShadows = false
+        else
+            game.Lighting.ShadowSoftness = 0.5
+            game.Lighting.GlobalShadows = true
+        end
         Rayfield:Notify({
             Title = "Disable Shadows " .. (value and "Enabled" or "Disabled"),
             Content = "Shadows are now " .. (value and "disabled." or "enabled."),
