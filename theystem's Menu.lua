@@ -1,5 +1,8 @@
 -- DO NOT STEAL THIS CODE WITHOUT THE CREATORS PERMISSION.
-local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+local success, Rayfield = pcall(function()
+    return loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+end)
+
 if not success then
     game:GetService("StarterGui"):SetCore("SendNotification", {
         Title = "Error!",
