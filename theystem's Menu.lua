@@ -16,7 +16,7 @@ local Window = Rayfield:CreateWindow({
     Name = "theystem's Menu",
     LoadingTitle = "Menu has been loaded successfully!",
     LoadingSubtitle = "Menu made by @theystem.",
-    Theme = "AmberGlow",
+    Theme = "AmberGlow", 
     ConfigurationSaving = {Enabled = true, FolderName = "theystem's Menu Configuration Saving", FileName = "theystem's Menu"}
 })
 
@@ -193,27 +193,6 @@ Tabs.Scripts:CreateButton({
     end
 })
 
-Tabs.MenuSettings:CreateDropdown({
-    Name = "Select Theme",
-    Options = {"Default (AmberGlow)", "Amethyst", "Bloom", "DarkBlue", "Green", "Light", "Ocean", "Serenity"},
-    Callback = function(selectedTheme)
-        if selectedTheme == "Default (AmberGlow)" then
-            selectedTheme = "AmberGlow"
-        end
-
-        if Rayfield:GetTheme() == selectedTheme then
-            Rayfield:Notify({
-                Title = "Notice",
-                Content = "You already have this theme!",
-                Duration = 3,
-                Image = "circle-alert"
-            })
-        else
-            Rayfield:SetTheme(selectedTheme)
-        end
-    end
-})
-
 Tabs.MenuSettings:CreateButton({
     Name = "Destroy UI",
     Callback = function()
@@ -222,4 +201,3 @@ Tabs.MenuSettings:CreateButton({
 })
 
 Window:SelectTab(Tabs.Universal)
-
