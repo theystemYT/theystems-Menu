@@ -1,7 +1,7 @@
 # theystem's Menu  
 
 **theystem's Menu** is a **basic Roblox script menu** designed to enhance gameplay with a few essential mods. Built with **Rayfield UI**, this menu provides a simple and easy-to-use interface.
-To get the script, go to the releases (You will only see this if your on Desktop mode in your phone or on a laptop/PC) and click on the release that says "theystem's Menu Relea...". (full name is theystem's Menu Release V1). When clicked, you will find a file named theystems.Menu.V1.Updated.Release.lua. Click on it. Once you click on it, copy the code from the file, and you got the script! If your on Mobile, go to my release [here,](https://github.com/theystemYT/theystems-Menu/releases/tag/theystemsmenu) or enable Desktop Mode if available on your broswer.
+To get the script, go into the theystem's Menu.lua file in this repository, and copy the code.
 
 ## Features of theystem's Menu
 - **Universal Mods**: Includes features like Speed Boost and Noclip.  
