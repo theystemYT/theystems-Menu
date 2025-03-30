@@ -180,15 +180,25 @@ Tabs.Scripts:CreateButton({
 })
 
 Tabs.Scripts:CreateButton({
-    Name = "Skibidi Hub (Orion Library)",
+    Name = "Skibidi Hub (Rayfield Library)",
     Callback = function()
         loadstring(game:HttpGet("https://gitlab.com/skibidi7575006/skibidiidi/-/raw/main/SKIBIDIIHUBB"))()
     end
 })
 
 Tabs.Scripts:CreateButton({
-    Name = "Gunfight Arena Script (theystem's Library)",
+    Name = "Gunfight Arena Script (Orion Library)",
     Callback = function()
+        local weapons = game.ReplicatedStorage:FindFirstChild("Weapons")
+        if not weapons then
+            Rayfield:Notify({
+                Title = "Weapons Not Found",
+                Content = "Weapons couldn't be found in ReplicatedStorage. Join Gunfight Arena for this script to work properly.",
+                Image = "circle-help",
+                Duration = 5
+            })
+            return
+        end
         loadstring(game:HttpGet("https://rawscripts.net/raw/Gunfight-Arena-Script-31232"))()
     end
 })
@@ -197,6 +207,14 @@ Tabs.MenuSettings:CreateButton({
     Name = "Destroy UI",
     Callback = function()
         Rayfield:Destroy()
+    end
+})
+
+Tabs.MenuSettings:CreateButton({
+    Name = "Different UI",
+    Callback = function()
+        Rayfield:Destroy()
+        loadstring(game:HttpGet("https://github.com/theystemYT/theystems-Menu/blob/main/theystem's%20Menu%20(Different%20UI).lua"))()
     end
 })
 
