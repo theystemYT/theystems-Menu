@@ -11,7 +11,7 @@ To get the script, go into the theystem's Menu.lua file in this repository, and 
 - **Fly Mod**: Properly implemented for smooth movement.  
 
 ## Notes  
-- This is a **basic menu**, so there are not many mods available yet. (**More mods are coming soon.**) 
+- This is a **basic menu**, so there are not many mods available yet. (More mods are coming soon.) 
 - Some mods may not work on all games.  
 - The script is free to use.
 ## Credits  
