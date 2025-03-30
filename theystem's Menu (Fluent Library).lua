@@ -1,4 +1,4 @@
--- DO NOT STEAL THIS CODE WITHOUT THE CREATORS PERMISSION.
+-- DO NOT STEAL THIS CODE WITHOUT THE CREATOR'S PERMISSION.
 local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
 local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/SaveManager.lua"))()
 local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
@@ -15,8 +15,7 @@ local Window = Fluent:CreateWindow({
 
 local Tabs = {
     Universal = Window:AddTab({ Title = "Universal Mods", Icon = "globe" }),
-    Scripts = Window:AddTab({ Title = "Scripts", Icon = "terminal" }),
-    MenuSettings = Window:AddTab({ Title = "Menu Settings", Icon = "settings" })
+    Scripts = Window:AddTab({ Title = "Scripts", Icon = "terminal" })
 }
 
 local toggles = {
@@ -144,20 +143,10 @@ Tabs.Scripts:AddButton({
     end
 })
 
-Tabs.MenuSettings:AddButton({
-    Title = "Destroy UI",
-    Callback = function()
-        Fluent:Destroy()
-    end
-})
-
 InterfaceManager:SetLibrary(Fluent)
 SaveManager:SetLibrary(Fluent)
 SaveManager:SetFolder("theystem's Menu (Different UI) Save Manager")
 InterfaceManager:SetFolder("theystem's Menu (Different UI) Interface Manager")
-
-InterfaceManager:BuildInterfaceSection(Tabs.MenuSettings)
-SaveManager:BuildConfigSection(Tabs.MenuSettings)
 
 SaveManager:LoadAutoloadConfig()
 Window:SelectTab(2)
