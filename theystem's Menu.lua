@@ -214,7 +214,7 @@ Tabs.MenuSettings:CreateButton({
     Name = "Different UI",
     Callback = function()
         Rayfield:Destroy()
-        loadstring(game:HttpGet("https://github.com/theystemYT/theystems-Menu/blob/main/theystem's%20Menu%20(Different%20UI).lua"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/theystemYT/theystems-Menu/refs/heads/main/theystem's%20Menu%20(Different%20UI).lua"))()
     end
 })
 
