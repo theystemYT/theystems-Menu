@@ -4,11 +4,9 @@
 To get the script, go into the theystem's Menu.lua file in this repository, and copy the code.
 
 ## Features of theystem's Menu
-- **Universal Mods**: Includes features like Speed Boost and Noclip.  
-- **Gun Mods**: Enhances combat gameplay with special weapon modifications.  
-- **Vehicle Mods**: Improves vehicle handling and performance.  
+- **Universal Mods Tab**: Includes features like Speed Boost and Noclip.  
+- **Scripts Tab**: The scripts tab has scripts for different types of games and Universal scripts.
 - **Notification System**: Displays messages on execution and menu interactions.  
-- **Fly Mod**: Properly implemented for smooth movement.  
 
 ## Notes  
 - This is a **basic menu**, so there are not many mods available yet. (More mods are coming soon.) 
