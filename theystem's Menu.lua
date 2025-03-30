@@ -97,124 +97,16 @@ game:GetService("RunService").Heartbeat:Connect(function()
     end
 end)
 
-Tabs.Scripts:CreateButton({
-    Name = "Infinite Yield (Custom UI/Library)",
-    Callback = function()
-        local success, InfiniteYieldScript = pcall(function()
-            return loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
-        end)
-
-        if not success then
-            game:GetService("StarterGui"):SetCore("SendNotification", {
-                Title = "Error!",
-                Text = "The Infinite Yield script couldn't be executed successfully.",
-                Duration = 5
-            })
-        end
-    end
-})
-
-Tabs.Scripts:CreateButton({
-    Name = "Roblox Chat Filter Bypass Script (Rayfield Library)",
-    Callback = function()
-        Rayfield:Destroy()
-        loadstring(game:HttpGet('https://raw.githubusercontent.com/cheatplug/usercreated/refs/heads/main/main.lua'))()
-    end
-})
-
-Tabs.Scripts:CreateButton({
-    Name = "Copy Key for Roblox Chat Filter Bypass Script",
-    Callback = function()
-        setclipboard("friday")
-        Rayfield:Notify({
-            Title = "Key",
-            Content = "The key has been copied to your clipboard. If the key doesn't work, please wait for us to update our script.",
-            Duration = 3,
-            Image = "clipboard"
-        })
-    end
-})
-
-Tabs.Scripts:CreateButton({
-    Name = "Sirius (Custom UI/Library)",
-    Callback = function()
-        loadstring(game:HttpGet('https://sirius.menu/sirius'))()
-    end
-})
-
-Tabs.Scripts:CreateButton({
-    Name = "LHUB (Rayfield Library)",
-    Callback = function()
-        Rayfield:Destroy()
-        loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-LHUB-30857"))()
-    end
-})
-
-Tabs.Scripts:CreateButton({
-    Name = "YARHM (Custom Made UI/Library)",
-    Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Joystickplays/psychic-octo-invention/main/yarhm.lua", false))()
-    end
-})
-
-Tabs.Scripts:CreateButton({
-    Name = "Null Fire (Custom Made UI/Library)",
-    Callback = function()
-        loadstring(game:HttpGet("https://rawscripts.net/raw/Natural-Disaster-Survival-NullFire-NDS-24033"))()
-    end
-})
-
-Tabs.Scripts:CreateButton({
-    Name = "Sensation/Sexsation Doors Script (Custom Made UI/Library)",
-    Callback = function()
-        loadstring(game:HttpGet("https://rawscripts.net/raw/FLOOR-2-DOORS-Sensation-V2-20105"))()
-    end
-})
-
-Tabs.Scripts:CreateButton({
-    Name = "Airsoft FE Script (Rayfield Library)",
-    Callback = function()
-        Rayfield:Destroy()
-        loadstring(game:HttpGet("https://rawscripts.net/raw/Airsoft-FE-Script-Hub-25137"))()
-    end
-})
-
-Tabs.Scripts:CreateButton({
-    Name = "Skibidi Hub (Rayfield Library)",
-    Callback = function()
-        loadstring(game:HttpGet("https://gitlab.com/skibidi7575006/skibidiidi/-/raw/main/SKIBIDIIHUBB"))()
-    end
-})
-
-Tabs.Scripts:CreateButton({
-    Name = "Gunfight Arena Script (Orion Library)",
-    Callback = function()
-        local weapons = game.ReplicatedStorage:FindFirstChild("Weapons")
-        if not weapons then
-            Rayfield:Notify({
-                Title = "Weapons Not Found",
-                Content = "Weapons couldn't be found in ReplicatedStorage. Join Gunfight Arena for this script to work properly.",
-                Image = "circle-help",
-                Duration = 5
-            })
-            return
-        end
-        loadstring(game:HttpGet("https://rawscripts.net/raw/Gunfight-Arena-Script-31232"))()
-    end
-})
-
-Tabs.MenuSettings:CreateButton({
-    Name = "Destroy UI",
-    Callback = function()
-        Rayfield:Destroy()
-    end
-})
-
-Tabs.MenuSettings:CreateButton({
+Tabs.MenuSettings:CreateDropdown({
     Name = "Different UI",
-    Callback = function()
+    Options = {"Fluent UI", "Orion Library"},
+    Callback = function(option)
         Rayfield:Destroy()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/theystemYT/theystems-Menu/refs/heads/main/theystem's%20Menu%20(Fluent%20Library).lua"))()
+        if option == "Fluent UI" then
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/theystemYT/theystems-Menu/refs/heads/main/theystem's%20Menu%20(Fluent%20Library).lua"))()
+        elseif option == "Orion Library" then
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/theystemYT/theystems-Menu/refs/heads/main/theystem's%20Menu%20(Orion%20Library).lua"))()
+        end
     end
 })
 
