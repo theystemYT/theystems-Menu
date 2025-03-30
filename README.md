@@ -1,4 +1,4 @@
-![A picture of theystem's Menu:](images/theystem's%20Menu%20(Screenshot).png)
+![A picture of theystem's Menu:](https://github.com/theystemYT/theystems-Menu/theystem's-Menu-Screenshot.png)
 
 # theystem's Menu  
 
