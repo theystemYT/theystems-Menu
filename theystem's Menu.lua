@@ -203,6 +203,13 @@ Tabs.Scripts:CreateButton({
     end
 })
 
+Tabs.Scripts:CreateButton({
+    Name = "Aimlock Script for The Strongest Battlegrounds",
+    Callback = function()
+        loadstring(game:HttpGet("https://rawscripts.net/raw/The-Strongest-Battlegrounds-AimBot-Universal-33672"))()
+    end
+})
+
 Tabs.MenuSettings:CreateButton({
     Name = "Destroy UI",
     Callback = function()
