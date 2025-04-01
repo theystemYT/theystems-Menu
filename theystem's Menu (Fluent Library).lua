@@ -16,7 +16,7 @@ local Window = Fluent:CreateWindow({
 local Tabs = {
     Universal = Window:AddTab({ Title = "Universal Mods", Icon = "globe" }),
     Scripts = Window:AddTab({ Title = "Scripts", Icon = "terminal" })
-}
+}   Interface Settings = Window:AddTab({ Title = "Interface Settings", Icon = "settings" }),
 
 local toggles = {
     SpeedBoost = false,
