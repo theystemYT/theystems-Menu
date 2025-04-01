@@ -204,7 +204,7 @@ Tabs.Scripts:CreateButton({
 })
 
 Tabs.Scripts:CreateButton({
-    Name = "Aimlock Script for The Strongest Battlegrounds",
+    Name = "Camlock Script for The Strongest Battlegrounds",
     Callback = function()
         loadstring(game:HttpGet("https://rawscripts.net/raw/The-Strongest-Battlegrounds-AimBot-Universal-33672"))()
     end
