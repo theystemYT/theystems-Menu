@@ -33,7 +33,9 @@ local Tabs = {
 }
 
 for _, tab in pairs(Tabs) do
-    tab:CreateSection("(These mods are made with ChatGPT. These mods may not work properly, or not work at all.)")
+    if tab ~= Tabs.Credits then
+        tab:CreateSection("(These mods are made with ChatGPT. These mods may not work properly, or not work at all.)")
+    end
 end
 
 local toggles = {
