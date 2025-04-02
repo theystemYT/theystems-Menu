@@ -14,7 +14,7 @@ end
 
 local Window = Rayfield:CreateWindow({
     Name = "theystem's Menu",
-    Icon = 0
+    Icon = 0,
     LoadingTitle = "Menu has been loaded successfully!",
     LoadingSubtitle = "Menu made by @theystem.",
     Theme = "AmberGlow", 
@@ -28,7 +28,8 @@ local Window = Rayfield:CreateWindow({
 local Tabs = {
     Universal = Window:CreateTab("Universal Mods", "globe"),
     Scripts = Window:CreateTab("Scripts", "terminal"),
-    MenuSettings = Window:CreateTab("Menu Settings", "settings")
+    MenuSettings = Window:CreateTab("Menu Settings", "settings"),
+    Credits = Window:CreateTab("Credits", "sparkles")
 }
 
 for _, tab in pairs(Tabs) do
@@ -105,17 +106,9 @@ end)
 Tabs.Scripts:CreateButton({
     Name = "Infinite Yield (Custom UI/Library)",
     Callback = function()
-        local success, InfiniteYieldScript = pcall(function()
-            return loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+        pcall(function()
+            loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
         end)
-
-        if not success then
-            game:GetService("StarterGui"):SetCore("SendNotification", {
-                Title = "Error!",
-                Text = "The Infinite Yield script couldn't be executed successfully.",
-                Duration = 5
-            })
-        end
     end
 })
 
@@ -227,6 +220,22 @@ Tabs.MenuSettings:CreateButton({
     Callback = function()
         Rayfield:Destroy()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/theystemYT/theystems-Menu/refs/heads/main/theystem's%20Menu%20(Fluent%20Library).lua"))()
+    end
+})
+
+Tabs.Credits:CreateSection("Credits")
+Tabs.Credits:CreateLabel("Credits to @theystem for making this script.")
+Tabs.Credits:CreateLabel("Click on the button below to copy @theystem's YouTube channel link.")
+Tabs.Credits:CreateButton({
+    Name = "Copy YouTube Channel Link",
+    Callback = function()
+        setclipboard("www.youtube.com/@theystem")
+        Rayfield:Notify({
+            Title = "Link Copied",
+            Content = "YouTube channel link has been copied to your clipboard.",
+            Duration = 3,
+            Image = "clipboard"
+        })
     end
 })
 
