@@ -14,9 +14,14 @@ end
 
 local Window = Rayfield:CreateWindow({
     Name = "theystem's Menu",
+    Icon = 0
     LoadingTitle = "Menu has been loaded successfully!",
     LoadingSubtitle = "Menu made by @theystem.",
     Theme = "AmberGlow", 
+    
+    DisableRayfieldPrompts = false,
+    DisableBuildWarnings = false,
+    
     ConfigurationSaving = {Enabled = true, FolderName = "theystem's Menu Configuration Saving", FileName = "theystem's Menu"}
 })
 
@@ -226,3 +231,4 @@ Tabs.MenuSettings:CreateButton({
 })
 
 Window:SelectTab(Tabs.Universal)
+Rayfield:LoadConfiguration()
