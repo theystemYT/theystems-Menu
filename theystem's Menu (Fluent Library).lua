@@ -128,7 +128,7 @@ Tabs.Scripts:AddButton({
 })
 
 Tabs.Scripts:AddButton({
-    Title = "Gunfight Arena Script (Orion Library)",
+    Title = "Gunfight Arena Script (Orion Library) (Made by me)",
     Callback = function()
         local replicatedStorage = game:GetService("ReplicatedStorage")
         if not replicatedStorage:FindFirstChild("Weapons") then
