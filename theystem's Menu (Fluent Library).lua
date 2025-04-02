@@ -123,7 +123,7 @@ Tabs.Scripts:AddButton({
 Tabs.Scripts:AddButton({
     Title = "Skibidi Hub (Rayfield)",
     Callback = function()
-        loadstring(game:HttpGet("https://gitlab.com/skibidi7575006/skibidiidi/-/raw/main/SKIBIDIIHUBB"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/aemos2/Skibidihub/refs/heads/main/SkibidiHUB.txt"))()
     end
 })
 
