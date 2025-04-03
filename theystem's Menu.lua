@@ -121,19 +121,6 @@ Tabs.Scripts:CreateButton({
         loadstring(game:HttpGet('https://raw.githubusercontent.com/cheatplug/usercreated/refs/heads/main/main.lua'))()
     end
 })
-local Label = Scripts:CreateLabel("If the key doesn't work, it's because every week, the script owners change the key. To get the new key, join discord.gg/usercreated.", circle-alert, Color3.fromRGB(255, 255, 0), true
-    Tabs.Scripts:CreateButton({
-    Name = "Copy Key for Roblox Chat Filter Bypass Script",
-    Callback = function()
-        setclipboard("friday")
-        Rayfield:Notify({
-            Title = "Key",
-            Content = "The key has been copied to your clipboard.",
-            Duration = 3,
-            Image = "clipboard"
-        })
-    end
-})
 
 Tabs.Scripts:CreateButton({
     Name = "Sirius (Custom UI/Library)",
