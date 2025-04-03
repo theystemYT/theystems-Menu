@@ -1,6 +1,5 @@
 ![Static Badge](https://img.shields.io/badge/forks-false-red)
 ![Static Badge](https://img.shields.io/badge/Check%20license%20for%20more%20info.-yellow)
-> Do you want Static Badges like these? Well, check out [Shields.io](https://shields.io/) to create Static Badges like these.
 
 ![Image](https://github.com/theystemYT/theystems-Menu/blob/main/theystem's%20Menu%20(Screenshot).jpg)
 
@@ -21,9 +20,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/theystemYT/theystems-
 - Some mods may not work on all games.  
 - The script is free to use.
 ## Credits  
-Menu devloped by [![Static Badge](https://img.shields.io/badge/%40theystem-red?logo=YouTube)](https://youtube.com/@theystem)
-> Click on the Static Badge to go to my YouTube channel.
+Menu devloped by [@theystem](https://www.youtube.com/@theystem)
 
-Menu coded by [ChatGPT.](https://www.chatgpt.com)
+Menu coded by [ChatGPT](https://www.chatgpt.com)
 ### Notice
 theystem's Menu is no longer getting updates. Sirius is removing the documentation and no longer adding updates to Rayfield. To get the new version of theystem's Menu, theystem's Menu V2, please wait until it's release. 
