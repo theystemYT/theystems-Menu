@@ -1,4 +1,3 @@
-![Static Badge](https://img.shields.io/badge/(Want%20to%20get%20badges%20like%20these%3F%20Check%20out%20https%3A%2F%2Fshields.io%20for%20more%20info.-Green)
 ![Static Badge](https://img.shields.io/badge/contributions-false-red)
 ![Static Badge](https://img.shields.io/badge/Check%20license%20for%20more%20info.-yellow)
 ![Image](https://github.com/theystemYT/theystems-Menu/blob/main/theystem's%20Menu%20(Screenshot).jpg)
