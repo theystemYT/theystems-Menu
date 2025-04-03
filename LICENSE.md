@@ -5,3 +5,4 @@ All Rights Reserved.
 ## License
 
 This repository is protected by copyright. All rights are reserved. You may not copy, modify, distribute, or use this code without explicit permission from the copyright owner.
+![Static Badge](https://img.shields.io/badge/contributions-false-red)
