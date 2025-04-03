@@ -240,5 +240,31 @@ Tabs.Credits:CreateButton({
     end
 })
 
+Tabs.Credits:CreateButton({
+    Name = "Copy GitHub Page Link",
+    Callback = function()
+        setclipboard("github.com/theystemYT")
+        Rayfield:Notify({
+            Title = "Link Copied",
+            Content = "GitHub page link has been copied to your clipboard.",
+            Duration = 3,
+            Image = "clipboard"
+        })
+    end
+})
+
+Tabs.Credits:CreateButton({
+    Name = "Copy ScriptBlox Page Link",
+    Callback = function()
+        setclipboard("https://scriptblox.com/u/theystemYT")
+        Rayfield:Notify({
+            Title = "Link Copied",
+            Content = "ScriptBlox page link has been copied to your clipboard.",
+            Duration = 3,
+            Image = "clipboard"
+        })
+    end
+})
+
 Window:SelectTab(Tabs.Universal)
 Rayfield:LoadConfiguration()
