@@ -1,5 +1,5 @@
-![Static Badge](https://img.shields.io/badge/Forks%20are%20not%20allowed%20on%20this%20repository-grey)
-![Static Badge](https://img.shields.io/badge/due%20to%20copyright%20license.-yellow)
+![Static Badge](https://img.shields.io/badge/Forks%20are%20not%20-red%20allowed%20on%20this%20repository-grey)
+![Static Badge](https://img.shields.io/badge/due%20to%20the%20copyright%20license.-yellow)
 ![Image](https://github.com/theystemYT/theystems-Menu/blob/main/theystem's%20Menu%20(Screenshot).jpg)
 
 # theystem's Menu
