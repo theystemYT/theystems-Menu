@@ -21,3 +21,5 @@ Menu devloped by [@theystem.](https://www.youtube.com/@theystem)
 Menu coded by [ChatGPT.](https://www.chatgpt.com)
 ### Notice
 theystem's Menu is no longer getting updates. Sirius is removing the documentation and no longer adding updates to Rayfield. To get the new version of theystem's Menu, theystem's Menu V2, please wait until it's release. 
+![Static Badge](https://img.shields.io/badge/contributions-false-red)
+![Static Badge](https://img.shields.io/badge/Check%20license%20for%20more%20info.-yellow)
