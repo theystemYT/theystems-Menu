@@ -1,3 +1,4 @@
+> Do you want Static Badges like these? Well, check out [Shields.io](https://shields.io/) to create Static Badges like these.
 ![Static Badge](https://img.shields.io/badge/forks-false-red)
 ![Static Badge](https://img.shields.io/badge/Check%20license%20for%20more%20info.-yellow)
 ![Image](https://github.com/theystemYT/theystems-Menu/blob/main/theystem's%20Menu%20(Screenshot).jpg)
