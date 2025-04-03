@@ -1,4 +1,4 @@
-![Static Badge](https://img.shields.io/badge/Forks20%are%20permitted,)
+![Static Badge](https://img.shields.io/badge/Forks%20are%20not%20permitted%20on%20this%20project-grey)
 ![Static Badge](https://img.shields.io/badge/due%20to%20license.-yellow)
 ![Image](https://github.com/theystemYT/theystems-Menu/blob/main/theystem's%20Menu%20(Screenshot).jpg)
 
