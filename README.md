@@ -1,9 +1,9 @@
-> Do you want Static Badges like these? Well, check out [Shields.io](https://shields.io/) to create Static Badges like these.
-
 ![Static Badge](https://img.shields.io/badge/forks-false-red)
 ![Static Badge](https://img.shields.io/badge/Check%20license%20for%20more%20info.-yellow)
 ![Image](https://github.com/theystemYT/theystems-Menu/blob/main/theystem's%20Menu%20(Screenshot).jpg)
-# theystem's Menu  
+> Do you want Static Badges like these? Well, check out [Shields.io](https://shields.io/) to create Static Badges like these.
+
+# theystem's Menu
 
 **theystem's Menu** is a **basic Roblox script menu** designed to enhance gameplay with a few essential mods. Built with **Rayfield Library**, this menu provides a simple and easy-to-use interface.
 To get the script, go into the [theystem's Menu.lua](https://github.com/theystemYT/theystems-Menu/blob/main/theystem's%20Menu.lua) file in this repository, and copy the full script, or use the loadstring script below if the script is too long.
