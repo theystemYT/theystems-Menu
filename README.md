@@ -5,7 +5,7 @@
 # theystem's Menu
 
 **theystem's Menu** is a **basic Roblox script menu** designed to enhance gameplay with a few essential mods. Built with **Rayfield Library**, this menu provides a simple and easy-to-use interface.
-To get the script, go into the [theystem's Menu.lua](https://github.com/theystemYT/theystems-Menu/blob/main/theystem's%20Menu.lua) file in this repository, and copy the full script, or use the loadstring script below if the script is too long.
+To use theystem's Menu, copy this script.
 ```lua
 loadstring(game:HttpGet("https://raw.githubusercontent.com/theystemYT/theystems-Menu/refs/heads/main/theystem's%20Menu.lua"))()
 ```
