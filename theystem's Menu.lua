@@ -121,14 +121,14 @@ Tabs.Scripts:CreateButton({
         loadstring(game:HttpGet('https://raw.githubusercontent.com/cheatplug/usercreated/refs/heads/main/main.lua'))()
     end
 })
-
-Tabs.Scripts:CreateButton({
+local Label = Scripts:CreateLabel("If the key doesn't work, it's because every week, the script owners change the key. To get the new key, join discord.gg/usercreated.", circle-alert, Color3.fromRGB(255, 255, 0), true
+    Tabs.Scripts:CreateButton({
     Name = "Copy Key for Roblox Chat Filter Bypass Script",
     Callback = function()
         setclipboard("friday")
         Rayfield:Notify({
             Title = "Key",
-            Content = "The key has been copied to your clipboard. If the key doesn't work, please wait for us to update our script.",
+            Content = "The key has been copied to your clipboard.",
             Duration = 3,
             Image = "clipboard"
         })
@@ -226,7 +226,7 @@ Tabs.MenuSettings:CreateButton({
 })
 
 Tabs.Credits:CreateSection("Credits")
-Tabs.Credits:CreateLabel("Credits to @theystem for making this script. Click on the button below to copy the links for my GitHub account, ScriptBlox account, and YouTube account.")
+Tabs.Credits:CreateParagraph("Credits to @theystem for making this script. Click on the button below to copy the links for my GitHub account, ScriptBlox account, and YouTube account.")
 Tabs.Credits:CreateButton({
     Name = "Copy YouTube Channel Link",
     Callback = function()
