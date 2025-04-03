@@ -1,4 +1,5 @@
-![Static Badge](https://img.shields.io/badge/forks-false-red?style=flat&labelColor=gray&color=red&textColor=yellow&label=Check%20license%20for%20more%20information)
+![Static Badge](https://img.shields.io/badge/forks-false,-red)
+![Static Badge](https://img.shields.io/badge/Check%20license%20for%20more%20info.-yellow)
 ![Image](https://github.com/theystemYT/theystems-Menu/blob/main/theystem's%20Menu%20(Screenshot).jpg)
 
 # theystem's Menu
@@ -22,4 +23,4 @@ Menu devloped by [@theystem](https://www.youtube.com/@theystem)
 
 Menu coded by [ChatGPT](https://www.chatgpt.com)
 ### Notice
-theystem's Menu is no longer getting updates. Sirius is removing the documentation and no longer adding updates to Rayfield. To get the new version of theystem's Menu, theystem's Menu V2, please wait until it's release. 
+theystem's Menu is no longer getting updates. Sirius is removing the documentation and no longer adding updates to Rayfield. To get the new version of theystem's Menu, theystem's Menu V2, please wait until it's release.
