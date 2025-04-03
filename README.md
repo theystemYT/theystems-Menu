@@ -1,5 +1,4 @@
-![Static Badge](https://img.shields.io/badge/forks-false-red?labelColor=gray&color=red&label=Check%20license%20for%20more%20information&style=flat&textColor=yellow
-)
+![Static Badge](https://img.shields.io/badge/Check%20license%20for%20more%20information-false-red?style=flat&labelColor=grey&color=red&textColor=yellow)
 ![Image](https://github.com/theystemYT/theystems-Menu/blob/main/theystem's%20Menu%20(Screenshot).jpg)
 
 # theystem's Menu
