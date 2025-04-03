@@ -21,7 +21,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/theystemYT/theystems-
 - Some mods may not work on all games.  
 - The script is free to use.
 ## Credits  
-Menu devloped by ![Static Badge](https://img.shields.io/badge/%40theystem-red?logo=YouTube)
+Menu devloped by ![Static Badge](https://img.shields.io/badge/%40theystem-red?logo=YouTube&link=youtube.com%2F%40theystem)
+
 Menu coded by [ChatGPT](https://www.chatgpt.com)
 ### Notice
 theystem's Menu is no longer getting updates. Sirius is removing the documentation and no longer adding updates to Rayfield. To get the new version of theystem's Menu, theystem's Menu V2, please wait until it's release. 
