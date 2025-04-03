@@ -1,4 +1,4 @@
-![Static Badge](https://img.shields.io/badge/forks-false,-red)
+![Static Badge](https://img.shields.io/badge/Forks-false,-red)
 ![Static Badge](https://img.shields.io/badge/check%20license%20for%20more%20info.-yellow)
 ![Image](https://github.com/theystemYT/theystems-Menu/blob/main/theystem's%20Menu%20(Screenshot).jpg)
 
