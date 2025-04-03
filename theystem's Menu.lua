@@ -213,7 +213,7 @@ Tabs.MenuSettings:CreateButton({
 })
 
 Tabs.Credits:CreateSection("Credits")
-Tabs.Credits:CreateParagraph({Title = "", Content = "Credits to @theystem for making this script. Click on the button below to copy the links for my GitHub account, ScriptBlox account, and YouTube account.")
+local Paragraph = Tabs.Credits:CreateParagraph({Title = "", Content = "Credits to @theystem for making this script. Click on the button below to copy the links for my GitHub account, ScriptBlox account, and YouTube account.")
 "})
 Tabs.Credits:CreateButton({
     Name = "Copy YouTube Channel Link",
