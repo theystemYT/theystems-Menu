@@ -24,4 +24,5 @@ Menu devloped by [@theystem](https://www.youtube.com/@theystem)
 
 Menu coded by [ChatGPT](https://www.chatgpt.com)
 ### Notice
-theystem's Menu is no longer getting updates. Sirius is removing the documentation and no longer adding updates to Rayfield. To get the new version of theystem's Menu, theystem's Menu V2, please wait until it's release.
+theystem's Menu is no longer getting updates. Sirius is removing the documentation and no longer adding updates to Rayfield. The menu will still be updated, but when the documentation is removed, it's over.
+To get the new version of theystem's Menu, theystem's Menu V2, please wait until it's release.
