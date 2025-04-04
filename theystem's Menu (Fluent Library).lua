@@ -149,8 +149,8 @@ Tabs.Credits:AddButton({
     Callback = function()
         setclipboard("https://www.youtube.com/@theystem")
         Fluent:Notify({
-            Title = "YouTube Channel Link",
-            Content = "Link has been copied to your clipboard.",
+            Title = "Link Copied",
+            Content = "YouTube channel link has been copied to your clipboard.",
             Duration = 5
         })
     end
@@ -161,8 +161,8 @@ Tabs.Credits:AddButton({
     Callback = function()
         setclipboard("https://github.com/theystemYT")
         Fluent:Notify({
-            Title = "GitHub Link",
-            Content = "Link has been copied to your clipboard.",
+            Title = "Link Copied",
+            Content = "GitHub page link has been copied to your clipboard.",
             Duration = 5
         })
     end
@@ -173,8 +173,8 @@ Tabs.Credits:AddButton({
     Callback = function()
         setclipboard("https://scriptblox.com/u/theystemYT")
         Fluent:Notify({
-            Title = "ScriptBlox Link",
-            Content = "Link has been copied to your clipboard.",
+            Title = "Link Copied",
+            Content = "ScriptBlox page link has been copied to your clipboard.",
             Duration = 5
         })
     end
