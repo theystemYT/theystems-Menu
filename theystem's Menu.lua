@@ -197,6 +197,13 @@ Tabs.Scripts:CreateButton({
     end
 })
 
+Tabs.Scripts:CreateButton({
+    Name = "Plutonium.lua",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/PawsThePaw/Plutonium.AA/refs/heads/main/Versions%202/V3.7.8.txt", true))()
+    end
+})
+
 Tabs.MenuSettings:CreateButton({
     Name = "Destroy UI",
     Callback = function()
