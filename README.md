@@ -2,7 +2,7 @@
 ![Static Badge](https://img.shields.io/badge/due%20to%20the%20copyright%20license.-yellow)  
 ![Static Badge](https://img.shields.io/badge/Thank%20you%20for%20understanding.-green) 
 ![Image](https://github.com/theystemYT/theystems-Menu/blob/main/theystem's%20Menu%20(Screenshot).jpg)
-![Static Badge](https://img.shields.io/badge/Made%20with-lua-darkblue?style=for-the-badge&logo=kotlin&logoColor=red)
+![Static Badge](https://img.shields.io/badge/Made%20with-lua-darkblue?style=for-the-badge&logo=kotlin&logoColor=green)
 # theystem's Menu
 
 **theystem's Menu** is a **basic Roblox script menu** designed to enhance gameplay with a few essential mods. Built with **Rayfield Library**, this menu provides a simple and easy-to-use interface.  
