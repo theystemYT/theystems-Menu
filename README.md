@@ -7,7 +7,9 @@
 Check out my social accounts!
 [![Static Badge](https://img.shields.io/badge/YouTube-red?logo=YouTube)](youtube.com/@theystem)
 [![Static Badge](https://img.shields.io/badge/ScriptBlox-purple)](https://scriptblox.com/u/theystemYT)
+
 > Click on the Static Badges to go to the social accounts.
+
 **theystem's Menu** is a **basic Roblox script menu** designed to enhance gameplay with a few essential mods. Built with **Rayfield Library**, this menu provides a simple and easy-to-use interface.  
 To use theystem's Menu, copy this script:
 
