@@ -5,8 +5,7 @@
 ![Static Badge](https://img.shields.io/badge/Made%20with-lua-darkblue?style=for-the-badge&logo=kotlin&logoColor=green)
 # theystem's Menu
 
-**theystem's Menu** is a **basic Roblox script menu** designed to enhance gameplay with a few essential mods. Built with ![Static Badge](https://github.com/theystemYT/theystems-Menu/blob/main/Rayfield.png)Library
-this menu provides a simple and easy-to-use interface.  
+**theystem's Menu** is a **basic Roblox script menu** designed to enhance gameplay with a few essential mods. Built with **Rayfield Library**, this menu provides a simple and easy-to-use interface.  
 To use theystem's Menu, copy this script:
 ```lua
 loadstring(game:HttpGet("https://raw.githubusercontent.com/theystemYT/theystems-Menu/refs/heads/main/theystem's%20Menu.lua"))()
