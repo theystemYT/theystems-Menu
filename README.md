@@ -7,7 +7,6 @@
 
 **theystem's Menu** is a **basic Roblox script menu** designed to enhance gameplay with a few essential mods. Built with **Rayfield Library**, this menu provides a simple and easy-to-use interface.  
 To use theystem's Menu, copy this script:
-
 ```lua
 loadstring(game:HttpGet("https://raw.githubusercontent.com/theystemYT/theystems-Menu/refs/heads/main/theystem's%20Menu.lua"))()
 ```
@@ -30,6 +29,5 @@ Menu developed by [@theystem](https://www.youtube.com/@theystem)
 Menu coded by [ChatGPT](https://www.chatgpt.com)
 
 ### Notice
-
 theystem's Menu is no longer getting updates. Sirius is removing the documentation and no longer adding updates to Rayfield. The menu will still be updated, but when the documentation is removed, it's over.  
 To get the new version of theystem's Menu, theystem's Menu V2, please wait until it's release.
