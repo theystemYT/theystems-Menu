@@ -3,6 +3,7 @@
 ![Static Badge](https://img.shields.io/badge/Thank%20you%20for%20understanding.-green) 
 > A screenshot of theystem's Menu
 > (The image is too large so the Credits tab couldn't be shown.)
+
 ![Image](https://github.com/theystemYT/theystems-Menu/blob/main/theystem's%20Menu%20(Screenshot).jpg)
 # theystem's Menu
 
