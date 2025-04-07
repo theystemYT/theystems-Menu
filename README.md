@@ -1,10 +1,13 @@
+![Image](https://github.com/theystemYT/theystems-Menu/blob/main/theystem's%20Menu%20(Screenshot).jpg)
+# theystem's Menu
 ![Static Badge](https://img.shields.io/badge/Forks%20are%20not%20allowed%20on%20this%20repository-grey)  
 ![Static Badge](https://img.shields.io/badge/due%20to%20the%20copyright%20license.-yellow)  
-![Static Badge](https://img.shields.io/badge/Thank%20you%20for%20understanding.-green) 
-![Image](https://github.com/theystemYT/theystems-Menu/blob/main/theystem's%20Menu%20(Screenshot).jpg)
+![Static Badge](https://img.shields.io/badge/Thank%20you%20for%20understanding.-green)
 ![Static Badge](https://img.shields.io/badge/Made%20with-lua-darkblue?style=for-the-badge&logo=kotlin&logoColor=green)
-# theystem's Menu
-
+Check out my social accounts!
+[![Static Badge](https://img.shields.io/badge/YouTube-red?logo=YouTube)](youtube.com/@theystem)
+[![Static Badge](https://img.shields.io/badge/ScriptBlox-purple)](https://scriptblox.com/u/theystemYT)
+> Click on the Static Badges to go to the social accounts.
 **theystem's Menu** is a **basic Roblox script menu** designed to enhance gameplay with a few essential mods. Built with **Rayfield Library**, this menu provides a simple and easy-to-use interface.  
 To use theystem's Menu, copy this script:
 
