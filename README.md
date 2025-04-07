@@ -4,10 +4,10 @@
 ![Static Badge](https://img.shields.io/badge/due%20to%20the%20copyright%20license.-yellow)  
 ![Static Badge](https://img.shields.io/badge/Thank%20you%20for%20understanding.-green)
 ![Static Badge](https://img.shields.io/badge/Made%20with-lua-darkblue?style=for-the-badge&logo=kotlin&logoColor=green)
-Check out my social accounts:
 
-[![Static Badge](https://img.shields.io/badge/YouTube-red?logo=YouTube)](youtube.com/@theystem)
-[![Static Badge](https://img.shields.io/badge/ScriptBlox-purple)](https://scriptblox.com/u/theystemYT)
+Check out my social accounts:
+- [![Static Badge](https://img.shields.io/badge/YouTube-red?logo=YouTube)](youtube.com/@theystem)
+- [![Static Badge](https://img.shields.io/badge/ScriptBlox-purple)](https://scriptblox.com/u/theystemYT)
 
 > Click on the Static Badges to go to the social accounts.
 
