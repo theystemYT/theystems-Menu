@@ -17,18 +17,18 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/theystemYT/theystems-
 - **Scripts Tab**: The scripts tab has scripts for different types of games and Universal scripts.  
 - **Notification System**: Displays messages on execution and menu interactions.  
 
-## Notes
+### Notes
 
 - This is a **basic menu**, so there are not many mods available yet. (More mods are coming soon.)  
 - Some mods may not work on all games.  
 - The script is free to use.  
 
-## Credits
+#### Credits
 
 Menu developed by [@theystem](https://www.youtube.com/@theystem)  
 Menu coded by [ChatGPT](https://www.chatgpt.com)
 
-### Notice
+##### Notice
 
 theystem's Menu is no longer getting updates. Sirius is removing the documentation and no longer adding updates to Rayfield. The menu will still be updated, but when the documentation is removed, it's over.  
 To get the new version of theystem's Menu, theystem's Menu V2, please wait until it's release.
