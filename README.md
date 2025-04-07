@@ -5,7 +5,7 @@
 ![Static Badge](https://img.shields.io/badge/Thank%20you%20for%20understanding.-green)
 ![Static Badge](https://img.shields.io/badge/Made%20with-lua-darkblue?style=for-the-badge&logo=kotlin&logoColor=green)
 
-How to reach me:
+# How to reach me:
 - [![Static Badge](https://img.shields.io/badge/YouTube-red?logo=YouTube)](youtube.com/@theystem)
 - [![Static Badge](https://img.shields.io/badge/ScriptBlox-purple)](https://scriptblox.com/u/theystemYT)
 
@@ -13,7 +13,6 @@ How to reach me:
 
 **theystem's Menu** is a **basic Roblox script menu** designed to enhance gameplay with a few essential mods. Built with **Rayfield Library**, this menu provides a simple and easy-to-use interface.  
 To use theystem's Menu, copy this script:
-
 ```lua
 loadstring(game:HttpGet("https://raw.githubusercontent.com/theystemYT/theystems-Menu/refs/heads/main/theystem's%20Menu.lua"))()
 ```
@@ -29,11 +28,6 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/theystemYT/theystems-
 - This is a **basic menu**, so there are not many mods available yet. (More mods are coming soon.)  
 - Some mods may not work on all games.  
 - The script is free to use.  
-
-## Credits
-
-Menu developed by [@theystem](https://www.youtube.com/@theystem)  
-Menu coded by [ChatGPT](https://www.chatgpt.com)
 
 ### Notice
 
