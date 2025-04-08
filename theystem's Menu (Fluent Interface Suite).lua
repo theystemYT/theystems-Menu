@@ -1,4 +1,4 @@
--- DO NOT STEAL THIS CODE WITHOUT THE CREATOR'S PERMISSION.
+-- DO NOT STEAL THIS CODE WITHOUT THE CREATORS PERMISSION.
 local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
 local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/SaveManager.lua"))()
 local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
@@ -17,7 +17,7 @@ local Tabs = {
     Universal = Window:AddTab({ Title = "Universal Mods", Icon = "globe" }),
     Scripts = Window:AddTab({ Title = "Scripts", Icon = "terminal" }),
     Credits = Window:AddTab({ Title = "Credits", Icon = "" }),
-    Settings = Window:AddTab({ Title = "Interface Settings", Icon = "settings" })
+    Interface Settings = Window:AddTab({ Title = "Interface Settings", Icon = "settings" })
 }
 
 local toggles = {
@@ -181,9 +181,7 @@ Tabs.Credits:AddButton({
     end
 })
 
-local InterfaceSection = Tabs.Settings:AddSection("Interface Settings")
-
-InterfaceSettingsSection:AddDropdown("InterfaceTheme", {
+Tabs.Settings:AddDropdown("InterfaceTheme", {
     Title = "Theme",
     Description = "Changes the interface theme.",
     Values = Main.Themes,
@@ -194,7 +192,7 @@ InterfaceSettingsSection:AddDropdown("InterfaceTheme", {
 })
 
 if Main.UseAcrylic then
-    InterfaceSettingsSection:AddToggle("AcrylicToggle", {
+    Tabs.Settings:AddToggle("AcrylicToggle", {
         Title = "Acrylic",
         Description = "The blurred background requires graphic quality 8+",
         Default = Main.Acrylic,
@@ -204,7 +202,7 @@ if Main.UseAcrylic then
     })
 end
 
-InterfaceSettingsSection:AddToggle("TransparentToggle", {
+Tabs.Settings:AddToggle("TransparentToggle", {
     Title = "Transparency",
     Description = "Makes the interface transparent.",
     Default = Main.Transparency,
@@ -213,7 +211,7 @@ InterfaceSettingsSection:AddToggle("TransparentToggle", {
     end
 })
 
-InterfaceSection:AddKeybind("MenuKeybind", { Title = "Minimize Bind", Default = "RightShift" })
+Tabs.Settings:AddKeybind("MenuKeybind", { Title = "Minimize Bind", Default = "RightShift" })
 Main.MinimizeKeybind = Main.Options.MenuKeybind 
 
 InterfaceManager:SetLibrary(Fluent)
