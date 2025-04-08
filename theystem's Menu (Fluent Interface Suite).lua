@@ -182,8 +182,8 @@ Tabs.Credits:AddButton({
 
 InterfaceManager:SetLibrary(Fluent)
 SaveManager:SetLibrary(Fluent)
-SaveManager:SetFolder("theystem's Menu (Different UI) Save Manager")
-InterfaceManager:SetFolder("theystem's Menu (Different UI) Interface Manager")
+SaveManager:SetFolder("theystem's Menu (Fluent Interface Suite) Save Manager")
+InterfaceManager:SetFolder("theystem's Menu (Fluent Interface Suite) Interface Manager")
 
 SaveManager:LoadAutoloadConfig()
 Window:SelectTab(2)
