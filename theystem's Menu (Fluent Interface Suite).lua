@@ -17,7 +17,7 @@ local Tabs = {
     Universal = Window:AddTab({ Title = "Universal Mods", Icon = "globe" }),
     Scripts = Window:AddTab({ Title = "Scripts", Icon = "terminal" }),
     Credits = Window:AddTab({ Title = "Credits", Icon = "" }),
-    Settings = Window:AddTab({ Title = "Settings", Icon = "settings" })
+    Settings = Window:AddTab({ Title = "Interface Settings", Icon = "settings" })
 }
 
 local toggles = {
@@ -181,9 +181,9 @@ Tabs.Credits:AddButton({
     end
 })
 
-local InterfaceSection = Tabs.Settings:AddSection("Interface")
+local InterfaceSection = Tabs.Settings:AddSection("Interface Settings")
 
-InterfaceSection:AddDropdown("InterfaceTheme", {
+InterfaceSettingsSection:AddDropdown("InterfaceTheme", {
     Title = "Theme",
     Description = "Changes the interface theme.",
     Values = Main.Themes,
@@ -194,7 +194,7 @@ InterfaceSection:AddDropdown("InterfaceTheme", {
 })
 
 if Main.UseAcrylic then
-    InterfaceSection:AddToggle("AcrylicToggle", {
+    InterfaceSettingsSection:AddToggle("AcrylicToggle", {
         Title = "Acrylic",
         Description = "The blurred background requires graphic quality 8+",
         Default = Main.Acrylic,
@@ -204,7 +204,7 @@ if Main.UseAcrylic then
     })
 end
 
-InterfaceSection:AddToggle("TransparentToggle", {
+InterfaceSettingsSection:AddToggle("TransparentToggle", {
     Title = "Transparency",
     Description = "Makes the interface transparent.",
     Default = Main.Transparency,
