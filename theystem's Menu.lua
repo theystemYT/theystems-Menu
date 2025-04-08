@@ -212,7 +212,7 @@ Tabs.MenuSettings:CreateButton({
 })
 
 Tabs.MenuSettings:CreateButton({
-    Name = "Different UI",
+    Name = "theystem's Menu (Fluent Interface Suite)",
     Callback = function()
         Rayfield:Destroy()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/theystemYT/theystems-Menu/refs/heads/main/theystem's%20Menu%20(Fluent%20Library).lua"))()
