@@ -16,7 +16,8 @@ local Window = Fluent:CreateWindow({
 local Tabs = {
     Universal = Window:AddTab({ Title = "Universal Mods", Icon = "globe" }),
     Scripts = Window:AddTab({ Title = "Scripts", Icon = "terminal" }),
-    Credits = Window:AddTab({ Title = "Credits", Icon = "" })
+    Credits = Window:AddTab({ Title = "Credits", Icon = "" }),
+    Settings = Window:AddTab({ Title = "Settings", Icon = "settings" })
 }
 
 local toggles = {
@@ -179,6 +180,41 @@ Tabs.Credits:AddButton({
         })
     end
 })
+
+local InterfaceSection = Tabs.Settings:AddSection("Interface")
+
+InterfaceSection:AddDropdown("InterfaceTheme", {
+    Title = "Theme",
+    Description = "Changes the interface theme.",
+    Values = Main.Themes,
+    Default = Main.Theme,
+    Callback = function(Value)
+        Main:SetTheme(Value)
+    end
+})
+
+if Main.UseAcrylic then
+    InterfaceSection:AddToggle("AcrylicToggle", {
+        Title = "Acrylic",
+        Description = "The blurred background requires graphic quality 8+",
+        Default = Main.Acrylic,
+        Callback = function(Value)
+            Main:ToggleAcrylic(Value)
+        end
+    })
+end
+
+InterfaceSection:AddToggle("TransparentToggle", {
+    Title = "Transparency",
+    Description = "Makes the interface transparent.",
+    Default = Main.Transparency,
+    Callback = function(Value)
+        Main:ToggleTransparency(Value)
+    end
+})
+
+InterfaceSection:AddKeybind("MenuKeybind", { Title = "Minimize Bind", Default = "RightShift" })
+Main.MinimizeKeybind = Main.Options.MenuKeybind 
 
 InterfaceManager:SetLibrary(Fluent)
 SaveManager:SetLibrary(Fluent)
