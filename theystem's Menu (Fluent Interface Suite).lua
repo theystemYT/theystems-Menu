@@ -17,7 +17,7 @@ local Tabs = {
     Universal = Window:AddTab({ Title = "Universal Mods", Icon = "globe" }),
     Scripts = Window:AddTab({ Title = "Scripts", Icon = "terminal" }),
     Credits = Window:AddTab({ Title = "Credits", Icon = "" }),
-    Interface Settings = Window:AddTab({ Title = "Interface Settings", Icon = "settings" })
+    InterfaceSettings = Window:AddTab({ Title = "Interface Settings", Icon = "settings" })
 }
 
 local toggles = {
@@ -181,38 +181,38 @@ Tabs.Credits:AddButton({
     end
 })
 
-Tabs.Settings:AddDropdown("InterfaceTheme", {
+Tabs.InterfaceSettings:AddDropdown("InterfaceTheme", {
     Title = "Theme",
     Description = "Changes the interface theme.",
-    Values = Main.Themes,
-    Default = Main.Theme,
+    Values = Fluent.Themes,
+    Default = Fluent.Theme,
     Callback = function(Value)
-        Main:SetTheme(Value)
+        Fluent:SetTheme(Value)
     end
 })
 
-if Main.UseAcrylic then
-    Tabs.Settings:AddToggle("AcrylicToggle", {
+if Fluent.UseAcrylic then
+    Tabs.InterfaceSettings:AddToggle("AcrylicToggle", {
         Title = "Acrylic",
         Description = "The blurred background requires graphic quality 8+",
-        Default = Main.Acrylic,
+        Default = Fluent.Acrylic,
         Callback = function(Value)
-            Main:ToggleAcrylic(Value)
+            Fluent:ToggleAcrylic(Value)
         end
     })
 end
 
-Tabs.Settings:AddToggle("TransparentToggle", {
+Tabs.InterfaceSettings:AddToggle("TransparentToggle", {
     Title = "Transparency",
     Description = "Makes the interface transparent.",
-    Default = Main.Transparency,
+    Default = Fluent.Transparency,
     Callback = function(Value)
-        Main:ToggleTransparency(Value)
+        Fluent:ToggleTransparency(Value)
     end
 })
 
-Tabs.Settings:AddKeybind("MenuKeybind", { Title = "Minimize Bind", Default = "RightShift" })
-Main.MinimizeKeybind = Main.Options.MenuKeybind 
+Tabs.InterfaceSettings:AddKeybind("MenuKeybind", { Title = "Minimize Bind", Default = "RightShift" })
+Fluent.MinimizeKeybind = Fluent.Options.MenuKeybind 
 
 InterfaceManager:SetLibrary(Fluent)
 SaveManager:SetLibrary(Fluent)
