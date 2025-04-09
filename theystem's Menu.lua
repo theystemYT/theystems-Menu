@@ -28,7 +28,7 @@ local Window = Rayfield:CreateWindow({
 local Tabs = {
     Universal = Window:CreateTab("Universal Mods", "globe"),
     Scripts = Window:CreateTab("Scripts", "terminal"),
-    MenuSettings = Window:CreateTab("Menu Settings", "settings"),
+    InterfaceSettings = Window:CreateTab("Interface Settings", "settings"),
     Credits = Window:CreateTab("Credits", "sparkles")
 }
 
@@ -204,14 +204,14 @@ Tabs.Scripts:CreateButton({
     end
 })
 
-Tabs.MenuSettings:CreateButton({
+Tabs.InterfaceSettings:CreateButton({
     Name = "Destroy UI",
     Callback = function()
         Rayfield:Destroy()
     end
 })
 
-Tabs.MenuSettings:CreateButton({
+Tabs.InterfaceSettings:CreateButton({
     Name = "theystem's Menu (Fluent Interface Suite)",
     Callback = function()
         Rayfield:Destroy()
