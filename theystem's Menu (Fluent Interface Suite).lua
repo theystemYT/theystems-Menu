@@ -16,9 +16,9 @@ local Window = Fluent:CreateWindow({
 local Tabs = {
     Universal = Window:AddTab({ Title = "Universal Mods", Icon = "globe" }),
     Scripts = Window:AddTab({ Title = "Scripts", Icon = "terminal" }),
-    Credits = Window:AddTab({ Title = "Credits", Icon = "" }),
+    Credits = Window:AddTab({ Title = "Credits" }),
     InterfaceSettings = Window:AddTab({ Title = "Interface Settings", Icon = "settings" }),
-    Contributions = Window:AddTab({ Title = "Contributions", Icon = ""})
+    Contributions = Window:AddTab({ Title = "Contributions" })
 }
 
 local toggles = {
