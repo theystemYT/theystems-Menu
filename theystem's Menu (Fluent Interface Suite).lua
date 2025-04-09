@@ -66,6 +66,7 @@ game:GetService("RunService").Heartbeat:Connect(function()
     end
 end)
 
+
 Tabs.Scripts:AddButton({
     Title = "Infinite Yield (Custom UI/Library)",
     Callback = function()
@@ -75,75 +76,181 @@ Tabs.Scripts:AddButton({
     end
 })
 
+-- Null Fire (Custom Made UI/Library) button without dialog
 Tabs.Scripts:AddButton({
-    Title = "Roblox Chat Filter Bypass Script (Rayfield Library)",
+    Title = "Null Fire (Custom Made UI/Library)",
     Callback = function()
-        loadstring(game:HttpGet('https://raw.githubusercontent.com/cheatplug/usercreated/refs/heads/main/main.lua'))()
+        local success, NullFireScript = pcall(function()
+            return loadstring(game:HttpGet('https://rawscripts.net/raw/Natural-Disaster-Survival-NullFire-NDS-24033'))()
+        end)
     end
 })
 
+-- Sirius (Custom UI/Library) button without dialog
 Tabs.Scripts:AddButton({
     Title = "Sirius (Custom UI/Library)",
     Callback = function()
-        loadstring(game:HttpGet('https://sirius.menu/sirius'))()
+        local success, SiriusScript = pcall(function()
+            return loadstring(game:HttpGet('https://sirius.menu/sirius'))()
+        end)
+    end
+})
+
+-- YARHM (Custom Made UI/Library) button without dialog
+Tabs.Scripts:AddButton({
+    Title = "YARHM (Custom Made UI/Library)",
+    Callback = function()
+        local success, YARHMScript = pcall(function()
+            return loadstring(game:HttpGet('https://raw.githubusercontent.com/Joystickplays/psychic-octo-invention/main/yarhm.lua'))()
+        end)
+    end
+})
+
+-- Other buttons with dialog
+Tabs.Scripts:AddButton({
+    Title = "Roblox Chat Filter Bypass Script (Rayfield Library)",
+    Callback = function()
+        Window:Dialog({
+            Title = "Do you want to execute this script?",
+            Content = "If you execute it, this interface will be destroyed. Continue?",
+            Buttons = {
+                {
+                    Title = "Yes",
+                    Callback = function()
+                        Fluent:Destroy()
+                        loadstring(game:HttpGet('https://raw.githubusercontent.com/cheatplug/usercreated/refs/heads/main/main.lua'))()
+                    end
+                },
+                {
+                    Title = "Cancel",
+                    Callback = function() end
+                }
+            }
+        })
     end
 })
 
 Tabs.Scripts:AddButton({
     Title = "LHUB (Rayfield Library)",
     Callback = function()
-        loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-LHUB-30857"))()
-    end
-})
-
-Tabs.Scripts:AddButton({
-    Title = "YARHM (Custom Made UI/Library)",
-    Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Joystickplays/psychic-octo-invention/main/yarhm.lua"))()
-    end
-})
-
-Tabs.Scripts:AddButton({
-    Title = "Null Fire (Custom Made UI/Library)",
-    Callback = function()
-        loadstring(game:HttpGet("https://rawscripts.net/raw/Natural-Disaster-Survival-NullFire-NDS-24033"))()
+        Window:Dialog({
+            Title = "Do you want to execute this script?",
+            Content = "If you execute it, this interface will be destroyed. Continue?",
+            Buttons = {
+                {
+                    Title = "Yes",
+                    Callback = function()
+                        Fluent:Destroy()
+                        loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-LHUB-30857"))()
+                    end
+                },
+                {
+                    Title = "Cancel",
+                    Callback = function() end
+                }
+            }
+        })
     end
 })
 
 Tabs.Scripts:AddButton({
     Title = "Sensation/Sexsation Doors Script (Custom Made UI/Library)",
     Callback = function()
-        loadstring(game:HttpGet("https://rawscripts.net/raw/FLOOR-2-DOORS-Sensation-V2-20105"))()
+        Window:Dialog({
+            Title = "Do you want to execute this script?",
+            Content = "If you execute it, this interface will be destroyed. Continue?",
+            Buttons = {
+                {
+                    Title = "Yes",
+                    Callback = function()
+                        Fluent:Destroy()
+                        loadstring(game:HttpGet("https://rawscripts.net/raw/FLOOR-2-DOORS-Sensation-V2-20105"))()
+                    end
+                },
+                {
+                    Title = "Cancel",
+                    Callback = function() end
+                }
+            }
+        })
     end
 })
 
 Tabs.Scripts:AddButton({
     Title = "Airsoft FE Script (Rayfield Library)",
     Callback = function()
-        loadstring(game:HttpGet("https://rawscripts.net/raw/Airsoft-FE-Script-Hub-25137"))()
+        Window:Dialog({
+            Title = "Do you want to execute this script?",
+            Content = "If you execute it, this interface will be destroyed. Continue?",
+            Buttons = {
+                {
+                    Title = "Yes",
+                    Callback = function()
+                        Fluent:Destroy()
+                        loadstring(game:HttpGet("https://rawscripts.net/raw/Airsoft-FE-Script-Hub-25137"))()
+                    end
+                },
+                {
+                    Title = "Cancel",
+                    Callback = function() end
+                }
+            }
+        })
     end
 })
 
 Tabs.Scripts:AddButton({
     Title = "Skibidi Hub (Rayfield)",
     Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/aemos2/Skibidihub/refs/heads/main/SkibidiHUB.txt"))()
+        Window:Dialog({
+            Title = "Do you want to execute this script?",
+            Content = "If you execute it, this interface will be destroyed due to the size of the UI of the script.Continue?",
+            Buttons = {
+                {
+                    Title = "Yes",
+                    Callback = function()
+                        Fluent:Destroy()
+                        loadstring(game:HttpGet("https://raw.githubusercontent.com/aemos2/Skibidihub/refs/heads/main/SkibidiHUB.txt"))()
+                    end
+                },
+                {
+                    Title = "Cancel",
+                    Callback = function() end
+                }
+            }
+        })
     end
 })
 
 Tabs.Scripts:AddButton({
     Title = "Gunfight Arena Script (Orion Library) (Made by me)",
     Callback = function()
-        local replicatedStorage = game:GetService("ReplicatedStorage")
-        if not replicatedStorage:FindFirstChild("Weapons") then
-            Fluent:Notify({
-                Title = "",
-                Content = "Weapons couldn't be found in ReplicatedStorage. If you are not in Gunfight Arena, please join Gunfight Arena for this script to work.",
-                Duration = 5
-            })
-            return
-        end
-        loadstring(game:HttpGet("https://rawscripts.net/raw/Gunfight-Arena-Script-31232"))()
+        Window:Dialog({
+            Title = "Do you want to execute this script?",
+            Content = "If you execute it, this interface will be destroyed. Continue?",
+            Buttons = {
+                {
+                    Title = "Yes",
+                    Callback = function()
+                        Fluent:Destroy()
+                        local replicatedStorage = game:GetService("ReplicatedStorage")
+                        if not replicatedStorage:FindFirstChild("Weapons") then
+                            Fluent:Notify({
+                                Title = "",
+                                Content = "Weapons couldn't be found in ReplicatedStorage. If you are not in Gunfight Arena, please join Gunfight Arena for this script to work.",
+                                Duration = 5
+                            })
+                            return
+                        end
+                        loadstring(game:HttpGet("https://rawscripts.net/raw/Gunfight-Arena-Script-31232"))()
+                    end
+                },
+                {
+                    Title = "Cancel",
+                    Callback = function() end
+                }
+            }
+        })
     end
 })
 
@@ -183,6 +290,11 @@ Tabs.Credits:AddButton({
     end
 })
 
+Tabs.InterfaceSettings:AddParagraph({
+    Title = "Sorry!",
+    Content = "We have removed the Acrylic toggle from this tab because it was broken. If you want to help fix it, go into the Contributions tab and send a request with the code to help fix it."
+})
+
 Tabs.InterfaceSettings:AddDropdown("InterfaceTheme", {
     Title = "Interface Theme",
     Description = "Allows you to change the interface theme to one of the themes available.",
@@ -191,11 +303,6 @@ Tabs.InterfaceSettings:AddDropdown("InterfaceTheme", {
     Callback = function(Value)
         Fluent:SetTheme(Value)
     end
-})
-
-Tabs.InterfaceSettings:AddParagraph({
-    Title = "Sorry!",
-    Content = "We have removed the Acrylic toggle from this tab because it was broken. If you want to help fix it, go into the Contributions tab and send a request with the code to help fix it."
 })
 
 Tabs.InterfaceSettings:AddToggle("TransparentToggle", {
