@@ -260,7 +260,7 @@ Tabs.Credits:CreateButton({
 })
 
 
-Tabs.Contributions:CreateParagraph({Title = "Do you have changes that you would like to be added to theystem's Menu?", Content = "Well, if yes, click on the button below to copy the link for the Google Form to submit your changes."})
+Tabs.Contributions:CreateParagraph({Title = "Do you have changes that you want added in theystem's Menu?", Content = "Well, if yes, click on the button below to copy the link for the Google Form to submit your changes."})
 
 Tabs.Contributions:CreateButton({
     Name = "Copy Google Form Link",
