@@ -193,13 +193,13 @@ Tabs.InterfaceSettings:AddDropdown("InterfaceTheme", {
     end
 })
 
-if Fluent.UseAcrylic then
+if Main.UseAcrylic then
     Tabs.InterfaceSettings:AddToggle("AcrylicToggle", {
-        Title = "Acrylic",
+        Title = "Acrylic (Enabled By Default)",
         Description = "Gives you the blurred background the interface already has. (The blurred background requires graphic quality 8+)",
-        Default = true, 
+        Default = Fluent.Acrylic,
         Callback = function(Value)
-            Fluent:ToggleAcrylic(Value)
+            Main:ToggleAcrylic(Value)
         end
     })
 end
