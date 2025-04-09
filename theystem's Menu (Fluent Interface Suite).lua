@@ -182,8 +182,8 @@ Tabs.Credits:AddButton({
 })
 
 Tabs.InterfaceSettings:AddDropdown("InterfaceTheme", {
-    Title = "Theme",
-    Description = "Changes the interface theme.",
+    Title = "Interface Theme",
+    Description = "Allows you to change the interface theme to one of the themes avaliable.",
     Values = Fluent.Themes,
     Default = Fluent.Theme,
     Callback = function(Value)
@@ -193,8 +193,8 @@ Tabs.InterfaceSettings:AddDropdown("InterfaceTheme", {
 
 if Fluent.UseAcrylic then
     Tabs.InterfaceSettings:AddToggle("AcrylicToggle", {
-        Title = "Acrylic",
-        Description = "The blurred background requires graphic quality 8+",
+        Title = "Interface Acrylic (Already Enabled, you can choose to enable or disable it)",
+        Description = "Gives you the blurred background the interface already has. (The blurred background requires graphic quality 8+)",
         Default = Fluent.Acrylic,
         Callback = function(Value)
             Fluent:ToggleAcrylic(Value)
@@ -203,7 +203,7 @@ if Fluent.UseAcrylic then
 end
 
 Tabs.InterfaceSettings:AddToggle("TransparentToggle", {
-    Title = "Transparency",
+    Title = "Interface Transparency",
     Description = "Makes the interface transparent.",
     Default = Fluent.Transparency,
     Callback = function(Value)
@@ -211,7 +211,7 @@ Tabs.InterfaceSettings:AddToggle("TransparentToggle", {
     end
 })
 
-Tabs.InterfaceSettings:AddKeybind("MenuKeybind", { Title = "Minimize Bind", Default = "RightShift" })
+Tabs.InterfaceSettings:AddKeybind("InterfaceMinizerKeyBind", { Title = "Interface Minimizer Keybind", Default = "RightShift" })
 Fluent.MinimizeKeybind = Fluent.Options.MenuKeybind 
 
 InterfaceManager:SetLibrary(Fluent)
