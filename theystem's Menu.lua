@@ -259,9 +259,8 @@ Tabs.Credits:CreateButton({
     end
 })
 
-Tabs.Contributions:CreateLabel
-    Content = "Do you have changes that you would like to be added to the system's Menu? Well, if yes, click on the button below to copy the link for the Google Form to submit your changes."
-})
+
+Tabs.Contributions:CreateLabel("Do you have changes that you would like to be added to the system's Menu? Well, if yes, click on the button below to copy the link for the Google Form to submit your changes.", "circle-alert")
 
 Tabs.Contributions:CreateButton({
     Name = "Copy Google Form Link",
