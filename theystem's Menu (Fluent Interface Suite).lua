@@ -10,7 +10,7 @@ local Window = Fluent:CreateWindow({
     Size = UDim2.fromOffset(580, 460),
     Acrylic = true,
     Theme = "Dark",
-    MinimizeKey = Enum.KeyCode.LeftControl
+    MinimizeKey = Enum.KeyCode.RightShift
 })
 
 local Tabs = {
@@ -24,8 +24,8 @@ local Tabs = {
 local toggles = {
     SpeedBoost = false,
     Noclip = false,
-}
-
+}   Acrylic = true
+    Interface Transparency = false
 Tabs.Universal:AddToggle("SpeedBoost", { Title = "Speed Boost", Default = toggles.SpeedBoost })
     :OnChanged(function(value)
         toggles.SpeedBoost = value
