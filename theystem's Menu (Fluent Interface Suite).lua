@@ -258,6 +258,11 @@ Tabs.Credits:AddButton({
     end
 })
 
+Tabs.InterfaceSettings:AddParagraph({
+    Title = "Sorry!",
+    Content = "We removed the Acrylic toggle from this tab because it was broken. If you want to help me fix and bring it back, send a request with the code to help me fix it in the Contributions tab."
+})
+
 Tabs.InterfaceSettings:AddDropdown("InterfaceTheme", {
     Title = "Interface Theme",
     Description = "Allows you to change the interface theme to one of the themes available.",
