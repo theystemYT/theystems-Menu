@@ -194,7 +194,7 @@ Tabs.InterfaceSettings:AddDropdown("InterfaceTheme", {
 
 if Fluent.UseAcrylic then
     Tabs.InterfaceSettings:AddToggle("AcrylicToggle", {
-        Title = "Interface Acrylic (Already Enabled By Default)",
+        Title = "Acrylic (Enabled By Default)",
         Description = "Gives you the blurred background the interface already has. (The blurred background requires graphic quality 8+)",
         Default = Fluent.Acrylic,
         Callback = function(Value)
@@ -212,7 +212,7 @@ Tabs.InterfaceSettings:AddToggle("TransparentToggle", {
     end
 })
 
-Tabs.InterfaceSettings:AddKeybind("InterfaceMinizerKeyBind", { Title = "Interface Minimizer Keybind", Default = "RightShift" })
+Tabs.InterfaceSettings:AddKeybind("MenuKeybind", { Title = "Interface Minimizer Keybind", Default = "RightShift" })
 Fluent.MinimizeKeybind = Fluent.Options.MenuKeybind 
 
 Tabs.Contributions:AddParagraph({
@@ -236,6 +236,4 @@ InterfaceManager:SetLibrary(Fluent)
 SaveManager:SetLibrary(Fluent)
 SaveManager:SetFolder("theystem's Menu (Fluent Interface Suite) Save Manager")
 InterfaceManager:SetFolder("theystem's Menu (Fluent Interface Suite) Interface Manager")
-
-SaveManager:LoadAutoloadConfig()
 Window:SelectTab(2)
