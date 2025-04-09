@@ -66,7 +66,6 @@ game:GetService("RunService").Heartbeat:Connect(function()
     end
 end)
 
-
 Tabs.Scripts:AddButton({
     Title = "Infinite Yield (Custom UI/Library)",
     Callback = function()
@@ -76,43 +75,12 @@ Tabs.Scripts:AddButton({
     end
 })
 
--- Null Fire (Custom Made UI/Library) button without dialog
-Tabs.Scripts:AddButton({
-    Title = "Null Fire (Custom Made UI/Library)",
-    Callback = function()
-        local success, NullFireScript = pcall(function()
-            return loadstring(game:HttpGet('https://rawscripts.net/raw/Natural-Disaster-Survival-NullFire-NDS-24033'))()
-        end)
-    end
-})
-
--- Sirius (Custom UI/Library) button without dialog
-Tabs.Scripts:AddButton({
-    Title = "Sirius (Custom UI/Library)",
-    Callback = function()
-        local success, SiriusScript = pcall(function()
-            return loadstring(game:HttpGet('https://sirius.menu/sirius'))()
-        end)
-    end
-})
-
--- YARHM (Custom Made UI/Library) button without dialog
-Tabs.Scripts:AddButton({
-    Title = "YARHM (Custom Made UI/Library)",
-    Callback = function()
-        local success, YARHMScript = pcall(function()
-            return loadstring(game:HttpGet('https://raw.githubusercontent.com/Joystickplays/psychic-octo-invention/main/yarhm.lua'))()
-        end)
-    end
-})
-
--- Other buttons with dialog
 Tabs.Scripts:AddButton({
     Title = "Roblox Chat Filter Bypass Script (Rayfield Library)",
     Callback = function()
         Window:Dialog({
             Title = "Do you want to execute this script?",
-            Content = "If you execute it, this interface will be destroyed. Continue?",
+            Content = "Sorry, but the UI of the script is slightly larger or smaller than this UI and you may have too many UI's which can cause it to be hard to find this UI. If you execute this script, it will destroy this UI to prevent this. Continue?",
             Buttons = {
                 {
                     Title = "Yes",
@@ -135,7 +103,7 @@ Tabs.Scripts:AddButton({
     Callback = function()
         Window:Dialog({
             Title = "Do you want to execute this script?",
-            Content = "If you execute it, this interface will be destroyed. Continue?",
+            Content = "Sorry, but the UI of the script is slightly larger or smaller than this UI and you may have too many UI's which can cause it to be hard to find this UI. If you execute this script, it will destroy this UI to prevent this. Continue?",
             Buttons = {
                 {
                     Title = "Yes",
@@ -158,7 +126,7 @@ Tabs.Scripts:AddButton({
     Callback = function()
         Window:Dialog({
             Title = "Do you want to execute this script?",
-            Content = "If you execute it, this interface will be destroyed. Continue?",
+            Content = "Sorry, but the UI of the script is slightly larger or smaller than this UI and you may have too many UI's which can cause it to be hard to find this UI. If you execute this script, it will destroy this UI to prevent this. Continue?",
             Buttons = {
                 {
                     Title = "Yes",
@@ -181,7 +149,7 @@ Tabs.Scripts:AddButton({
     Callback = function()
         Window:Dialog({
             Title = "Do you want to execute this script?",
-            Content = "If you execute it, this interface will be destroyed. Continue?",
+            Content = "Sorry, but the UI of the script is slightly larger or smaller than this UI and you may have too many UI's which can cause it to be hard to find this UI. If you execute this script, it will destroy this UI to prevent this. Continue?",
             Buttons = {
                 {
                     Title = "Yes",
@@ -204,7 +172,7 @@ Tabs.Scripts:AddButton({
     Callback = function()
         Window:Dialog({
             Title = "Do you want to execute this script?",
-            Content = "If you execute it, this interface will be destroyed due to the size of the UI of the script.Continue?",
+            Content = "Sorry, but the UI of the script is slightly larger or smaller than this UI and you may have too many UI's which can cause it to be hard to find this UI. If you execute this script, it will destroy this UI to prevent this. Continue?",
             Buttons = {
                 {
                     Title = "Yes",
@@ -227,7 +195,7 @@ Tabs.Scripts:AddButton({
     Callback = function()
         Window:Dialog({
             Title = "Do you want to execute this script?",
-            Content = "If you execute it, this interface will be destroyed. Continue?",
+            Content = "Sorry, but the UI of the script is slightly larger or smaller than this UI and you may have too many UI's which can cause it to be hard to find this UI. If you execute this script, it will destroy this UI to prevent this. Continue?",
             Buttons = {
                 {
                     Title = "Yes",
@@ -288,11 +256,6 @@ Tabs.Credits:AddButton({
             Duration = 5
         })
     end
-})
-
-Tabs.InterfaceSettings:AddParagraph({
-    Title = "Sorry!",
-    Content = "We have removed the Acrylic toggle from this tab because it was broken. If you want to help fix it, go into the Contributions tab and send a request with the code to help fix it."
 })
 
 Tabs.InterfaceSettings:AddDropdown("InterfaceTheme", {
