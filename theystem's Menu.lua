@@ -29,7 +29,8 @@ local Tabs = {
     Universal = Window:CreateTab("Universal Mods", "globe"),
     Scripts = Window:CreateTab("Scripts", "terminal"),
     InterfaceSettings = Window:CreateTab("Interface Settings", "settings"),
-    Credits = Window:CreateTab("Credits", "sparkles")
+    Credits = Window:CreateTab("Credits", "sparkles"),
+    Contributions = Window:CreateTab("Contributions", "handshake")  
 }
 
 for _, tab in pairs(Tabs) do
@@ -219,7 +220,6 @@ Tabs.InterfaceSettings:CreateButton({
     end
 })
 
-Tabs.Credits:CreateSection("Credits")
 Tabs.Credits:CreateButton({
     Name = "Copy YouTube Channel Link",
     Callback = function()
@@ -253,6 +253,23 @@ Tabs.Credits:CreateButton({
         Rayfield:Notify({
             Title = "Link Copied",
             Content = "ScriptBlox page link has been copied to your clipboard.",
+            Duration = 3,
+            Image = "clipboard"
+        })
+    end
+})
+
+Tabs.Contributions:CreateLabel
+    Content = "Do you have changes that you would like to be added to the system's Menu? Well, if yes, click on the button below to copy the link for the Google Form to submit your changes."
+})
+
+Tabs.Contributions:CreateButton({
+    Name = "Copy Google Form Link",
+    Callback = function()
+        setclipboard("https://docs.google.com/forms/d/e/1FAIpQLSe954cLT1BM2F5nUpOStUuq9V1YAsO6qwVXKX4rOtmPx-YuFA/viewform?usp=dialog")
+        Rayfield:Notify({
+            Title = "Copied Link",
+            Content = "Google Forms link has been copied to your clipboard.",
             Duration = 3,
             Image = "clipboard"
         })
