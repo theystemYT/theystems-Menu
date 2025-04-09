@@ -18,7 +18,7 @@ local Tabs = {
     Scripts = Window:AddTab({ Title = "Scripts", Icon = "terminal" }),
     Credits = Window:AddTab({ Title = "Credits", Icon = "" }),
     InterfaceSettings = Window:AddTab({ Title = "Interface Settings", Icon = "settings" })
-}
+}   Contributions = Window:AddTab({ Title = "Contributions", Icon = "handshake" })
 
 local toggles = {
     SpeedBoost = false,
