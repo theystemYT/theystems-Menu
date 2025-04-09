@@ -215,7 +215,10 @@ Tabs.InterfaceSettings:AddToggle("TransparentToggle", {
 Tabs.InterfaceSettings:AddKeybind("InterfaceMinizerKeyBind", { Title = "Interface Minimizer Keybind", Default = "RightShift" })
 Fluent.MinimizeKeybind = Fluent.Options.MenuKeybind 
 
-Tabs.Contributions:AddLabel("Do you have changes that you would like to be added to theystem's Menu? Well, if yes, click on the button below to copy the link for the Google Form to submit your changes.")
+Tabs.Contributions:AddParagraph({
+    Title = "Do you have changes that you want added in theystem's Menu?",
+    Content = "Well, if yes, click on the button below to copy the link for the Google Form to submit your changes."
+})
 
 Tabs.Contributions:AddButton({
     Title = "Copy Google Form Link",
