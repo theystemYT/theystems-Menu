@@ -13,8 +13,9 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/theystemYT/theystems-
 
 - **Universal Mods Tab**: Includes features like Speed Boost and Noclip.  
 - **Scripts Tab**: The scripts tab has scripts for different types of games and Universal scripts.  
-- **Notification System**: Displays messages on execution and menu interactions.  
-
+- **Interface Settings**: Allows you to destroy the UI and switch the UI to Fluent UI.
+- **Credits**: Has buttons that allows you to copy the links for my accounts to reach me.
+- **Contributions**:Allows you to send requests in Google Forms by getting the link though the button in the script and sending a request for something you want in theystem's Menu.
 # Notes
 
 - This is a **basic menu**, so there are not many mods available yet. (More mods are coming soon.)  
@@ -27,6 +28,7 @@ Menu developed by [@theystem](https://www.youtube.com/@theystem)
 Menu coded by [ChatGPT](https://www.chatgpt.com)
 
 # Notice
-
 theystem's Menu is no longer getting updates. Sirius is removing the documentation and no longer adding updates to Rayfield. The menu will still be updated, but when the documentation is removed, it's over.  
-To get the new version of theystem's Menu, theystem's Menu V2, please wait until it's release.
+To get the new version of theystem's Menu, theystem's Menu 
+V2, please wait until it's release.
+(There will be updates for this but when it's time to, this will be done for)
