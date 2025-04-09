@@ -260,7 +260,7 @@ Tabs.Credits:AddButton({
 
 Tabs.InterfaceSettings:AddParagraph({
     Title = "Sorry!",
-    Content = "We removed the Acrylic toggle from this tab because it was broken. If you want to help me fix and bring it back, send a request with the code to help me fix it in the Contributions tab."
+    Content = "We removed the Acrylic toggle and the Minimizer Keybind from this tab because it was broken. If you want to help me fix and bring it back, send a request with the code to help me fix it in the Contributions tab. (Minimizer KeyBind is RightShift)"
 })
 
 Tabs.InterfaceSettings:AddDropdown("InterfaceTheme", {
@@ -281,9 +281,6 @@ Tabs.InterfaceSettings:AddToggle("TransparentToggle", {
         Fluent:ToggleTransparency(Value)
     end
 })
-
-Tabs.InterfaceSettings:AddKeybind("MenuKeybind", { Title = "Interface Minimizer Keybind", Default = "RightShift" })
-Fluent.MinimizeKeybind = Fluent.Options.MenuKeybind 
 
 Tabs.Contributions:AddParagraph({
     Title = "Do you have changes that you want added in theystem's Menu?",
