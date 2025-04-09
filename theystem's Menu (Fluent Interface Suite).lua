@@ -24,8 +24,7 @@ local Tabs = {
 local toggles = {
     SpeedBoost = false,
     Noclip = false,
-}   Acrylic = true
-    Interface Transparency = false
+}   Interface Transparency = false
 Tabs.Universal:AddToggle("SpeedBoost", { Title = "Speed Boost", Default = toggles.SpeedBoost })
     :OnChanged(function(value)
         toggles.SpeedBoost = value
@@ -186,7 +185,7 @@ Tabs.InterfaceSettings:AddDropdown("InterfaceTheme", {
     Title = "Interface Theme",
     Description = "Allows you to change the interface theme to one of the themes avaliable.",
     Values = Fluent.Themes,
-    Default = Fluent.Theme,
+    Default = Inter.Theme,
     Callback = function(Value)
         Fluent:SetTheme(Value)
     end
@@ -196,7 +195,7 @@ if Fluent.UseAcrylic then
     Tabs.InterfaceSettings:AddToggle("AcrylicToggle", {
         Title = "Acrylic (Enabled By Default)",
         Description = "Gives you the blurred background the interface already has. (The blurred background requires graphic quality 8+)",
-        Default = Fluent.Acrylic,
+        Default = InterfaceSettings.Acrylic,
         Callback = function(Value)
             Fluent:ToggleAcrylic(Value)
         end
@@ -206,7 +205,7 @@ end
 Tabs.InterfaceSettings:AddToggle("TransparentToggle", {
     Title = "Interface Transparency",
     Description = "Makes the interface transparent.",
-    Default = Fluent.Transparency,
+    Default = InterfaceSettings.Transparency,
     Callback = function(Value)
         Fluent:ToggleTransparency(Value)
     end
@@ -237,3 +236,5 @@ SaveManager:SetLibrary(Fluent)
 SaveManager:SetFolder("theystem's Menu (Fluent Interface Suite) Save Manager")
 InterfaceManager:SetFolder("theystem's Menu (Fluent Interface Suite) Interface Manager")
 Window:SelectTab(2)
+SaveManager:IgnoreThemeSettings()
+SaveManager:LoadAutoloadConfig()
