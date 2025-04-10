@@ -199,7 +199,7 @@ Tabs.Scripts:CreateButton({
 })
 
 Tabs.Scripts:CreateButton({
-    Name = "Plutonium.lua",
+    Name = "Plutonium.lua (Custom UI/Library)",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/PawsThePaw/Plutonium.AA/refs/heads/main/Versions%202/V3.7.8.txt", true))()
     end
