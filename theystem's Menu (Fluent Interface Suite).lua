@@ -265,6 +265,18 @@ Tabs.Credits:AddButton({
     end
 })
 
+Tabs.Credits:AddButton({
+    Title = "Copy work.ink Profile Link",
+    Callback = function()
+        setclipboard("https://1f81517695674ff7.workink.me/")
+        Fluent:Notify({
+            Title = "Link Copied",
+            Content = "work.ink Profile link has been copied to your clipboard.",
+            Duration = 5
+        })
+    end
+})
+
 Tabs.InterfaceSettings:AddParagraph({
     Title = "Sorry!",
     Content = "We removed the Acrylic toggle and the Minimizer Keybind from this tab because it was broken. If you want to help me fix and bring it back, send a request with the code to help me fix it in the Contributions tab. (Minimizer KeyBind is RightShift)"
