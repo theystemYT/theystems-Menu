@@ -259,6 +259,18 @@ Tabs.Credits:CreateButton({
     end
 })
 
+Tabs.Credits:CreateButton({
+    Name = "Copy work.ink Profile Link",
+    Callback = function()
+        setclipboard("https://1f81517695674ff7.workink.me/")
+        Rayfield:Notify({
+            Title = "Link Copied",
+            Content = "work.ink Profile link has been copied to your clipboard.",
+            Duration = 3,
+            Image = "clipboard"
+        })
+    end
+})
 
 Tabs.Contributions:CreateParagraph({Title = "Do you have changes that you want added in theystem's Menu?", Content = "Well, if yes, click on the button below to copy the link for the Google Form to submit your changes."})
 
