@@ -24,7 +24,6 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/theystemYT/theystems-
 - The Speed boost or noclip may also not work in all games.
 - The script is free to use.  
 - Menu is coded by [ChatGPT.](chatgpt.com)
-> [!INFO]\
-> Before an update, we test the script before updating to confirm it works. So trust me, the script will always work.
 > [!WARNING]\
-If it doesn't work, don't worry! I already know it and I am working on it.
+> Before an update, we test the script before updating to confirm it works. So trust me, the script will always work.
+But if it doesn't work, don't worry! I already know, and I am working on it.
