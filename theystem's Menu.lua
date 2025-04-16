@@ -293,5 +293,5 @@ if game.PlaceId == 12137249458 then
     })
 end
 
-Window:SelectTab(Tabs.Universal)
+Window:SelectTab(Tabs.Scripts)
 Rayfield:LoadConfiguration()
