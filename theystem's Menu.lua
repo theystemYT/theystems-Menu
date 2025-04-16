@@ -26,7 +26,6 @@ local Window = Rayfield:CreateWindow({
 })
 
 local Tabs = {
-    Universal = Window:CreateTab("Universal Mods", "globe"),
     Scripts = Window:CreateTab("Scripts", "terminal"),
     InterfaceSettings = Window:CreateTab("Interface Settings", "settings"),
     Contributions = Window:CreateTab("Contributions", "handshake"),
@@ -38,73 +37,6 @@ for _, tab in pairs(Tabs) do
         tab:CreateSection("(These mods are made with ChatGPT. These mods may not work properly, or not work at all.)")
     end
 end
-
-local toggles = {
-    SpeedBoost = false,
-    Noclip = false,
-}
-
-Tabs.Universal:CreateToggle({
-    Name = "Speed Boost",
-    CurrentValue = toggles.SpeedBoost,
-    Callback = function(value)
-        toggles.SpeedBoost = value
-        local Player = game.Players.LocalPlayer
-        if Player.Character then
-            local Humanoid = Player.Character:FindFirstChildOfClass("Humanoid")
-            if Humanoid then
-                if value then
-                    Humanoid.WalkSpeed = 50
-                    Humanoid.JumpHeight = 50
-                else
-                    Humanoid.WalkSpeed = 16
-                    Humanoid.JumpHeight = 7
-                end
-                Rayfield:Notify({
-                    Title = "Speed Boost " .. (value and "Enabled" or "Disabled"),
-                    Content = "Your speed boost is now " .. (value and "active." or "inactive."),
-                    Duration = 3,
-                    Image = value and "check" or "x"
-                })
-            end
-        end
-    end
-})
-
-Tabs.Universal:CreateToggle({
-    Name = "Noclip",
-    CurrentValue = toggles.Noclip,
-    Callback = function(value)
-        toggles.Noclip = value
-        local Character = game.Players.LocalPlayer.Character
-        if Character then
-            for _, part in ipairs(Character:GetChildren()) do
-                if part:IsA("BasePart") then
-                    part.CanCollide = not value
-                end
-            end
-        end
-        Rayfield:Notify({
-            Title = "Noclip " .. (value and "Enabled" or "Disabled"),
-            Content = "You can " .. (value and "now pass through walls." or "no longer pass through walls."),
-            Duration = 3,
-            Image = value and "check" or "x"
-        })
-    end
-})
-
-game:GetService("RunService").Heartbeat:Connect(function()
-    if toggles.Noclip then
-        local Character = game.Players.LocalPlayer.Character
-        if Character then
-            for _, part in ipairs(Character:GetChildren()) do
-                if part:IsA("BasePart") then
-                    part.CanCollide = false
-                end
-            end
-        end
-    end
-end)
 
 Tabs.Scripts:CreateButton({
     Name = "Infinite Yield (Custom UI/Library)",
