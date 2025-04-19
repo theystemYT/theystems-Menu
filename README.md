@@ -1,5 +1,5 @@
-![Static Badge](https://img.shields.io/badge/Forks%20are%20not%20allowed%20on%20this%20repository-grey)  
-![Static Badge](https://img.shields.io/badge/due%20to%20the%20copyright%20license.-yellow) 
+> [!NOTE]
+> Forks are not allowed on this repository due to the [copyright license](
 # theystem's Menu
 
 **theystem's Menu** is a **basic Roblox script menu** designed to enhance gameplay with a few essential mods. Built with **Rayfield Library**, this menu provides a simple and easy-to-use interface.  
