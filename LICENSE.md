@@ -1,7 +1,6 @@
-Copyright (©) 2025 [@theystem](https://www.youtube.com/@theystem)
-
-All Rights Reserved.
-
-## License
-
+Copyright (©) 2025 theystemYT
+> [!NOTE]
+> Want to reach me? Checkout my profile overview, where my profile README.md is at.
+# License
+> [!WARNING]
 This repository is protected by copyright. All rights are reserved. You may not copy, modify, distribute, or use this code without explicit permission from the copyright owner. 
