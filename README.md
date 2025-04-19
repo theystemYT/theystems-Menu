@@ -1,4 +1,3 @@
-> [!NOTE]\
 ![Static Badge](https://img.shields.io/badge/Forks%20are%20not%20allowed%20on%20this%20repository-grey)  
 ![Static Badge](https://img.shields.io/badge/due%20to%20the%20copyright%20license.-yellow) 
 # theystem's Menu
@@ -26,5 +25,5 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/theystemYT/theystems-
 - And the menu is coded by [ChatGPT.](chatgpt.com)
 - Also, before an update, we test the script before updating to confirm it works. So trust me, the script will always work.
 But if it doesn't work, don't worry! A patch will be coming soon.
-> [!IMPORTANT]\
-> Keep in mind that this script may not work for all executors. It has only been tested with Delta Executor and KRNL executor and they work just fine.
+> [!IMPORTANT]
+> Keep in mind that this script may not work for all executors. It has only been tested with Delta Executor and KRNL executor and they work just fine on those executors.
