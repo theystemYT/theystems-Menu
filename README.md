@@ -22,8 +22,9 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/theystemYT/theystems-
 
 - This is a **basic menu**, so there are not many mods available yet. (More mods are coming soon.)  
 - Some scripts may not work on all games.  
-- The Speed boost or noclip may also not work in all games.
 - The script is free to use.  
-- Menu is coded by [ChatGPT.](chatgpt.com)
-- Before an update, we test the script before updating to confirm it works. So trust me, the script will always work.
-But if it doesn't work, don't worry! A patch will be coming soon. 
+- And the menu is coded by [ChatGPT.](chatgpt.com)
+- Also, before an update, we test the script before updating to confirm it works. So trust me, the script will always work.
+But if it doesn't work, don't worry! A patch will be coming soon.
+> [!IMPORTANT]\
+> Keep in mind that this script may not work for all executors. It has only been tested with Delta Executor and KRNL executor and they work just fine.
