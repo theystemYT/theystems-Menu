@@ -1,4 +1,6 @@
--- DO NOT STEAL THIS CODE WITHOUT THE CREATORS PERMISSION.
+--[[theystem's Menu | Made with Rayfield
+The repository with this script has a copyright license, so do not try to steal the code.
+This code is made with ChatGPT.--]]
 local success, Rayfield = pcall(function()
     return loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 end)
