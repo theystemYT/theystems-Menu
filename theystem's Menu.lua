@@ -3,18 +3,7 @@ theystem's Menu | Made with Rayfield Library
 The repository with this script has a copyright license, so do not try to steal the code.
 This code is made with ChatGPT.
 ]]
-local success, Rayfield = pcall(function()
-    return loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
-end)
-
-if not success then
-    game:GetService("StarterGui"):SetCore("SendNotification", {
-        Title = "Error!",
-        Text = "This script failed to execute. Please make sure to check if these actions are doable on your executor. 1. Using HttpGet scripts. This is needed to load Rayfield Library. 2. Make sure you have a "workspace" folder on your executor folder. For example, if you use Delta, you'll have a folder in your main storage called "Delta". Make sure there is a "workspace" folder as this script has a Configuration Saving.",
-        Duration = 5
-    })
-    return
-end
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
     Name = "theystem's Menu",
