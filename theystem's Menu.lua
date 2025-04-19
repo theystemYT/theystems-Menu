@@ -197,7 +197,7 @@ Tabs.Contributions:CreateParagraph({
 Tabs.Contributions:CreateButton({
     Name = "Copy Google Form Link",
     Callback = function()
-        setclipboard("https://docs.google.com/forms/d/e/1FAIpQLSe954cLT1BM2F5nUpOStUuq9V1YAsO6qwVXKX4rOtmPx-YuFA/viewform?usp=dialog")
+        setclipboard("https://forms.gle/NmJ9hoAkeCQ1LewX7")
         Rayfield:Notify({
             Title = "Copied Link",
             Content = "Google Forms link has been copied to your clipboard.",
