@@ -34,6 +34,7 @@ Here is an example:
 
   
 </details>
+
 # Notes
 
 - This is a **basic menu**, so there are not many mods available yet. (More mods are coming soon.)  
