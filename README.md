@@ -28,7 +28,7 @@ Here is an example:
 - Doors
 - [FPS] Gun Grounds FFA
 - Natural Disaster Survival
-- Any game that is Murder Mystery 2 but changed in some way. (It isn't a supported games tab, but it is a script called "YARHM" in the Universal scripts tab)
+- Any game that is Murder Mystery 2 but modified in any way. (It isn't a supported games tab, but it is a script called "YARHM" in the Universal scripts tab)
 - Airsoft FE
 - Gunfight Arena
 
