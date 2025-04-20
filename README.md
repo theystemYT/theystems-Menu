@@ -20,7 +20,19 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/theystemYT/theystems-
 >I also recommend to send the code for the feature if you know how to make it.
 
 **Supported Games**: If you are in a supported game, a new tab will be made with a checkmark icon and the game name. If you click on it, you can find scripts for the game.
-Here is a example:
+Here is an example:
+![Image](https://github.com/theystemYT/theystems-Menu/blob/main/Example.jpg)
+<details>
+  <summary>List of Supported Games</summary>
+
+- Doors
+- [FPS] Gun Grounds FFA
+- Natural Disaster Survival
+- Any game that is Murder Mystery 2 but changed in some way. (It isn't a supported games tab, but it is a script called "YARHM" in the Universal scripts tab)
+- 
+
+  
+</details>
 # Notes
 
 - This is a **basic menu**, so there are not many mods available yet. (More mods are coming soon.)  
