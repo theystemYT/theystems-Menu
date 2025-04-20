@@ -26,13 +26,13 @@ local Tabs = {
 }
 
 for _, tab in pairs(Tabs) do
-    if tab ~= Tabs.Credits then
+    if tabs ~= Tabs.Credits and Tabs.Scripts and Tabs.Contributions
         tab:CreateSection("(These mods are made with ChatGPT. These mods may not work properly, or not work at all.)")
     end
 end
 
 Tabs.Scripts:CreateButton({
-    Name = "Infinite Yield (Custom UI/Library)",
+    Name = "Infinite Yield",
     Callback = function()
         pcall(function()
             loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
@@ -85,7 +85,7 @@ Tabs.Scripts:CreateButton({
 })
 
 Tabs.Scripts:CreateButton({
-    Name = "Airsoft FE Script (Rayfield Library)",
+    Name = "Airsoft FE Script",
     Callback = function()
         Rayfield:Destroy()
         loadstring(game:HttpGet("https://rawscripts.net/raw/Airsoft-FE-Script-Hub-25137"))()
@@ -93,14 +93,14 @@ Tabs.Scripts:CreateButton({
 })
 
 Tabs.Scripts:CreateButton({
-    Name = "Skibidi Hub (Rayfield Library)",
+    Name = "Skibidi Hub",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/aemos2/Skibidihub/refs/heads/main/SkibidiHUB.txt"))()
     end
 })
 
 Tabs.Scripts:CreateButton({
-    Name = "Gunfight Arena Script (Orion Library) (ScriptBlox Script, credits are shown in the script.)",
+    Name = "Gunfight Arena Script",
     Callback = function()
         local weapons = game.ReplicatedStorage:FindFirstChild("Weapons")
         if not weapons then
