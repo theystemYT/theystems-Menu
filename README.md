@@ -40,7 +40,7 @@ Here is an example:
 - This is a **basic menu**, so there are not many mods available yet. (More mods are coming soon.)  
 - Some scripts may not work on all games.  
 - The script is free to use.  
-- The menu is coded by [ChatGPT](chatgpt.com).
+- The menu is coded by [ChatGPT](https://chatgpt.com).
 - Also, before an update, we test the script before updating to confirm it works. So trust me, the script will always work.
 But if it doesn't work, don't worry! A patch will be coming soon.
 > [!IMPORTANT]
