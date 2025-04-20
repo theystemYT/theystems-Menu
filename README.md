@@ -12,7 +12,7 @@ If the script doesn't work, try this one:
 loadstring(game:HttpGet("https://raw.githubusercontent.com/theystemYT/theystems-Menu/refs/heads/main/theystem's%20Menu.lua",true))()
 ```
 # Features of theystem's Menu
-- **Universal Scripts Tab**: 
+- **Universal Scripts Tab**: Has Universal Scripts that work in most Roblox Games. There are currently 
 - **Interface Settings**: Allows you to destroy the UI.
 - **Credits**: Has buttons that allows you to copy the links for my accounts to reach me.
 - **Contributions**: Allows you to send requests in Google Forms by getting the link though the button in the script and sending a request for something you want in theystem's Menu.
