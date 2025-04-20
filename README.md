@@ -19,7 +19,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/theystemYT/theystems-
 > [!NOTE]
 >I also recommend to send the code for the feature if you know how to make it.
 
-**Supported Games**: If you are in a supported game, a new tab will be made with a checkmark icon and the game name. If you click on it, you can find scripts for the game. These is currently only one game supported which is [[FPS] Gun Grounds FFA](https://www.roblox.com/games/12137249458/FPS-Gun-Grounds-FFA). However though, more games are coming soon, so just wait patiently.
+**Supported Games**: If you are in a supported game, a new tab will be made with a checkmark icon and the game name. If you click on it, you can find scripts for the game.
+Here is a example:
 # Notes
 
 - This is a **basic menu**, so there are not many mods available yet. (More mods are coming soon.)  
