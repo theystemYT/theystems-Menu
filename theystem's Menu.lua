@@ -41,7 +41,7 @@ Tabs.Scripts:CreateButton({
 })
 
 Tabs.Scripts:CreateButton({
-    Name = "Roblox Chat Filter Bypass Script (Rayfield Library)",
+    Name = "Roblox Chat Filter Bypass Script",
     Callback = function()
         Rayfield:Destroy()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/cheatplug/usercreated/refs/heads/main/main.lua'))()
@@ -49,14 +49,14 @@ Tabs.Scripts:CreateButton({
 })
 
 Tabs.Scripts:CreateButton({
-    Name = "Sirius (Custom UI/Library)",
+    Name = "Sirius",
     Callback = function()
         loadstring(game:HttpGet('https://sirius.menu/sirius'))()
     end
 })
 
 Tabs.Scripts:CreateButton({
-    Name = "LHUB (Rayfield Library)",
+    Name = "LHUB",
     Callback = function()
         Rayfield:Destroy()
         loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-LHUB-30857"))()
@@ -64,21 +64,21 @@ Tabs.Scripts:CreateButton({
 })
 
 Tabs.Scripts:CreateButton({
-    Name = "YARHM (Custom Made UI/Library)",
+    Name = "YARHM",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Joystickplays/psychic-octo-invention/main/yarhm.lua", false))()
     end
 })
 
 Tabs.Scripts:CreateButton({
-    Name = "Null Fire (Custom Made UI/Library)",
+    Name = "Null Fire",
     Callback = function()
         loadstring(game:HttpGet("https://rawscripts.net/raw/Natural-Disaster-Survival-NullFire-NDS-24033"))()
     end
 })
 
 Tabs.Scripts:CreateButton({
-    Name = "Sensation/Sexsation Doors Script (Custom Made UI/Library)",
+    Name = "Sensation/Sexsation Doors Script",
     Callback = function()
         loadstring(game:HttpGet("https://rawscripts.net/raw/FLOOR-2-DOORS-Sensation-V2-20105"))()
     end
@@ -124,7 +124,7 @@ Tabs.Scripts:CreateButton({
 })
 
 Tabs.Scripts:CreateButton({
-    Name = "Plutonium.lua (Custom UI/Library)",
+    Name = "Plutonium.lua",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/PawsThePaw/Plutonium.AA/refs/heads/main/Versions%202/V3.7.8.txt", true))()
     end
