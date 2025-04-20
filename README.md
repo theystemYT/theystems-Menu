@@ -1,3 +1,6 @@
+> [!IMPORTANT]
+> I am no longer working on this project. I am now currently working on theystem's Menu V2. You can still use this script, but it will no longer be updated. Thank you for understanding. I recommend you try the new script, available at the [theystem's Menu V2 repository](github.com/theystemYT/theystems-Menu-V2).
+
 > [!NOTE]
 > Forks are not allowed on this repository due to the [copyright license](https://github.com/theystemYT/theystems-Menu/blob/main/LICENSE.md).
 # theystem's Menu
