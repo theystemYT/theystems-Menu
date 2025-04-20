@@ -4,6 +4,7 @@ The repository with this script has a copyright license, so do not try to steal 
 This code is made with ChatGPT.
 ]]
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+local MarketplaceService = game:GetService("MarketplaceService")
 
 local Window = Rayfield:CreateWindow({
     Name = "theystem's Menu",
@@ -11,25 +12,17 @@ local Window = Rayfield:CreateWindow({
     LoadingTitle = "Menu has been loaded successfully!",
     LoadingSubtitle = "Menu made by @theystem.",
     Theme = "AmberGlow", 
-    
     DisableRayfieldPrompts = false,
     DisableBuildWarnings = false,
-    
     ConfigurationSaving = {Enabled = true, FolderName = "theystem's Menu Configuration Saving", FileName = "theystem's Menu"}
 })
 
 local Tabs = {
-    Scripts = Window:CreateTab("Scripts", "terminal"),
+    Scripts = Window:CreateTab("Universal Scripts", "terminal"),
     InterfaceSettings = Window:CreateTab("Interface Settings", "settings"),
     Contributions = Window:CreateTab("Contributions", "handshake"),
     Credits = Window:CreateTab("Credits", "sparkles")  
 }
-
-for _, tab in pairs(Tabs) do
-    if tabs ~= Tabs.Credits and Tabs.Scripts and Tabs.Contributions
-        tab:CreateSection("(These mods are made with ChatGPT. These mods may not work properly, or not work at all.)")
-    end
-end
 
 Tabs.Scripts:CreateButton({
     Name = "Infinite Yield",
@@ -37,6 +30,19 @@ Tabs.Scripts:CreateButton({
         pcall(function()
             loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
         end)
+    end
+})
+
+Tabs.Scripts:CreateButton({
+    Name = "Copy Key for Roblox Chat Filter Bypass Script",
+    Callback = function()
+        setclipboard("friday")
+        Rayfield:Notify({
+            Title = "Key",
+            Content = "Key has been copied to your clipboard successfully.",
+            Duration = 3,
+            Image = "clipboard",
+        })
     end
 })
 
@@ -78,41 +84,10 @@ Tabs.Scripts:CreateButton({
 })
 
 Tabs.Scripts:CreateButton({
-    Name = "Sensation/Sexsation Doors Script",
-    Callback = function()
-        loadstring(game:HttpGet("https://rawscripts.net/raw/FLOOR-2-DOORS-Sensation-V2-20105"))()
-    end
-})
-
-Tabs.Scripts:CreateButton({
-    Name = "Airsoft FE Script",
-    Callback = function()
-        Rayfield:Destroy()
-        loadstring(game:HttpGet("https://rawscripts.net/raw/Airsoft-FE-Script-Hub-25137"))()
-    end
-})
-
-Tabs.Scripts:CreateButton({
     Name = "Skibidi Hub",
     Callback = function()
+        Rayfield:Destroy()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/aemos2/Skibidihub/refs/heads/main/SkibidiHUB.txt"))()
-    end
-})
-
-Tabs.Scripts:CreateButton({
-    Name = "Gunfight Arena Script",
-    Callback = function()
-        local weapons = game.ReplicatedStorage:FindFirstChild("Weapons")
-        if not weapons then
-            Rayfield:Notify({
-                Title = "Weapons Not Found",
-                Content = "Weapons couldn't be found in ReplicatedStorage. Join Gunfight Arena for this script to work properly.",
-                Image = "circle-help",
-                Duration = 5
-            })
-            return
-        end
-        loadstring(game:HttpGet("https://rawscripts.net/raw/Gunfight-Arena-Script-31232"))()
     end
 })
 
@@ -207,16 +182,70 @@ Tabs.Contributions:CreateButton({
     end
 })
 
-if game.PlaceId == 12137249458 then
-    local FPS_Tab = Window:CreateTab("[FPS] Gun Grounds FFA", "check")
-    FPS_Tab:CreateButton({
+local function createGameSpecificTab(placeId, scriptInfo)
+    if game.PlaceId == placeId then
+        local success, info = pcall(function()
+            return MarketplaceService:GetProductInfo(placeId)
+        end)
+        if success and info and info.Name then
+            local tab = Window:CreateTab(info.Name, "check")
+            for _, v in pairs(scriptInfo) do
+                tab:CreateButton({
+                    Name = v.Name,
+                    Callback = v.Callback
+                })
+            end
+        end
+    end
+end
+
+createGameSpecificTab(12137249458, {
+    {
         Name = "Op Gui Script - coyx (ScriptBlox Script)",
         Callback = function()
             Rayfield:Destroy()
             loadstring(game:HttpGet("https://pastebin.com/raw/rf8zaVmE",true))()
         end
-    })
-end
+    }
+})
+
+createGameSpecificTab(14518422161, {
+    {
+        Name = "Gunfight Arena Script",
+        Callback = function()
+            local weapons = game.ReplicatedStorage:FindFirstChild("Weapons")
+            if not weapons then
+                Rayfield:Notify({
+                    Title = "Weapons Not Found",
+                    Content = "Weapons couldn't be found in ReplicatedStorage. Join Gunfight Arena for this script to work properly.",
+                    Image = "circle-help",
+                    Duration = 5
+                })
+                return
+            end
+            loadstring(game:HttpGet("https://rawscripts.net/raw/Gunfight-Arena-Script-31232"))()
+        end
+    }
+})
+
+createGameSpecificTab(6792057800, {
+    {
+        Name = "Airsoft FE Script",
+        Callback = function()
+            Rayfield:Destroy()
+            loadstring(game:HttpGet("https://rawscripts.net/raw/Airsoft-FE-Script-Hub-25137"))()
+        end
+    }
+})
+
+createGameSpecificTab(6516141723, {
+    {
+        Name = "Sensation/Sexsation Doors Script",
+        Callback = function()
+            loadstring(game:HttpGet("https://rawscripts.net/raw/FLOOR-2-DOORS-Sensation-V2-20105"))()
+        end
+    }
+})
 
 Window:SelectTab(Tabs.Scripts)
 Rayfield:LoadConfiguration()
