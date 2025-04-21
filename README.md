@@ -31,7 +31,7 @@ Here is an example:
 - Murder Mystery 2 or any game that is Murder Mystery 2 but modified or changed in some way. (This game isn't a supported games tab, but the script is called "YARHM" and it's in the Universal scripts tab)
 - Airsoft FE
 - Gunfight Arena
-- Opposer VR [Alpha]
+- OPPOSER VR [Alpha]
 
   
 </details>
