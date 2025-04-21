@@ -198,7 +198,7 @@ local function createGameSpecificTab(placeId, scriptInfo)
         local success, info = pcall(function()
             return MarketplaceService:GetProductInfo(placeId)
         end)
-        if success and info and info.Name then
+        if success and info then
             local tab = Window:CreateTab(info.Name, "check")
             for _, v in pairs(scriptInfo) do
                 tab:CreateButton({
