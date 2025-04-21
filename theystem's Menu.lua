@@ -103,8 +103,10 @@ Tabs.Scripts:CreateButton({
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/PawsThePaw/Plutonium.AA/refs/heads/main/Versions%202/V3.7.8.txt", true))()
     end
-})
-
+Tabs.Scripts:CreateButton({
+     Name = "Swift Loader"
+     Callback = function()
+         loadstring(game:HttpGet("https://raw.githubusercontent.com/FemWareDevelper/SwiftLoader/refs/heads/main/Scripts"))()
 Tabs.InterfaceSettings:CreateButton({
     Name = "Destroy UI",
     Callback = function()
@@ -246,6 +248,21 @@ createGameSpecificTab(6516141723, {
         end
     }
 })
+createGameSpecificTab(7406004869, {
+    {
+        Name = "Opposed (PCVR Only)",
+        Callback = function()
+             _G.OMBuild = "nightly"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/OpposedDev/Opposed/refs/heads/main/main/loader.lua"))()
+Name = "Swift Loader"
+Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/FemWareDevelper/SwiftLoader/refs/heads/main/Scripts"))()
+    end
+    }
+})
+Name = "ScreenMode ESP and AIMBOT"
+Callback = function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/y6Zg99WV",true))()
 
 Window:SelectTab(Tabs.Scripts)
 Rayfield:LoadConfiguration()
