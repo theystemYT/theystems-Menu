@@ -10,18 +10,22 @@ local Window = Rayfield:CreateWindow({
     Name = "theystem's Menu",
     Icon = 0,
     LoadingTitle = "Loading theystem's Menu... Hang on tight!",
-    LoadingSubtitle = ""
-    Theme = "AmberGlow", 
+    LoadingSubtitle = "",
+    Theme = "AmberGlow",
     DisableRayfieldPrompts = false,
     DisableBuildWarnings = false,
-    ConfigurationSaving = {Enabled = true, FolderName = "theystem's Menu Configuration Saving", FileName = "theystem's Menu"}
+    ConfigurationSaving = {
+        Enabled = true,
+        FolderName = "theystem's Menu Configuration Saving",
+        FileName = "theystem's Menu"
+    }
 })
 
 local Tabs = {
     Scripts = Window:CreateTab("Universal Scripts", "terminal"),
     InterfaceSettings = Window:CreateTab("Interface Settings", "settings"),
     Contributions = Window:CreateTab("Contributions", "handshake"),
-    Credits = Window:CreateTab("Credits", "sparkles")  
+    Credits = Window:CreateTab("Credits", "sparkles")
 }
 
 Tabs.Scripts:CreateButton({
@@ -103,10 +107,15 @@ Tabs.Scripts:CreateButton({
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/PawsThePaw/Plutonium.AA/refs/heads/main/Versions%202/V3.7.8.txt", true))()
     end
+})
+
 Tabs.Scripts:CreateButton({
-     Name = "Swift Loader"
-     Callback = function()
-         loadstring(game:HttpGet("https://raw.githubusercontent.com/FemWareDevelper/SwiftLoader/refs/heads/main/Scripts"))()
+    Name = "Swift Loader",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/FemWareDevelper/SwiftLoader/refs/heads/main/Scripts"))()
+    end
+})
+
 Tabs.InterfaceSettings:CreateButton({
     Name = "Destroy UI",
     Callback = function()
@@ -248,21 +257,28 @@ createGameSpecificTab(6516141723, {
         end
     }
 })
+
 createGameSpecificTab(7406004869, {
     {
         Name = "Opposed (PCVR Only)",
         Callback = function()
-             _G.OMBuild = "nightly"
-loadstring(game:HttpGet("https://raw.githubusercontent.com/OpposedDev/Opposed/refs/heads/main/main/loader.lua"))()
-Name = "Swift Loader"
-Callback = function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/FemWareDevelper/SwiftLoader/refs/heads/main/Scripts"))()
-    end
+            _G.OMBuild = "nightly"
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/OpposedDev/Opposed/refs/heads/main/main/loader.lua"))()
+        end
+    },
+    {
+        Name = "Swift Loader",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/FemWareDevelper/SwiftLoader/refs/heads/main/Scripts"))()
+        end
+    },
+    {
+        Name = "ScreenMode ESP and AIMBOT",
+        Callback = function()
+            loadstring(game:HttpGet("https://pastebin.com/raw/y6Zg99WV", true))()
+        end
     }
 })
-Name = "ScreenMode ESP and AIMBOT"
-Callback = function()
-    loadstring(game:HttpGet("https://pastebin.com/raw/y6Zg99WV",true))()
 
 Window:SelectTab(Tabs.Scripts)
 Rayfield:LoadConfiguration()
