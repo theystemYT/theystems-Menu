@@ -33,7 +33,8 @@ Here is an example:
 - Gunfight Arena
 - OPPOSER VR [Alpha]
 - Classic Hangman
-  
+- Shrimp Game
+- Jujutsu Shenanigans
 </details>
 
 # Notes
