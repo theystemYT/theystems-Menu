@@ -215,7 +215,7 @@ createGameSpecificTab(12137249458, {
         Name = "Op Gui Script - coyx (ScriptBlox Script)",
         Callback = function()
             Rayfield:Destroy()
-            loadstring(game:HttpGet("https://pastebin.com/raw/rf8zaVmE",true))()
+            loadstring(game:HttpGet("https://pastebin.com/raw/rf8zaVmE", true))()
         end
     }
 })
@@ -279,27 +279,34 @@ createGameSpecificTab(7406004869, {
         end
     }
 })
+
 createGameSpecificTab(3623642052, {
     {
         Name = "free badges",
         Callback = function()
             loadstring(game:HttpGet("https://rawscripts.net/raw/Classic-Hangman-free-badges-13559"))()
         end
-    },
-    {
+    }
+})
+
 createGameSpecificTab(7606564092, {
     {
         Name = "Skibidi Hub",
         Callback = function()
             Rayfield:Destroy()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/aemos2/Skibidihub/refs/heads/main/SkibidiHUB.txt"))()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/aemos2/Skibidihub/refs/heads/main/SkibidiHUB.txt"))()
         end
-    },
+    }
+})
+
+createGameSpecificTab(9391468976, {
     {
-createGameSpecificTab(9391468976
-     {
-        Name = "Plutonium.lua"
+        Name = "Plutonium.lua",
         Callback = function()
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/PawsThePaw/Plutonium.AA/refs/heads/main/Versions%202/V3.7.8.txt", true))()  
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/PawsThePaw/Plutonium.AA/refs/heads/main/Versions%202/V3.7.8.txt", true))()
+        end
+    }
+})
+
 Window:SelectTab(Tabs.Scripts)
 Rayfield:LoadConfiguration()
