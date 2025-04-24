@@ -32,7 +32,7 @@ Here is an example:
 - Airsoft FE
 - Gunfight Arena
 - OPPOSER VR [Alpha]
-
+- Classic Hangman
   
 </details>
 
