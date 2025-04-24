@@ -279,6 +279,13 @@ createGameSpecificTab(7406004869, {
         end
     }
 })
-
+createGameSpecificTab(3623642052, {
+    {
+        Name = "free badges",
+        Callback = function()
+            loadstring(game:HttpGet("https://rawscripts.net/raw/Classic-Hangman-free-badges-13559"))()
+        end
+    },
+    {
 Window:SelectTab(Tabs.Scripts)
 Rayfield:LoadConfiguration()
