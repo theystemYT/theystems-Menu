@@ -36,6 +36,10 @@ Tabs.Scripts:CreateButton({
         end)
     end
 })
+Tabs.Scripts:CreateButton({
+    Name = "Dex",
+    Callback = function()
+        loadstring(game:HttpGet("https://github.com/LorekeeperZinnia/Dex/blob/master/main.lua"))()
 
 Tabs.Scripts:CreateButton({
     Name = "Copy Key for Roblox Chat Filter Bypass Script",
