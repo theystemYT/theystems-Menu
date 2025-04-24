@@ -287,5 +287,19 @@ createGameSpecificTab(3623642052, {
         end
     },
     {
+createGameSpecificTab(7606564092, {
+    {
+        Name = "Skibidi Hub",
+        Callback = function()
+            Rayfield:Destroy()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/aemos2/Skibidihub/refs/heads/main/SkibidiHUB.txt"))()
+        end
+    },
+    {
+createGameSpecificTab(9391468976
+     {
+        Name = "Plutonium.lua"
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/PawsThePaw/Plutonium.AA/refs/heads/main/Versions%202/V3.7.8.txt", true))()  
 Window:SelectTab(Tabs.Scripts)
 Rayfield:LoadConfiguration()
