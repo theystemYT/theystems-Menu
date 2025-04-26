@@ -322,7 +322,7 @@ createGameSpecificTab(9391468976, {
     }
 })
 
-createGameSpecificTab(10806004754, {
+createGameSpecificTab(13083893317, {
     {
         Name = "Astral",
         Callback = function()
@@ -340,7 +340,7 @@ createGameSpecificTab(10806004754, {
     }
 })
 
-createGameSpecificTab(10806004754, {
+createGameSpecificTab(13388465281, {
     {
         Name = "Projeto LKB | New Gen MB",
         Callback = function()
