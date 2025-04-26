@@ -123,6 +123,13 @@ Tabs.Scripts:CreateButton({
     end
 })
 
+Tabs.Scripts:CreateButton({
+    Name = "Astral",
+    Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/toeszzwozzy/loader/main/v2.4.luau'))()
+    end
+})
+
 Tabs.InterfaceSettings:CreateButton({
     Name = "Destroy UI",
     Callback = function()
