@@ -35,6 +35,9 @@ Here is an example:
 - Classic Hangman
 - Shrimp Game
 - Jujutsu Shenanigans
+- Life Sentence
+- Drain City
+- Hard Time
 </details>
 
 # Notes
