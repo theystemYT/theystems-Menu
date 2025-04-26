@@ -344,7 +344,13 @@ createGameSpecificTab(13388465281, {
     {
         Name = "Projeto LKB | New Gen MB",
         Callback = function()
-            loadstring(gameHttpGet("https://rawscripts.net/raw/Hard-Time-Projeto-LKB-I-New-Gen-PC-15537"))()
+            loadstring(game:HttpGet("https://rawscripts.net/raw/Hard-Time-Projeto-LKB-I-New-Gen-PC-15537"))()
+        end
+    },
+    {
+        Name = "Projeto LKB | New Gen PC",
+        Callback = function()
+            loadstring(game:HttpGet("https://rawscripts.net/raw/Hard-Time-Projeto-LKB-I-New-Gen-PC-15536"))()
         end
     }
 })
