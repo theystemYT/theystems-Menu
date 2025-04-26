@@ -322,5 +322,31 @@ createGameSpecificTab(9391468976, {
     }
 })
 
+createGameSpecificTab(10806004754, {
+    {
+        Name = "Astral",
+        Callback = function()
+            loadstring(game:HttpGet('https://raw.githubusercontent.com/toeszzwozzy/loader/main/v2.4.luau'))()
+        end
+    }
+})
+
+createGameSpecificTab(10806004754, {
+    {
+        Name = "Astral",
+        Callback = function()
+            loadstring(game:HttpGet('https://raw.githubusercontent.com/toeszzwozzy/loader/main/v2.4.luau'))()
+        end
+    }
+})
+
+createGameSpecificTab(10806004754, {
+    {
+        Name = "Projeto LKB | New Gen MB",
+        Callback = function()
+            loadstring(gameHttpGet("https://rawscripts.net/raw/Hard-Time-Projeto-LKB-I-New-Gen-PC-15537"))()
+        end
+    }
+})
 Window:SelectTab(Tabs.Scripts)
 Rayfield:LoadConfiguration()
