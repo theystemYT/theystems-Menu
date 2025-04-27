@@ -137,6 +137,23 @@ Tabs.InterfaceSettings:CreateButton({
     end
 })
 
+Tabs.InterfaceSettings:CreateDropdown({
+    Name = "Select Theme",
+    Options = {"Default (AmberGlow)","Amethyst", "Bloom","Dark Blue","Green","Light","Ocean","Serenity"},
+    CurrentOption = {"Default (AmberGlow)"},
+    MultipleOptions = false,
+    Flag = "Interface Theme",
+    Callback = function(Options)
+        local selected = Options[1]
+        if selected == "Default (AmberGlow)" then
+            ThemeName = "AmberGlow"
+        else
+            ThemeName = selected
+        end
+        Window:ModifyTheme(ThemeName)
+    end,
+})
+
 Tabs.Credits:CreateButton({
     Name = "Copy YouTube Channel Link",
     Callback = function()
