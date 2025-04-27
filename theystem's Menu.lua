@@ -40,7 +40,7 @@ Tabs.Scripts:CreateButton({
 Tabs.Scripts:CreateButton({
     Name = "Dex",
     Callback = function()
-        loadstring(game:HttpGet("https://github.com/LorekeeperZinnia/Dex/blob/master/main.lua"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/LorekeeperZinnia/Dex/refs/heads/master/main.lua"))()
     end
 })
 
