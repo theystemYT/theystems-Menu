@@ -31,8 +31,8 @@ local Tabs = {
 Tabs.Scripts:CreateButton({
     Name = "Infinite Yield",
     Callback = function()
-            loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
-        end
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+    end
 })
 
 Tabs.Scripts:CreateButton({
@@ -50,7 +50,7 @@ Tabs.Scripts:CreateButton({
             Title = "Key",
             Content = "Key has been copied to your clipboard successfully.",
             Duration = 3,
-            Image = "clipboard",
+            Image = "clipboard"
         })
     end
 })
@@ -362,5 +362,6 @@ createGameSpecificTab(16389395869, {
         end
     }
 })
+
 Window:SelectTab(Tabs.Scripts)
 Rayfield:LoadConfiguration()
