@@ -31,16 +31,14 @@ local Tabs = {
 Tabs.Scripts:CreateButton({
     Name = "Infinite Yield",
     Callback = function()
-        pcall(function()
             loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
-        end)
-    end
+        end
 })
 
 Tabs.Scripts:CreateButton({
     Name = "Dex",
     Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/LorekeeperZinnia/Dex/refs/heads/master/main.lua"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/LorekeeperZinnia/Dex/master/main.lua"))()
     end
 })
 
