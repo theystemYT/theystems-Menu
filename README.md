@@ -29,15 +29,15 @@ Here is an example:
 - [FPS] Gun Grounds FFA
 - Natural Disaster Survival
 - Murder Mystery 2 or any game that is Murder Mystery 2 but modified or changed in some way. (This game isn't a supported games tab, but the script is called "YARHM" and it's in the Universal scripts tab)
-- Airsoft FE
+- [UPD] Airsoft FE
 - Gunfight Arena
 - OPPOSER VR [Alpha]
 - Classic Hangman
-- Shrimp Game
+- [MARBLES!] Shrimp Game
 - Jujutsu Shenanigans
-- Life Sentence
-- Drain City
-- Hard Time
+- [💥RPG] Life Sentence
+- [🎉NEW] Drain City
+- 🍀Hard Time
 - a dusty trip [🐰EASTER]
 </details>
 
