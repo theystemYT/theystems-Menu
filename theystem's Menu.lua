@@ -354,5 +354,15 @@ createGameSpecificTab(13388465281, {
         end
     }
 })
+
+createGameSpecificTab(16389395869, {
+    {
+        Name = "Skibidi Hub",
+        Callback = function()
+            Rayfield:Destroy()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/aemos2/Skibidihub/refs/heads/main/SkibidiHUB.txt"))()
+        end
+    }
+})
 Window:SelectTab(Tabs.Scripts)
 Rayfield:LoadConfiguration()
