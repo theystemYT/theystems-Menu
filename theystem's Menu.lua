@@ -6,12 +6,14 @@ This code is made with ChatGPT.
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 local MarketplaceService = game:GetService("MarketplaceService")
 
+local ThemeName = "AmberGlow"
+
 local Window = Rayfield:CreateWindow({
     Name = "theystem's Menu",
     Icon = 0,
     LoadingTitle = "Loading theystem's Menu...",
     LoadingSubtitle = "Credits are in Credits Tab",
-    Theme = "AmberGlow",
+    Theme = ThemeName,
     DisableRayfieldPrompts = false,
     DisableBuildWarnings = false,
     ConfigurationSaving = {
