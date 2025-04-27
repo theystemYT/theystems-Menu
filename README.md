@@ -38,6 +38,7 @@ Here is an example:
 - Life Sentence
 - Drain City
 - Hard Time
+- a dusty trip [🐰EASTER]
 </details>
 
 # Notes
