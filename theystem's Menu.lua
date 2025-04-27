@@ -29,7 +29,7 @@ local Tabs = {
 }
 
 Tabs.Scripts:CreateButton({
-    Name = "starlight Server-Side Executor,
+    Name = "starlight Server-Side Executor",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/TempUserIdk18/robloxscripts/refs/heads/main/PogsBackdoor.lua"))()
     end
@@ -50,9 +50,9 @@ Tabs.Scripts:CreateButton({
 })
 
 Tabs.Scripts:CreateButton({
-    Name = "Copy Key for Roblox Chat Filter Bypass Script",
+    Name = "Copy Key for UserCreated",
     Callback = function()
-        setclipboard("friday")
+        setclipboard("neverpatched33")
         Rayfield:Notify({
             Title = "Key",
             Content = "Key has been copied to your clipboard successfully.",
@@ -63,7 +63,7 @@ Tabs.Scripts:CreateButton({
 })
 
 Tabs.Scripts:CreateButton({
-    Name = "Roblox Chat Filter Bypass Script",
+    Name = "UserCreated",
     Callback = function()
         Rayfield:Destroy()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/cheatplug/usercreated/refs/heads/main/main.lua'))()
