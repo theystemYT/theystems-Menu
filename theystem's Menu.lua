@@ -5,8 +5,6 @@ This code is made with ChatGPT.
 ]]
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 local MarketplaceService = game:GetService("MarketplaceService")
-local TeleportService = game:GetService("TeleportService")
-local HttpService = game:GetService("HttpService")
 
 local Window = Rayfield:CreateWindow({
     Name = "theystem's Menu",
@@ -27,8 +25,7 @@ local Tabs = {
     Scripts = Window:CreateTab("Universal Scripts", "terminal"),
     InterfaceSettings = Window:CreateTab("Interface Settings", "settings"),
     Contributions = Window:CreateTab("Contributions", "handshake"),
-    Credits = Window:CreateTab("Credits", "sparkles"),
-    ServerSettings = Window:CreateTab("Server Settings", "server-cog")
+    Credits = Window:CreateTab("Credits", "sparkles")
 }
 
 Tabs.Scripts:CreateButton({
@@ -212,35 +209,6 @@ Tabs.Contributions:CreateButton({
             Duration = 3,
             Image = "clipboard"
         })
-    end
-})
-
-Tabs.ServerSettings:CreateButton({
-    Name = "Server Hop",
-    Callback = function()
-        local servers = HttpService:JSONDecode(game:HttpGet("https://games.roblox.com/v1/games/"..game.PlaceId.."/servers/Public?sortOrder=Asc&limit=100"))
-        for _, v in pairs(servers.data) do
-            if v.playing < v.maxPlayers and v.id ~= game.JobId then
-                TeleportService:TeleportToPlaceInstance(game.PlaceId, v.id)
-                break
-            end
-        end
-    end
-})
-
-Tabs.ServerSettings:CreateButton({
-    Name = "Small Server",
-    Callback = function()
-        local servers = HttpService:JSONDecode(game:HttpGet("https://games.roblox.com/v1/games/"..game.PlaceId.."/servers/Public?sortOrder=Asc&limit=100"))
-        table.sort(servers.data, function(a, b)
-            return a.playing < b.playing
-        end)
-        for _, v in pairs(servers.data) do
-            if v.playing < v.maxPlayers and v.id ~= game.JobId then
-                TeleportService:TeleportToPlaceInstance(game.PlaceId, v.id)
-                break
-            end
-        end
     end
 })
 
