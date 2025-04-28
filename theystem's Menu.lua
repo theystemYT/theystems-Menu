@@ -213,23 +213,6 @@ Tabs.Contributions:CreateButton({
         })
     end
 })
-
-local function createGameSpecificTab(placeId, scriptInfo)
-    if game.PlaceId == placeId then
-        local success, info = pcall(function()
-            return MarketplaceService:GetProductInfo(placeId)
-        end)
-        if success and info then
-            local tab = Window:CreateTab(info.Name, "check")
-            for _, v in pairs(scriptInfo) do
-                tab:CreateButton({
-                    Name = v.Name,
-                    Callback = v.Callback
-                })
-            end
-        end
-    end
-end
 ServerSettings:CreateButton({
     Name = "Server Hop",
     Callback = function()
@@ -258,6 +241,24 @@ ServerSettings:CreateButton({
         end
     end
 })
+
+local function createGameSpecificTab(placeId, scriptInfo)
+    if game.PlaceId == placeId then
+        local success, info = pcall(function()
+            return MarketplaceService:GetProductInfo(placeId)
+        end)
+        if success and info then
+            local tab = Window:CreateTab(info.Name, "check")
+            for _, v in pairs(scriptInfo) do
+                tab:CreateButton({
+                    Name = v.Name,
+                    Callback = v.Callback
+                })
+            end
+        end
+    end
+end
+
 createGameSpecificTab(12137249458, {
     {
         Name = "Op Gui Script - coyx (ScriptBlox Script)",
