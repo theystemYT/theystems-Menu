@@ -26,7 +26,7 @@ local Tabs = {
     InterfaceSettings = Window:CreateTab("Interface Settings", "settings"),
     Contributions = Window:CreateTab("Contributions", "handshake"),
     Credits = Window:CreateTab("Credits", "sparkles")
-}
+}   ServerSettings = Window:CreateTab("Server Settings", "server-cog")
 
 Tabs.Scripts:CreateButton({
     Name = "starlight Server-Side Executor",
