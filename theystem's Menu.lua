@@ -28,7 +28,8 @@ local Tabs = {
     InterfaceSettings = Window:CreateTab("Interface Settings", "settings"),
     Contributions = Window:CreateTab("Contributions", "handshake"),
     Credits = Window:CreateTab("Credits", "sparkles"),
-}   ServerSettings = Window:CreateTab("Server Settings", "server-cog")
+    ServerSettings = Window:CreateTab("Server Settings", "server-cog")
+}
 
 Tabs.Scripts:CreateButton({
     Name = "starlight Server-Side Executor",
@@ -214,7 +215,7 @@ Tabs.Contributions:CreateButton({
     end
 })
 
-ServerSettings:CreateButton({
+Tabs.ServerSettings:CreateButton({
     Name = "Server Hop",
     Callback = function()
         local servers = HttpService:JSONDecode(game:HttpGet("https://games.roblox.com/v1/games/"..game.PlaceId.."/servers/Public?sortOrder=Asc&limit=100"))
@@ -227,7 +228,7 @@ ServerSettings:CreateButton({
     end
 })
 
-ServerSettings:CreateButton({
+Tabs.ServerSettings:CreateButton({
     Name = "Small Server",
     Callback = function()
         local servers = HttpService:JSONDecode(game:HttpGet("https://games.roblox.com/v1/games/"..game.PlaceId.."/servers/Public?sortOrder=Asc&limit=100"))
