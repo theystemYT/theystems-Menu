@@ -27,7 +27,7 @@ local Tabs = {
     Scripts = Window:CreateTab("Universal Scripts", "terminal"),
     InterfaceSettings = Window:CreateTab("Interface Settings", "settings"),
     Contributions = Window:CreateTab("Contributions", "handshake"),
-    Credits = Window:CreateTab("Credits", "sparkles")
+    Credits = Window:CreateTab("Credits", "sparkles"),
 }   ServerSettings = Window:CreateTab("Server Settings", "server-cog")
 
 Tabs.Scripts:CreateButton({
@@ -213,6 +213,7 @@ Tabs.Contributions:CreateButton({
         })
     end
 })
+
 ServerSettings:CreateButton({
     Name = "Server Hop",
     Callback = function()
