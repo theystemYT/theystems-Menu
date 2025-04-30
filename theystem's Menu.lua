@@ -27,6 +27,12 @@ local Tabs = {
     Contributions = Window:CreateTab("Contributions", "handshake"),
     Credits = Window:CreateTab("Credits", "sparkles")
 }
+Tabs.Scripts:CreateButton({
+    Name = "Delta Mobile Keyboard Script",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/Delta-Scripts/refs/heads/main/MobileKeyboard.txt"))()
+    end
+})
 
 Tabs.Scripts:CreateButton({
     Name = "starlight Server-Side Executor",
