@@ -25,7 +25,7 @@ Here is an example:
 <details>
   <summary>List of Supported Games</summary>
 
-- Doors
+- DOORS 👁
 - [FPS] Gun Grounds FFA
 - Natural Disaster Survival
 - Murder Mystery 2 or any game that is Murder Mystery 2 but modified or changed in some way. (This game isn't a supported games tab, but the script is called "YARHM" and it's in the Universal scripts tab)
