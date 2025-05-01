@@ -28,7 +28,7 @@ local Tabs = {
     Credits = Window:CreateTab("Credits", "sparkles")
 }
 Tabs.Scripts:CreateButton({
-    Name = "LALOL Hub Backdoor Without Hint",
+    Name = "LALOL Hub Without Hint",
     Callback = function()
         loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-LALOL-hub-without-hint-19587"))()
     end
