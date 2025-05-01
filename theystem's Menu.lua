@@ -28,6 +28,13 @@ local Tabs = {
     Credits = Window:CreateTab("Credits", "sparkles")
 }
 Tabs.Scripts:CreateButton({
+    Name = "LALOL Hub Backdoor Without Hint",
+    Callback = function()
+        loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-LALOL-hub-without-hint-19587"))()
+    end
+})
+
+Tabs.Scripts:CreateButton({
     Name = "Delta Mobile Keyboard Script",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/Delta-Scripts/refs/heads/main/MobileKeyboard.txt"))()
