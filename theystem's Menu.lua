@@ -31,17 +31,18 @@ Tabs.Scripts:CreateButton({
     Name = "Gunfight Arena Script",
     Callback = function()
         local weapons = game.ReplicatedStorage:FindFirstChild("Weapons")
-            if not weapons then
-                Rayfield:Notify({
-                    Title = "Weapons Not Found",
-                    Content = "Weapons couldn't be found in ReplicatedStorage. Join Gunfight Arena for this script to work properly.",
-                    Image = "circle-help",
-                    Duration = 5
-                })
-                return
-            end
-            loadstring(game:HttpGet("https://rawscripts.net/raw/Gunfight-Arena-Script-31232"))()
+        if not weapons then
+            Rayfield:Notify({
+                Title = "Weapons Not Found",
+                Content = "Weapons couldn't be found in ReplicatedStorage. Join Gunfight Arena for this script to work properly.",
+                Image = "circle-help",
+                Duration = 5
+            })
+            return
         end
+        loadstring(game:HttpGet("https://rawscripts.net/raw/Gunfight-Arena-Script-31232"))()
+    end
+})
 
 Tabs.Scripts:CreateButton({
     Name = "LALOL Hub Without Hint",
