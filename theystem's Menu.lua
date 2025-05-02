@@ -252,7 +252,7 @@ createGameSpecificTab(12137249458, {
     }
 })
 
-createGameSpecificTab(11879883939, {
+createGameSpecificTab(14518422161, {
     {
         Name = "Gunfight Arena Script",
         Callback = function()
