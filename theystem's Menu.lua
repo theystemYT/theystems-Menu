@@ -29,8 +29,6 @@ local Tabs = {
     Contributions = Window:CreateTab("Contributions", "handshake"),
     Credits = Window:CreateTab("Credits", "sparkles")
 }
-Tabs.Scripts:CreateLabel("Supported Executors: Delta, Awp (Recommended), Wave and others... Supported Games: Rivals", info, Color3.fromRGB(255, 255, 0), true)
-
 Tabs.Scripts:CreateButton({
     Name = "Duck Hub (🎉 RIVALS Script) (Key System)",
     Callback = function()
