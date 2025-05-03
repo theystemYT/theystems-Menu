@@ -12,8 +12,10 @@ local Window = Rayfield:CreateWindow({
     LoadingTitle = "Loading theystem's Menu...",
     LoadingSubtitle = "Credits are in Credits Tab",
     Theme = "AmberGlow",
+    
     DisableRayfieldPrompts = false,
     DisableBuildWarnings = false,
+    
     ConfigurationSaving = {
         Enabled = true,
         FolderName = "theystem's Menu Configuration Saving",
