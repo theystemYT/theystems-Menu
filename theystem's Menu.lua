@@ -174,7 +174,7 @@ Tabs.InterfaceSettings:CreateButton({
     end
 })
 
-InterfaceSettings:CreateToggle({
+Tabs.InterfaceSettings:CreateToggle({
    Name = "Load Rayfield Configuration",
    CurrentValue = false,
    Flag = "Load Rayfield Configuration Toggle",
