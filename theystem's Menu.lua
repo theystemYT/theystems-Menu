@@ -174,20 +174,6 @@ Tabs.InterfaceSettings:CreateButton({
     end
 })
 
-Tabs.InterfaceSettings:CreateToggle({
-   Name = "Load Rayfield Configuration",
-   CurrentValue = true,
-   Flag = "Load Rayfield Configuration Toggle",
-   Callback = function(Value)
-      if Value then
-         Rayfield:LoadConfiguration()
-         Rayfield:Destroy()
-      else
-         Rayfield:Destroy()
-      end
-   end,
-})
-
 Tabs.Credits:CreateButton({
     Name = "Copy YouTube Channel Link",
     Callback = function()
