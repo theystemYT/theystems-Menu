@@ -176,7 +176,7 @@ Tabs.InterfaceSettings:CreateButton({
 
 Tabs.InterfaceSettings:CreateToggle({
    Name = "Load Rayfield Configuration",
-   CurrentValue = false,
+   CurrentValue = true,
    Flag = "Load Rayfield Configuration Toggle",
    Callback = function(Value)
       if Value then
