@@ -8,7 +8,7 @@ local MarketplaceService = game:GetService("MarketplaceService")
 
 local Window = Rayfield:CreateWindow({
     Name = "theystem's Menu",
-    Icon = "square-terminal",
+    Icon = 0,
     LoadingTitle = "Loading theystem's Menu...",
     LoadingSubtitle = "Credits are in Credits Tab",
     Theme = "AmberGlow",
