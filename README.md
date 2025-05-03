@@ -13,7 +13,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/theystemYT/theystems-
 ```
 # Features of theystem's Menu
 - **Universal Scripts Tab**: Has Universal scripts that work in most games.
-- **Interface Settings**: Allows you to destroy the interface and change the theme of the interface.
+- **Interface Settings**: Allows you to destroy the interface and allows you to your load rayfield configuration or not.
 - **Credits**: Has buttons that allows you to copy the links for my accounts to reach me.
 - **Contributions**: Allows you to send requests in Google Forms by getting the link though the button in the script and sending a request for something you want in theystem's Menu.
 > [!NOTE]
