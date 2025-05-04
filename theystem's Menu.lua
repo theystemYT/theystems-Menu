@@ -33,6 +33,8 @@ Tabs.Scripts:CreateButton({
     Name = "Duck Hub (🎉 RIVALS Script) (Key System)",
     Callback = function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/HexFG/duckhub/refs/heads/main/loader.lua'))()
+    end
+})
 
 Tabs.Scripts:CreateButton({
     Name = "Gunfight Arena Script",
@@ -387,5 +389,4 @@ createGameSpecificTab(16389395869, {
         end
     }
 })
-
 Window:SelectTab(Tabs.Scripts)
