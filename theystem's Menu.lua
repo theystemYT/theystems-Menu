@@ -174,14 +174,14 @@ Tabs.Scripts:CreateButton({
     end
 })
 
-Tabs.InterfaceSettings:CreateButton({
+Tabs.UISettings:CreateButton({
     Name = "Destroy UI",
     Callback = function()
         Rayfield:Destroy()
     end
 })
 
-Tabs.InterfaceSettings:CreateDropdown({
+Tabs.UISettings:CreateDropdown({
     Name = "Select UI Theme",
     Options = {"Default", "AmberGlow", "Amethyst", "Bloom", "Dark Blue", "Green", "Ocean", "Light", "Serenity"},
     CurrentOption = {"AmberGlow"},
