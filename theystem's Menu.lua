@@ -12,10 +12,10 @@ local Window = Rayfield:CreateWindow({
     LoadingTitle = "Loading theystem's Menu...",
     LoadingSubtitle = "Credits are in Credits Tab",
     Theme = "AmberGlow",
-    
+
     DisableRayfieldPrompts = false,
     DisableBuildWarnings = false,
-    
+
     ConfigurationSaving = {
         Enabled = true,
         FolderName = "theystem's Menu Configuration Saving",
@@ -190,7 +190,9 @@ Tabs.UISettings:CreateDropdown({
     Callback = function(Options)
         local selected = Options[1]
         local selectedTheme
-        if selected == "Dark Blue" then
+        if selected == "Amber Glow" then
+            selectedTheme = "AmberGlow"
+        elseif selected == "Dark Blue" then
             selectedTheme = "DarkBlue"
         else
             selectedTheme = selected
