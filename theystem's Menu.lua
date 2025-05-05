@@ -182,8 +182,8 @@ Tabs.UISettings:CreateButton({
 })
 Tabs.UISettings:CreateParagraph({
     Title = "Note",
-    Content = "When changing the UI theme, keep in mind that Default doesn't put the default theme from the script back. Only AmberGlow does."
-
+    Content = "When changing the theme of this script, note that Default does not set the script to it's original theme. Only Amber Glow does."
+)}
 Tabs.UISettings:CreateDropdown({
     Name = "Select UI Theme",
     Options = {"Default", "Amber Glow", "Amethyst", "Bloom", "Dark Blue", "Green", "Ocean", "Light", "Serenity"},
