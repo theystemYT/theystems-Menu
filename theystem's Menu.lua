@@ -205,16 +205,9 @@ Tabs.UISettings:CreateDropdown({
 Tabs.UISettings:CreateButton({
     Name = "Load Rayfield Configuration",
     Callback = function()
-        Rayfield:Notify({
-            Title = "Rayfield Configurations",
-            Content = "Configuration has been loaded.",
-            Duration = 3,
-            Image = "4384403532"
-        })
         Rayfield:LoadConfiguration()
     end
 })
-
 
 Tabs.Credits:CreateButton({
     Name = "Copy YouTube Channel Link",
