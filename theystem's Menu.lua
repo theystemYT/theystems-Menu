@@ -182,7 +182,7 @@ Tabs.InterfaceSettings:CreateButton({
 })
 
 Tabs.InterfaceSettings:CreateDropdown({
-    Name = "Select Theme",
+    Name = "Select Interface Theme",
     Options = {"Default", "AmberGlow", "Amethyst", "Bloom", "Dark Blue", "Green", "Ocean", "Light", "Serenity"},
     CurrentOption = {"AmberGlow"},
     MultipleOptions = false,
