@@ -14,8 +14,6 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/theystemYT/theystems-
 # Features of theystem's Menu
 - **Universal Scripts**: Has Universal scripts that work in most games.
 - **UI Settings**: Allows you to destroy the UI and change the UI's theme. Also allows you to load your Rayfield Configuration.
-> [!NOTE]
-> When changing the theme of this script, note that "Default" does not set the script to it's original theme. Only "Amber Glow" does.
 - **Credits**: Has buttons that allows you to copy the links for my accounts to reach me.
 - **Contributions**: Allows you to send requests in Google Forms by getting the link though the button in the script and sending a request for something you want in theystem's Menu.
 > [!NOTE]
