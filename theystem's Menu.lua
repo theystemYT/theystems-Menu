@@ -25,7 +25,7 @@ local Window = Rayfield:CreateWindow({
 
 local Tabs = {
     Scripts = Window:CreateTab("Universal Scripts", "terminal"),
-    InterfaceSettings = Window:CreateTab("Interface Settings", "settings"),
+    InterfaceSettings = Window:CreateTab("UI Settings", "settings"),
     Contributions = Window:CreateTab("Contributions", "handshake"),
     Credits = Window:CreateTab("Credits", "sparkles")
 }
@@ -175,14 +175,14 @@ Tabs.Scripts:CreateButton({
 })
 
 Tabs.InterfaceSettings:CreateButton({
-    Name = "Destroy Interface",
+    Name = "Destroy UI",
     Callback = function()
         Rayfield:Destroy()
     end
 })
 
 Tabs.InterfaceSettings:CreateDropdown({
-    Name = "Select Interface Theme",
+    Name = "Select UI Theme",
     Options = {"Default", "AmberGlow", "Amethyst", "Bloom", "Dark Blue", "Green", "Ocean", "Light", "Serenity"},
     CurrentOption = {"AmberGlow"},
     MultipleOptions = false,
