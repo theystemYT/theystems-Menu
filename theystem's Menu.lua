@@ -183,15 +183,15 @@ Tabs.InterfaceSettings:CreateButton({
 
 Tabs.InterfaceSettings:CreateDropdown({
     Name = "Select Theme",
-    Options = {"Default (AmberGlow)", "Amethyst", "Bloom", "Dark Blue", "Green", "Ocean", "Light", "Serenity"},
-    CurrentOption = {"Default (AmberGlow)"},
+    Options = {"Default", "AmberGlow", "Amethyst", "Bloom", "Dark Blue", "Green", "Ocean", "Light", "Serenity"},
+    CurrentOption = {"AmberGlow"},
     MultipleOptions = false,
     Flag = "SelectThemeDropdown",
     Callback = function(Options)
         local selected = Options[1]
         local normalizedTheme
 
-        if selected == "Default (AmberGlow)" then
+        if selected == "Default" then
             normalizedTheme = "Default"
         elseif selected == "Dark Blue" then
             normalizedTheme = "DarkBlue"
