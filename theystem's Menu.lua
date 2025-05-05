@@ -181,11 +181,6 @@ Tabs.UISettings:CreateButton({
     end
 })
 
-Tabs.UISettings:CreateParagraph({
-    Title = "Note",
-    Content = "When changing the theme of this script, note that Default does not set the script to it's original theme. Only Amber Glow does."
-})
-
 Tabs.UISettings:CreateDropdown({
     Name = "Select UI Theme",
     Options = {"Default", "Amber Glow", "Amethyst", "Bloom", "Dark Blue", "Green", "Ocean", "Light", "Serenity"},
@@ -205,6 +200,19 @@ Tabs.UISettings:CreateDropdown({
 
         Window.ModifyTheme(selectedTheme)
     end,
+})
+
+Tabs.UISettings:CreateButton({
+    Name = "Load Rayfield Configuration",
+    Callback = function()
+        Rayfield:LoadConfiguration()
+        Rayfield:Notify({
+            Title = "Configuration",
+            Content = "Configuration has been loaded.",
+            Duration = 3,
+            Image = "file-check"
+        })
+    end
 })
 
 Tabs.Credits:CreateButton({
