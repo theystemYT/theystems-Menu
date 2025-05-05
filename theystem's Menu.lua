@@ -175,7 +175,7 @@ Tabs.Scripts:CreateButton({
 })
 
 Tabs.InterfaceSettings:CreateButton({
-    Name = "Destroy UI",
+    Name = "Destroy Interface",
     Callback = function()
         Rayfield:Destroy()
     end
@@ -190,7 +190,6 @@ Tabs.InterfaceSettings:CreateDropdown({
     Callback = function(Options)
         local selected = Options[1]
         local selectedTheme
-
         if selected == "Dark Blue" then
             selectedTheme = "DarkBlue"
         else
