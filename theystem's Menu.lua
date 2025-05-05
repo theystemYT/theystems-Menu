@@ -91,7 +91,7 @@ Tabs.Scripts:CreateButton({
 Tabs.Scripts:CreateButton({
     Name = "Copy Key for UserCreated",
     Callback = function()
-        setclipboard("neverpatched33")
+        setclipboard("V2ishere")
         Rayfield:Notify({
             Title = "Key",
             Content = "Key has been copied to your clipboard successfully.",
@@ -105,7 +105,7 @@ Tabs.Scripts:CreateButton({
     Name = "UserCreated",
     Callback = function()
         Rayfield:Destroy()
-        loadstring(game:HttpGet('https://raw.githubusercontent.com/cheatplug/usercreated/refs/heads/main/main.lua'))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/randomizedcomponent/UC/refs/heads/main/3307468c285f4fe535fb5d87b4b053e6.lua"))()
     end
 })
 
@@ -179,6 +179,39 @@ Tabs.InterfaceSettings:CreateButton({
     Callback = function()
         Rayfield:Destroy()
     end
+})
+
+Tabs.InterfaceSettings:CreateDropdown({
+    Name = "Select Theme",
+    Options = {"Default (AmberGlow)", "Amethyst", "Bloom", "Dark Blue", "Green", "Ocean", "Light", "Serenity"},
+    CurrentOption = {"Default (AmberGlow)"},
+    MultipleOptions = false,
+    Flag = "SelectThemeDropdown",
+    Callback = function(Options)
+        local selected = Options[1]
+        local normalizedTheme
+
+        if selected == "Default (AmberGlow)" then
+            normalizedTheme = "Default"
+        elseif selected == "Dark Blue" then
+            normalizedTheme = "DarkBlue"
+        else
+            normalizedTheme = selected
+        end
+
+        if Window.CurrentTheme == normalizedTheme then
+            Rayfield:Notify({
+                Title = "Themes",
+                Content = "This theme is already selected! Use a different theme.",
+                Image = "circle-alert",
+                Duration = 5
+            })
+            return
+        end
+
+        Window.ModifyTheme(normalizedTheme)
+        Window.CurrentTheme = normalizedTheme
+    end,
 })
 
 Tabs.Credits:CreateButton({
