@@ -209,7 +209,7 @@ Tabs.UISettings:CreateButton({
     end
 })
 
-UISettings:CreateToggle({
+Tabs.UISettings:CreateToggle({
    Name = "Always Load Rayfield Configuration",
    CurrentValue = false,
    Flag = "AlwaysLoadRayfieldConfigurationToggle",
