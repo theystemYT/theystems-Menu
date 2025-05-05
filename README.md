@@ -27,7 +27,7 @@ Here is an example:
 <details>
   <summary>List of Supported Games</summary>
 
-- DOORS 👁
+- DOORS 
 - [FPS] Gun Grounds FFA
 - Natural Disaster Survival
 - Murder Mystery 2 or any game that is Murder Mystery 2 but modified or changed in some way. (This game isn't a supported games tab, but the script is called "YARHM" and it's in the Universal scripts tab)
@@ -35,12 +35,13 @@ Here is an example:
 - Gunfight Arena (In Universal Scripts Tab)
 - OPPOSER VR [Alpha]
 - Classic Hangman
-- [MARBLES!] Shrimp Game
+- Shrimp Game
 - Jujutsu Shenanigans
-- [💥RPG] Life Sentence
-- [🎉NEW] Drain City
-- 🍀Hard Time
-- a dusty trip [🚗QUEST]
+- Life Sentence
+- Drain City
+- Hard Time
+- a dusty trip
+- RIVALS (In Universal Scripts Tab) (Has Key System)
 </details>
 
 # Notes
