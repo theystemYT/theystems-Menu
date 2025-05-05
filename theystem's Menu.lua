@@ -189,26 +189,15 @@ Tabs.InterfaceSettings:CreateDropdown({
     Flag = "SelectThemeDropdown",
     Callback = function(Options)
         local selected = Options[1]
-        local normalizedTheme
+        local selectedTheme
 
         if selected == "Dark Blue" then
-            normalizedTheme = "DarkBlue"
+            selectedTheme = "DarkBlue"
         else
-            normalizedTheme = selected
+            selectedTheme = selected
         end
 
-        if Window.CurrentTheme == normalizedTheme then
-            Rayfield:Notify({
-                Title = "Themes",
-                Content = "This theme is already selected! Use a different theme.",
-                Image = "circle-alert",
-                Duration = 5
-            })
-            return
-        end
-
-        Window.ModifyTheme(normalizedTheme)
-        Window.CurrentTheme = normalizedTheme
+        Window.ModifyTheme(selectedTheme)
     end,
 })
 
