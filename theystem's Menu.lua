@@ -180,6 +180,7 @@ Tabs.UISettings:CreateButton({
         Rayfield:Destroy()
     end
 })
+
 Tabs.UISettings:CreateParagraph({
     Title = "Note",
     Content = "When changing the theme of this script, note that Default does not set the script to it's original theme. Only Amber Glow does."
