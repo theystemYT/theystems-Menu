@@ -191,9 +191,7 @@ Tabs.InterfaceSettings:CreateDropdown({
         local selected = Options[1]
         local normalizedTheme
 
-        if selected == "Default" then
-            normalizedTheme = "Default"
-        elseif selected == "Dark Blue" then
+        if selected == "Dark Blue" then
             normalizedTheme = "DarkBlue"
         else
             normalizedTheme = selected
