@@ -25,7 +25,7 @@ local Window = Rayfield:CreateWindow({
 
 local Tabs = {
     Scripts = Window:CreateTab("Universal Scripts", "terminal"),
-    InterfaceSettings = Window:CreateTab("UI Settings", "settings"),
+    UISettings = Window:CreateTab("UI Settings", "settings"),
     Contributions = Window:CreateTab("Contributions", "handshake"),
     Credits = Window:CreateTab("Credits", "sparkles")
 }
@@ -180,6 +180,9 @@ Tabs.UISettings:CreateButton({
         Rayfield:Destroy()
     end
 })
+Tabs.UISettings:CreateParagraph({
+    Title = "Note",
+    Content = "When changing the UI theme, keep in mind that Default doesn't put the default theme from the script back. Only AmberGlow does."
 
 Tabs.UISettings:CreateDropdown({
     Name = "Select UI Theme",
