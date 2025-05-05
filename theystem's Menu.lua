@@ -207,10 +207,10 @@ Tabs.UISettings:CreateButton({
     Callback = function()
         Rayfield:LoadConfiguration()
         Rayfield:Notify({
-            Title = "Configuration",
-            Content = "Configuration has been loaded.",
+            Title = "Rayfield Configurations",
+            Content = "Configuration has been loaded. If the configuration isn't loaded, try to press this button again.",
             Duration = 3,
-            Image = "file-check"
+            Image = "4384403532"
         })
     end
 })
