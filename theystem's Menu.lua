@@ -183,8 +183,8 @@ Tabs.UISettings:CreateButton({
 
 Tabs.UISettings:CreateDropdown({
     Name = "Select UI Theme",
-    Options = {"Default", "AmberGlow", "Amethyst", "Bloom", "Dark Blue", "Green", "Ocean", "Light", "Serenity"},
-    CurrentOption = {"AmberGlow"},
+    Options = {"Default", "Amber Glow", "Amethyst", "Bloom", "Dark Blue", "Green", "Ocean", "Light", "Serenity"},
+    CurrentOption = {"Amber Glow"},
     MultipleOptions = false,
     Flag = "SelectThemeDropdown",
     Callback = function(Options)
