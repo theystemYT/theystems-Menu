@@ -82,13 +82,6 @@ Tabs.Scripts:CreateButton({
 })
 
 Tabs.Scripts:CreateButton({
-    Name = "Dex",
-    Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/zzerexx/Dex/refs/heads/master/main.lua"))()
-    end
-})
-
-Tabs.Scripts:CreateButton({
     Name = "Copy Key for UserCreated",
     Callback = function()
         setclipboard("V2ishere")
