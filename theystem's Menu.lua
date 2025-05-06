@@ -408,4 +408,15 @@ createGameSpecificTab(16389395869, {
         end
     }
 })
+
+createGameSpecificTab(15787925600, {
+    {
+        Name = "some open source script i made myself with rayfield (Not Made By Me)",
+        Callback = function()
+            Rayfield:Destroy()
+            loadstring(game:HttpGet("https://rawscripts.net/raw/FORTLINE-script-24269"))()
+        end
+    }
+})
+
 Window:SelectTab(Tabs.Scripts)
