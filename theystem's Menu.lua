@@ -183,23 +183,14 @@ Tabs.UISettings:CreateButton({
 
 Tabs.UISettings:CreateDropdown({
     Name = "Select UI Theme",
-    Options = {"Default", "Amber Glow", "Amethyst", "Bloom", "Dark Blue", "Green", "Ocean", "Light", "Serenity"},
-    CurrentOption = {"Amber Glow"},
+    Options = {"Default", "AmberGlow", "Amethyst", "Bloom", "DarkBlue", "Green", "Ocean", "Light", "Serenity"},
+    CurrentOption = {"AmberGlow"},
     MultipleOptions = false,
     Flag = "SelectThemeDropdown",
     Callback = function(Options)
-        local selected = Options[1]
-        local selectedTheme
-        if selected == "Amber Glow" then
-            selectedTheme = "AmberGlow"
-        elseif selected == "Dark Blue" then
-            selectedTheme = "DarkBlue"
-        else
-            selectedTheme = selected
-        end
-
+        local selectedTheme = Options[1]
         Window.ModifyTheme(selectedTheme)
-    end,
+    end
 })
 
 Tabs.UISettings:CreateButton({
