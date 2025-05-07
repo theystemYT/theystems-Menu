@@ -1154,7 +1154,7 @@ local function Hide(notify: boolean?)
 		if useMobilePrompt then 
 			RayfieldLibrary:Notify({Title = "Interface Hidden", Content = "The interface has been hidden, you can unhide the interface by tapping 'Show theystem's Menu'.", Duration = 7, Image = 4400697855})
 		else
-			RayfieldLibrary:Notify({Title = "Interface Hidden", Content = `The interface has been hidden, you can unhide the interface by tapping {settingsTable.General.rayfieldOpen.Value or 'K'}.`, Duration = 7, Image = 4400697855})
+			RayfieldLibrary:Notify({Title = "Interface Hidden", Content = "The interface has been hidden, you can unhide the interface by tapping {settingsTable.General.rayfieldOpen.Value or 'K'}.`, Duration = 7, Image = 4400697855})
 		end
 	end
 
@@ -2053,7 +2053,7 @@ function RayfieldLibrary:CreateWindow(Settings)
 					TweenService:Create(Button, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundColor3 = Color3.fromRGB(85, 0, 0)}):Play()
 					TweenService:Create(Button.ElementIndicator, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {TextTransparency = 1}):Play()
 					TweenService:Create(Button.UIStroke, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
-					Button.Title.Text = "Callback Error"
+					Button.Title.Text = "Callback Error, please wait until fixed or game isn't supported. (More info avaliable in Console)"
 					print("Rayfield | "..ButtonSettings.Name.." Callback Error " ..tostring(Response))
 					warn('Check docs.sirius.menu for help with Rayfield specific development.')
 					task.wait(0.5)
@@ -2557,7 +2557,7 @@ function RayfieldLibrary:CreateWindow(Settings)
 				if not Success then
 					TweenService:Create(Input, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundColor3 = Color3.fromRGB(85, 0, 0)}):Play()
 					TweenService:Create(Input.UIStroke, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
-					Input.Title.Text = "Callback Error"
+					Input.Title.Text = "Callback Error, please wait until fixed. (More info avaliable in Console)"
 					print("Rayfield | "..InputSettings.Name.." Callback Error " ..tostring(Response))
 					warn('Check docs.sirius.menu for help with Rayfield specific development.')
 					task.wait(0.5)
@@ -2797,7 +2797,7 @@ function RayfieldLibrary:CreateWindow(Settings)
 						if not Success then
 							TweenService:Create(Dropdown, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundColor3 = Color3.fromRGB(85, 0, 0)}):Play()
 							TweenService:Create(Dropdown.UIStroke, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
-							Dropdown.Title.Text = "Callback Error"
+							Dropdown.Title.Text = "Callback Error, please wait until fixed. (More info avaliable in Console)"
 							print("Rayfield | "..DropdownSettings.Name.." Callback Error " ..tostring(Response))
 							warn('Check docs.sirius.menu for help with Rayfield specific development.')
 							task.wait(0.5)
@@ -2887,7 +2887,7 @@ function RayfieldLibrary:CreateWindow(Settings)
 				if not Success then
 					TweenService:Create(Dropdown, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundColor3 = Color3.fromRGB(85, 0, 0)}):Play()
 					TweenService:Create(Dropdown.UIStroke, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
-					Dropdown.Title.Text = "Callback Error"
+					Dropdown.Title.Text = "Callback Error, please wait until fixed. (More info avaliable in Console)"
 					print("Rayfield | "..DropdownSettings.Name.." Callback Error " ..tostring(Response))
 					warn('Check docs.sirius.menu for help with Rayfield specific development.')
 					task.wait(0.5)
@@ -3008,7 +3008,7 @@ function RayfieldLibrary:CreateWindow(Settings)
 						if not Success then
 							TweenService:Create(Keybind, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundColor3 = Color3.fromRGB(85, 0, 0)}):Play()
 							TweenService:Create(Keybind.UIStroke, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
-							Keybind.Title.Text = "Callback Error"
+							Keybind.Title.Text = "Callback Error, please wait until fixed. (More info avaliable in Console)"
 							print("Rayfield | "..KeybindSettings.Name.." Callback Error " ..tostring(Response))
 							warn('Check docs.sirius.menu for help with Rayfield specific development.')
 							task.wait(0.5)
@@ -3138,7 +3138,7 @@ function RayfieldLibrary:CreateWindow(Settings)
 				if not Success then
 					TweenService:Create(Toggle, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundColor3 = Color3.fromRGB(85, 0, 0)}):Play()
 					TweenService:Create(Toggle.UIStroke, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
-					Toggle.Title.Text = "Callback Error"
+					Toggle.Title.Text = "Callback Error, please wait until fixed. (More info avaliable in Console)"
 					print("Rayfield | "..ToggleSettings.Name.." Callback Error " ..tostring(Response))
 					warn('Check docs.sirius.menu for help with Rayfield specific development.')
 					task.wait(0.5)
@@ -3188,7 +3188,7 @@ function RayfieldLibrary:CreateWindow(Settings)
 				if not Success then
 					TweenService:Create(Toggle, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundColor3 = Color3.fromRGB(85, 0, 0)}):Play()
 					TweenService:Create(Toggle.UIStroke, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
-					Toggle.Title.Text = "Callback Error"
+					Toggle.Title.Text = "Callback Error, please wait until fixed or game isn't supported. (More info avaliable in Console)"
 					print("Rayfield | "..ToggleSettings.Name.." Callback Error " ..tostring(Response))
 					warn('Check docs.sirius.menu for help with Rayfield specific development.')
 					task.wait(0.5)
@@ -3371,7 +3371,7 @@ function RayfieldLibrary:CreateWindow(Settings)
 				if not Success then
 					TweenService:Create(Slider, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundColor3 = Color3.fromRGB(85, 0, 0)}):Play()
 					TweenService:Create(Slider.UIStroke, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Transparency = 1}):Play()
-					Slider.Title.Text = "Callback Error"
+					Slider.Title.Text = "Callback Error, please wait until fixed. (More info avaliable in Console)"
 					print("Rayfield | "..SliderSettings.Name.." Callback Error " ..tostring(Response))
 					warn('Check docs.sirius.menu for help with Rayfield specific development.')
 					task.wait(0.5)
@@ -3924,3 +3924,4 @@ task.delay(4, function()
 end)
 
 return RayfieldLibrary
+				
