@@ -31,14 +31,15 @@ local Tabs = {
     Credits = Window:CreateTab("Credits", "sparkles")
 }
 Tabs.Scripts:CreateButton({
-    Name = "Force Reset Charecter",
+    Name = "Force Reset Character",
     Callback = function()
         plr.Character.Humanoid:TakeDamage(plr.Character.Humanoid.Health)
-            Rayfield:Notify({
-                Title = "Force Reset",
-                Content = "Resetted charecter!",
-                Duration = 1,
-                Image = "refresh-cw",
+        Rayfield:Notify({
+            Title = "Force Reset",
+            Content = "Reset character!",
+            Duration = 1,
+            Image = "refresh-cw"
+        })
     end
 })
 
