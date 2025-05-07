@@ -5,6 +5,7 @@ This code is made with ChatGPT.
 ]]
 local Rayfield = loadstring(game:HttpGet("https://raw.githubusercontent.com/theystemYT/theystems-Menu/refs/heads/main/Rayfield%20Source%20Code%20(modified%20for%20theystem's%20Menu).lua"))()
 local MarketplaceService = game:GetService("MarketplaceService")
+local plr = players.LocalPlayer
 
 local Window = Rayfield:CreateWindow({
     Name = "theystem's Menu",
@@ -29,6 +30,18 @@ local Tabs = {
     Contributions = Window:CreateTab("Contributions", "handshake"),
     Credits = Window:CreateTab("Credits", "sparkles")
 }
+Tabs.Scripts:CreateButton({
+    Name = "Force Reset Charecter",
+    Callback = function()
+        plr.Character.Humanoid:TakeDamage(plr.Character.Humanoid.Health)
+            Rayfield:Notify({
+                Title = "Force Reset",
+                Content = "Resetted charecter!",
+                Duration = 1,
+                Image = "refresh-cw",
+    end
+})
+
 Tabs.Scripts:CreateButton({
     Name = "Hydra VIP Script (FORTLINE)",
     Callback = function()
