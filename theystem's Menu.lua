@@ -37,10 +37,10 @@ Tabs.Scripts:CreateButton({
         if plr.Character and plr.Character:FindFirstChild("Humanoid") then
             plr.Character.Humanoid:TakeDamage(plr.Character.Humanoid.Health)
             Rayfield:Notify({
-                Title = "Force Reset",
-                Content = "Done!",
+                Title = "Force Reset Charecter",
+                Content = "Force resetted character.",
                 Duration = 1,
-                Image = 4483362458,
+                Image = "refresh-cw",
             })
         end
     end,
