@@ -30,6 +30,14 @@ local Tabs = {
     Credits = Window:CreateTab("Credits", "sparkles")
 }
 Tabs.Scripts:CreateButton({
+    Name = "Hydra VIP Script (FORTLINE),
+    Callback = function()
+        Rayfield:Destroy()
+        loadstring(game:HttpGet("https://rawscripts.net/raw/FORTLINE-Hydra-VIP-Script-36769"))()
+    end
+})
+
+Tabs.Scripts:CreateButton({
     Name = "Duck Hub (🎉 RIVALS Script) (Key System)",
     Callback = function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/HexFG/duckhub/refs/heads/main/loader.lua'))()
@@ -398,16 +406,6 @@ createGameSpecificTab(16389395869, {
         Callback = function()
             Rayfield:Destroy()
             loadstring(game:HttpGet("https://raw.githubusercontent.com/aemos2/Skibidihub/refs/heads/main/SkibidiHUB.txt"))()
-        end
-    }
-})
-
-createGameSpecificTab(15787925600, {
-    {
-        Name = "some open source script i made myself with rayfield (Not Made By Me)",
-        Callback = function()
-            Rayfield:Destroy()
-            loadstring(game:HttpGet("https://rawscripts.net/raw/FORTLINE-script-24269"))()
         end
     }
 })
