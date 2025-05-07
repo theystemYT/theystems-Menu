@@ -3,7 +3,7 @@ theystem's Menu | Made with Rayfield Library
 The repository with this script has a copyright license, so do not try to steal the code.
 This code is made with ChatGPT.
 ]]
-local Rayfield = loadstring(game:HttpGet("https://raw.githubusercontent.com/theystemYT/theystems-Menu/refs/heads/main/Rayfield%20Source%20Code%20(modified%20for%20theystem's%20Menu).lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/theystemYT/theystems-Menu/refs/heads/main/Rayfield%20Source%20Code%20(modified%20for%20theystem's%20Menu).lua"))()
 local MarketplaceService = game:GetService("MarketplaceService")
 
 local Window = Rayfield:CreateWindow({
