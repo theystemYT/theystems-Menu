@@ -1141,7 +1141,7 @@ local function Hide(notify: boolean?)
 		MPrompt.Title.Text = "Show theystem's Menu"
    MPrompt.Title.TextColor3 = Color3.fromRGB(255, 255, 255)
 		MPrompt.Position = UDim2.new(0.5, 0, 0, -50)
-		MPrompt.Size = UDim2.new(0, 40, 0, 10)
+		MPrompt.Size = UDim2.new(0, 180, 0, 10)
 		MPrompt.BackgroundTransparency = 1
 		MPrompt.Title.TextTransparency = 1
 		MPrompt.Visible = true
