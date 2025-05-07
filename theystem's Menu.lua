@@ -30,7 +30,7 @@ local Tabs = {
     Credits = Window:CreateTab("Credits", "sparkles")
 }
 Tabs.Scripts:CreateButton({
-    Name = "Hydra VIP Script (FORTLINE),
+    Name = "Hydra VIP Script (FORTLINE)",
     Callback = function()
         Rayfield:Destroy()
         loadstring(game:HttpGet("https://rawscripts.net/raw/FORTLINE-Hydra-VIP-Script-36769"))()
