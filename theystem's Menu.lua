@@ -32,6 +32,21 @@ local Tabs = {
     Credits = Window:CreateTab("Credits", "sparkles")
 }
 Tabs.Scripts:CreateButton({
+    Name = "Force Reset Character",
+    Callback = function()
+        if plr.Character and plr.Character:FindFirstChild("Humanoid") then
+            plr.Character.Humanoid:TakeDamage(plr.Character.Humanoid.Health)
+            Rayfield:Notify({
+                Title = "Force Reset",
+                Content = "Done!",
+                Duration = 1,
+                Image = 4483362458,
+            })
+        end
+    end,
+})
+
+Tabs.Scripts:CreateButton({
     Name = "Hydra VIP Script (FORTLINE)",
     Callback = function()
         Rayfield:Destroy()
