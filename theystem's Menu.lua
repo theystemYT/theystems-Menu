@@ -6,7 +6,7 @@ This code is made with ChatGPT.
 local Rayfield = loadstring(game:HttpGet("https://raw.githubusercontent.com/theystemYT/theystems-Menu/refs/heads/main/Rayfield%20Source%20Code%20(modified%20for%20theystem's%20Menu).lua"))()
 local MarketplaceService = game:GetService("MarketplaceService")
 local Players = game:GetService("Players")
-local plr = players.LocalPlayer
+local plr = Players.LocalPlayer
 
 local Window = Rayfield:CreateWindow({
     Name = "theystem's Menu",
