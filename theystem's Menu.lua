@@ -5,6 +5,7 @@ This code is made with ChatGPT.
 ]]
 local Rayfield = loadstring(game:HttpGet("https://raw.githubusercontent.com/theystemYT/theystems-Menu/refs/heads/main/Rayfield%20Source%20Code%20(modified%20for%20theystem's%20Menu).lua"))()
 local MarketplaceService = game:GetService("MarketplaceService")
+local Players = game:GetService("Players")
 local plr = players.LocalPlayer
 
 local Window = Rayfield:CreateWindow({
@@ -33,13 +34,15 @@ local Tabs = {
 Tabs.Scripts:CreateButton({
     Name = "Force Reset Character",
     Callback = function()
-        plr.Character.Humanoid:TakeDamage(plr.Character.Humanoid.Health)
-        Rayfield:Notify({
-            Title = "Force Reset",
-            Content = "Reset character!",
-            Duration = 1,
-            Image = "refresh-cw"
-        })
+        if plr.Character and plr.Character:FindFirstChild("Humanoid") then
+            plr.Character.Humanoid:TakeDamage(plr.Character.Humanoid.Health)
+            Rayfield:Notify({
+                Title = "Force Reset",
+                Content = "Reset character!",
+                Duration = 1,
+                Image = "refresh-cw"
+            })
+        end
     end
 })
 
