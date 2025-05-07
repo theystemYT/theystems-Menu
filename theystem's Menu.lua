@@ -23,13 +23,6 @@ local Window = Rayfield:CreateWindow({
     }
 })
 
-Rayfield:Notify({
-    Title = "theystem's Menu",
-    Content = "Welcome to theystem's Menu. Thank you for using our script!",
-    Duration = 6.5,
-    Image = 4483362458
-})
-
 local Tabs = {
     Scripts = Window:CreateTab("Universal Scripts", "terminal"),
     UISettings = Window:CreateTab("UI Settings", "settings"),
