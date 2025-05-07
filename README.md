@@ -22,9 +22,11 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/theystemYT/theystems-
 **Supported Games**: If you are in a supported game, a new tab will be made with a checkmark icon and the game name. If you click on it, you can find scripts for the game.
 Here is an example:
 ![Image](https://github.com/theystemYT/theystems-Menu/blob/main/Example.jpg)
+>[!NOTE]
+>The reason why not all games have supported games tabs and the scripts for those games are in the Universal scripts tab is because some of these supported game tabs don't work. When you join a broken supported game, the tab doesn't show. So, that's why we have been doing this. There are some games that still have supported games tabs, but note, they may break soon. 
+
 <details>
   <summary>List of Supported Games</summary>
-
 - DOORS 
 - [FPS] Gun Grounds FFA
 - Natural Disaster Survival
@@ -40,7 +42,7 @@ Here is an example:
 - Hard Time
 - a dusty trip
 - RIVALS (In Universal Scripts Tab) (Has Key System)
-- FORTLINE
+- FORTLINE (In Universal Scripts Tab)
 </details>
 
 # Notes
