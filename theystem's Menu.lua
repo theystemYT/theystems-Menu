@@ -28,9 +28,9 @@ local Window = Rayfield:CreateWindow({
 })
 
 Notify({
-		 Description = "Custom Rayfield Initialized.";
+		 Description = "Welcome to theystem's Menu! Thank you for using our script.";
 		 Title = "theystem's Menu";
-		 Duration = 5;
+		 Duration = 3;
 		 
 });
 
