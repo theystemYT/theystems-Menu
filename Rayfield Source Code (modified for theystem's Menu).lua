@@ -1770,6 +1770,7 @@ function RayfieldLibrary:CreateWindow(Settings)
 			KeyMain.Input.BackgroundTransparency = 1
 			KeyMain.Input.UIStroke.Transparency = 1
 			KeyMain.Input.InputBox.TextTransparency = 1
+			KeyMain.Input.InputBox.Text = "Enter key here"
 			KeyMain.NoteTitle.TextTransparency = 1
 			KeyMain.NoteMessage.TextTransparency = 1
 			KeyMain.Hide.ImageTransparency = 1
