@@ -7,6 +7,7 @@
 	iRay  | Programming
 	Max   | Programming
  theystem | Slightly Modified Code (credits to creators tho)
+Since this code isn't owned by me, you can do anything you want with it except copy the code I added to this code.
 ]]
 
 if debugX then
