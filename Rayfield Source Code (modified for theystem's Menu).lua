@@ -1762,18 +1762,19 @@ function RayfieldLibrary:CreateWindow(Settings)
 			KeyMain.NoteMessage.Text = Settings.KeySettings.Note or "No instructions"
 
 			KeyMain.Size = UDim2.new(0, 467, 0, 175)
-			KeyMain.BackgroundTransparency = 1
-			KeyMain.Shadow.Image.ImageTransparency = 1
-			KeyMain.Title.TextTransparency = 1
-			KeyMain.Subtitle.TextTransparency = 1
-			KeyMain.KeyNote.TextTransparency = 1
-			KeyMain.Input.BackgroundTransparency = 1
-			KeyMain.Input.UIStroke.Transparency = 1
-			KeyMain.Input.InputBox.TextTransparency = 1
-			KeyMain.Input.InputBox.Text = "Enter your key"
-			KeyMain.NoteTitle.TextTransparency = 1
-			KeyMain.NoteMessage.TextTransparency = 1
-			KeyMain.Hide.ImageTransparency = 1
+                        KeyMain.BackgroundTransparency = 1
+                        KeyMain.Shadow.Image.ImageTransparency = 1
+                        KeyMain.Title.TextTransparency = 1
+                        KeyMain.Subtitle.TextTransparency = 1
+                        KeyMain.KeyNote.TextTransparency = 1
+                        KeyMain.Input.BackgroundTransparency = 1
+                        KeyMain.Input.UIStroke.Transparency = 1
+                        KeyMain.Input.InputBox.TextTransparency = 1
+                        KeyMain.Input.InputBox.Text = "Enter your key"
+                        KeyMain.NoteTitle.TextTransparency = 1
+                        KeyMain.NoteMessage.TextTransparency = 1
+                        KeyMain.Hide.ImageTransparency = 1
+
 
 			TweenService:Create(KeyMain, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0}):Play()
 			TweenService:Create(KeyMain, TweenInfo.new(0.6, Enum.EasingStyle.Exponential), {Size = UDim2.new(0, 500, 0, 187)}):Play()
