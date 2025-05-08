@@ -22,8 +22,7 @@ local Window = Rayfield:CreateWindow({
         Enabled = true,
         FolderName = "theystem's Menu Configuration Saving",
         FileName = "theystem's Menu"
-    }
-})
+},
 
 KeySystem = true, 
    KeySettings = {
