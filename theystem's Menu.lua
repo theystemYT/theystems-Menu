@@ -7,6 +7,8 @@ local Rayfield = loadstring(game:HttpGet("https://raw.githubusercontent.com/they
 local MarketplaceService = game:GetService("MarketplaceService")
 local players = game:GetService("Players")
 local plr = players.LocalPlayer
+local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/FE/main/notificationtest"))();
+local Notify = Notification.Notify;
 
 local Window = Rayfield:CreateWindow({
     Name = "theystem's Menu",
@@ -24,6 +26,13 @@ local Window = Rayfield:CreateWindow({
         FileName = "theystem's Menu"
     }
 })
+
+Notify({
+		 Description = "Custom Rayfield Initialized.";
+		 Title = "theystem's Menu";
+		 Duration = 5;
+		 
+});
 
 local Tabs = {
     Scripts = Window:CreateTab("Universal Scripts", "terminal"),
