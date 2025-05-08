@@ -25,6 +25,18 @@ local Window = Rayfield:CreateWindow({
     }
 })
 
+KeySystem = true, 
+   KeySettings = {
+      Title = "theystem's Menu",
+      Subtitle = "Key System",
+      Note = "To get the key for the script, go to the discord server: https://discord.gg/74QajrBd",
+      FileName = "Key for theystem's Menu",
+      SaveKey = true, 
+      GrabKeyFromSite = false, 
+      Key = {"friday"}
+   }
+})
+
 local Tabs = {
     Scripts = Window:CreateTab("Universal Scripts", "terminal"),
     UISettings = Window:CreateTab("UI Settings", "settings"),
