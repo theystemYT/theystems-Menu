@@ -45,7 +45,7 @@ Here is an example:
 - a dusty trip
 - RIVALS (In Universal Scripts Tab) (Has Key System)
 - FORTLINE (In Universal Scripts Tab)
-- Prison Life 
+- Prison Life (In Universal Scripts Tab)
 </details>
 
 # Notes
