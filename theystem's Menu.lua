@@ -421,4 +421,13 @@ createGameSpecificTab(16389395869, {
     }
 })
 
+createGameSpecificTab(16389395869, {
+    {
+        Name = "PrizzLife",
+        Callback = function()
+            loadstring(game:HttpGet("https://rawscripts.net/raw/Prison-Life-PrizzLife-Official-37379"))()
+        end   
+    }
+})
+
 Window:SelectTab(Tabs.Scripts)
