@@ -32,6 +32,13 @@ local Tabs = {
     Credits = Window:CreateTab("Credits", "sparkles")
 }
 Tabs.Scripts:CreateButton({
+    Name = "PrizzLife",
+    Callback = function()
+        loadstring(game:HttpGet("https://rawscripts.net/raw/Prison-Life-PrizzLife-Official-37379"))()
+    end
+})
+
+Tabs.Scripts:CreateButton({
     Name = "Force Reset Character",
     Callback = function()
         if plr.Character and plr.Character:FindFirstChild("Humanoid") then
@@ -418,15 +425,6 @@ createGameSpecificTab(16389395869, {
             Rayfield:Destroy()
             loadstring(game:HttpGet("https://raw.githubusercontent.com/aemos2/Skibidihub/refs/heads/main/SkibidiHUB.txt"))()
         end
-    }
-})
-
-createGameSpecificTab(16389395869, {
-    {
-        Name = "PrizzLife",
-        Callback = function()
-            loadstring(game:HttpGet("https://rawscripts.net/raw/Prison-Life-PrizzLife-Official-37379"))()
-        end   
     }
 })
 
