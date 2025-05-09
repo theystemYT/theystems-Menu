@@ -31,6 +31,19 @@ local Tabs = {
     Contributions = Window:CreateTab("Contributions", "handshake"),
     Credits = Window:CreateTab("Credits", "sparkles")
 }
+Tabs.Scripts:CreateSection("Notice"),
+
+Tabs.Scripts:CreateLabel("We are now are working on theystem's Menu V2. This script will no longer have updates. To use theystem's Menu V2, use the button below.", "circle-alert", Color3.fromRGB(255, 255, 0), true), 
+
+Tabs.Scripts:CreateDivider()
+
+Tabs.Scripts:CreateButton({
+    Name = "theystem's Menu V2 (still not released yet)",
+    Callback = function()
+        -- Code will be here when theystem's Menu V2 is released 
+    end
+})
+
 Tabs.Scripts:CreateButton({
     Name = "PrizzLife",
     Callback = function()
