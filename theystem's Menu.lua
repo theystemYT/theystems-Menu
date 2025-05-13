@@ -110,7 +110,7 @@ Tabs.Scripts:CreateButton({
 Tabs.Scripts:CreateButton({
     Name = "Copy Key for UserCreated",
     Callback = function()
-        setclipboard("V2ishere")
+        setclipboard("heypew")
         Rayfield:Notify({
             Title = "Key",
             Content = "Key has been copied to your clipboard successfully.",
