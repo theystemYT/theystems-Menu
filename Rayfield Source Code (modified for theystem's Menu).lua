@@ -96,7 +96,7 @@ local useStudio = RunService:IsStudio() or false
 
 local settingsCreated = false
 local cachedSettings
---local prompt = useStudio and require(script.Parent.prompt) or loadWithTimeout('https://raw.githubusercontent.com/SiriusSoftwareLtd/Sirius/refs/heads/request/prompt.lua')
+local prompt = useStudio and require(script.Parent.prompt) or loadWithTimeout('https://raw.githubusercontent.com/SiriusSoftwareLtd/Sirius/refs/heads/request/prompt.lua')
 local request = (syn and syn.request) or (fluxus and fluxus.request) or (http and http.request) or http_request or request
 
 
@@ -169,29 +169,29 @@ if debugX then
 	warn('Settings Loaded')
 end
 
---if not cachedSettings or not cachedSettings.System or not cachedSettings.System.usageAnalytics then
---	local fileFunctionsAvailable = isfile and writefile and readfile
+if not cachedSettings or not cachedSettings.System or not cachedSettings.System.usageAnalytics then
+	local fileFunctionsAvailable = isfile and writefile and readfile
 
---	if not fileFunctionsAvailable and not useStudio then
---		warn('Rayfield Interface Suite | Sirius Analytics:\n\n\nAs you don\'t have file functionality with your executor, we are unable to save whether you want to opt in or out to analytics.\nIf you do not want to take part in anonymised usage statistics, let us know in our Discord at sirius.menu/discord and we will manually opt you out.')
---		analytics = true	
---	else
---		prompt.create(
---			'Help us improve',
---	            [[Would you like to allow Sirius to collect usage statistics?
+	if not fileFunctionsAvailable and not useStudio then
+		warn('Rayfield Interface Suite | Sirius Analytics:\n\n\nAs you don\'t have file functionality with your executor, we are unable to save whether you want to opt in or out to analytics.\nIf you do not want to take part in anonymised usage statistics, let us know in our Discord at sirius.menu/discord and we will manually opt you out.')
+		analytics = true	
+	else
+		prompt.create(
+			'Help us improve',
+	            [[Would you like to allow Sirius to collect usage statistics?
 
 --<font transparency='0.4'>No data is linked to you or your personal activity.</font>]],
---			'Continue',
---			'Cancel',
---			function(result)
---				settingsTable.System.usageAnalytics.Value = result
---				analytics = result
---			end
---		)
---	end
+			'Continue',
+			'Cancel',
+			function(result)
+				settingsTable.System.usageAnalytics.Value = result
+				analytics = result
+			end
+		)
+	end
 
---	repeat task.wait() until analytics ~= nil
---end
+	repeat task.wait() until analytics ~= nil
+end
 
 if not requestsDisabled then
 	if debugX then
