@@ -25,18 +25,20 @@ local Window = Rayfield:CreateWindow({
     }
 })
 
-local prompt = loadstring(game:HttpGet("https://raw.githubusercontent.com/SiriusSoftwareLtd/Sirius/refs/heads/request/prompt.lua"))()
-
-prompt.create(
-    "theystem's Menu",
-    [[Welcome to theystem's Menu! Thank you for using this script.
+if not getgenv().theystemPromptShown then
+    getgenv().theystemPromptShown = true
+    local prompt = loadstring(game:HttpGet("https://raw.githubusercontent.com/SiriusSoftwareLtd/Sirius/refs/heads/request/prompt.lua"))()
+    prompt.create(
+        "theystem's Menu",
+        [[Welcome to theystem's Menu! Thank you for using this script.
 
 <font transparency='0.4'>To exit this screen, press Continue.</font>]],
-    "Continue",
-    "",
-    function(result)
-    end
-)
+        "Continue",
+        "",
+        function(result)
+        end
+    )
+end
 
 local Tabs = {
     Scripts = Window:CreateTab("Universal Scripts", "terminal"),
