@@ -7,6 +7,7 @@ local Rayfield = loadstring(game:HttpGet("https://raw.githubusercontent.com/they
 local MarketplaceService = game:GetService("MarketplaceService")
 local players = game:GetService("Players")
 local plr = players.LocalPlayer
+local fileName = "theystem's Menu Confirmation If Prompt Has Been Already Shown Or Not.lua"
 
 local Window = Rayfield:CreateWindow({
     Name = "theystem's Menu",
@@ -25,8 +26,9 @@ local Window = Rayfield:CreateWindow({
     }
 })
 
-if not getgenv().theystemPromptShown then
-    getgenv().theystemPromptShown = true
+if not isfile(fileName) then
+    writefile(fileName)
+
     local prompt = loadstring(game:HttpGet("https://raw.githubusercontent.com/SiriusSoftwareLtd/Sirius/refs/heads/request/prompt.lua"))()
     prompt.create(
         "theystem's Menu",
