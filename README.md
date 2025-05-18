@@ -57,4 +57,4 @@ Here is an example:
 - Also, before an update, we test the script before updating to confirm it works. So trust me, the script will always work.
 But if it doesn't work, don't worry! A patch will be coming soon.
 > [!IMPORTANT]
-> Keep in mind that this script may not work for all executors. It has only been tested with Delta Executor and KRNL executor and they work just fine on those executors.
+> Keep in mind that this script may not work for all executors. It has only been tested with Delta Executor and KRNL executor and they work just fine on those executors. You can also execute this script on Fluxus too. (More executors will be added here if they can execute this script)
