@@ -51,8 +51,18 @@ Tabs.Scripts:CreateButton({
             'Cancel',
             function(result)
                 if result == 'Reset' then
-                    if plr.Character and plr.Character:FindFirstChild("Humanoid") then
-                        plr.Character.Humanoid:TakeDamage(plr.Character.Humanoid.Health)
+                    if plr.Character then
+                        local humanoid = plr.Character:FindFirstChild("Humanoid")
+                        if humanoid then
+                            humanoid:TakeDamage(humanoid.Health)
+                        else
+                            Rayfield:Notify({
+                                Title = "Error",
+                                Content = "No humanoid was found in your character.",
+                                Duration = 3,
+                                Image = "circle-alert",
+                            })
+                        end
                     end
                 end
             end
