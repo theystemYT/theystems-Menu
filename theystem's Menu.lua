@@ -8,7 +8,7 @@ local MarketplaceService = game:GetService("MarketplaceService")
 local players = game:GetService("Players")
 local plr = players.LocalPlayer
 
-Window = Rayfield:CreateWindow({
+Rayfield:CreateWindow({
     Name = "theystem's Menu",
     Icon = 0,
     LoadingTitle = "Loading theystem's Menu...",
@@ -50,7 +50,7 @@ Tabs.Scripts:CreateButton({
             'Reset',
             'Cancel',
             function(result)
-                if result == Reset then
+                if result == "Reset" then
                     if not plr.Character then
                         Rayfield:Notify({
                             Title = "Error",
