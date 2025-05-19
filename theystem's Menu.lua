@@ -7,9 +7,8 @@ local Rayfield = loadstring(game:HttpGet("https://raw.githubusercontent.com/they
 local MarketplaceService = game:GetService("MarketplaceService")
 local players = game:GetService("Players")
 local plr = players.LocalPlayer
-local prompt = loadstring(game:HttpGet("https://raw.githubusercontent.com/SiriusSoftwareLtd/Sirius/refs/heads/request/prompt.lua"))()
 
-Rayfield:CreateWindow({
+local Window = Rayfield:CreateWindow({
     Name = "theystem's Menu",
     Icon = 0,
     LoadingTitle = "Loading theystem's Menu...",
@@ -42,32 +41,10 @@ Tabs.Scripts:CreateButton({
 Tabs.Scripts:CreateButton({
     Name = "Force Reset Character",
     Callback = function()
-        prompt.create(
-            '',
-            [[Are you sure you want to reset your character?
-
-<font transparency="0.4">Note: This can cause stuff like not being able to respawn (in certain games). You also may experience not being able to respawn using Respawn in the Roblox menu if this does happen (in certain games).</font>]],
-            'Reset',
-            'Cancel',
-            function(result)
-                if result == 'Reset' then
-                    if plr.Character then
-                        local humanoid = plr.Character:FindFirstChild("Humanoid")
-                        if humanoid then
-                            humanoid:TakeDamage(humanoid.Health)
-                        else
-                            Rayfield:Notify({
-                                Title = "Error",
-                                Content = "No humanoid was found in your character.",
-                                Duration = 3,
-                                Image = "circle-alert",
-                            })
-                        end
-                    end
-                end
-            end
-        )
-    end
+        if plr.Character and plr.Character:FindFirstChild("Humanoid") then
+            plr.Character.Humanoid:TakeDamage(plr.Character.Humanoid.Health)
+        end
+    end,
 })
 
 Tabs.Scripts:CreateButton({
