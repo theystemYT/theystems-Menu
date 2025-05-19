@@ -50,7 +50,7 @@ Tabs.Scripts:CreateButton({
             'Reset',
             'Cancel',
             function(result)
-                if result == "Reset" then
+                if result == Reset then
                     if not plr.Character then
                         Rayfield:Notify({
                             Title = "Error",
