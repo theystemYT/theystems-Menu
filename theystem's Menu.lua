@@ -41,11 +41,39 @@ Tabs.Scripts:CreateButton({
 Tabs.Scripts:CreateButton({
     Name = "Force Reset Character",
     Callback = function()
-        if plr.Character and plr.Character:FindFirstChild("Humanoid") then
-            plr.Character.Humanoid:TakeDamage(plr.Character.Humanoid.Health)
-        end
+        local prompt = loadstring(game:HttpGet("https://raw.githubusercontent.com/SiriusSoftwareLtd/Sirius/refs/heads/request/prompt.lua"))()
+        prompt.create(
+            '',
+            [[Are you sure you want to reset your character?
+
+<font transparency='0.4'>Note: This can cause stuff like not being able to respawn (in certain games). You also may experience not being able to respawn using Respawn in the Roblox menu if this does happen (in certain games).</font>]],
+            'Reset',
+            'Cancel',
+            function(result)
+                if result == true then
+                    if not plr.Character then
+                        Rayfield:Notify({
+                            Title = "Error",
+                            Content = "No character was found.",
+                            Duration = 3,
+                            Image = "circle-alert",
+                        })
+                    elseif not plr.Character:FindFirstChild("Humanoid") then
+                        Rayfield:Notify({
+                            Title = "Error",
+                            Content = "No humanoid was found.",
+                            Duration = 3,
+                            Image = "circle-alert",
+                        })
+                    else
+                        plr.Character.Humanoid:TakeDamage(plr.Character.Humanoid.Health)
+                    end
+                end
+            end
+        )
     end,
 })
+
 
 Tabs.Scripts:CreateButton({
     Name = "Hydra VIP Script (FORTLINE)",
