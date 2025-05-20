@@ -36,7 +36,7 @@ Here is an example:
 - Gunfight Arena (In Universal Scripts Tab)
 - OPPOSER VR [Alpha]
 - Classic Hangman
-- Shrimp Game
+- Shrimp Game (Works but when you actually join the game, it doesn't work. You can still find the script by executing Skibdi Hub in the Universal Scripts Tab)
 - Flee The Facility (YARHM Script)
 - Jujutsu Shenanigans
 - Life Sentence
