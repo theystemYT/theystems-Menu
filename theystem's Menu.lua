@@ -31,6 +31,21 @@ local Tabs = {
     Contributions = Window:CreateTab("Contributions", "handshake"),
     Credits = Window:CreateTab("Credits", "sparkles")
 }
+
+Tabs.Scripts:CreateButton({
+    Name = "FFJ Stream Sniper Script",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/FFJ1/Roblox-Exploits/main/scripts/Sniper.lua"))()
+    end
+})
+
+Tabs.Scripts:CreateButton({
+    Name = "Ghost Hub",
+    Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/GhostHub'))()
+    end
+})
+
 Tabs.Scripts:CreateButton({
     Name = "PrizzLife",
     Callback = function()
