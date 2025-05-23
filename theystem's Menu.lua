@@ -60,8 +60,7 @@ Tabs.Scripts:CreateButton({
         prompt.create(
             '',
             [[Are you sure you want to reset your character?
-
-<font transparency='0.4'>Note: This can cause stuff like not being able to respawn (in certain games). You also may experience not being able to respawn using Respawn in the Roblox menu if this does happen (in certain games). This reset feature also may not work at all (in certain games). This prompt also also added just in case you ckicked this button by accident.</font>]],
+<font transparency='0.4'>Note: This can cause stuff like not being able to respawn (in certain games). You also may experience not being able to respawn using Respawn in the Roblox menu if this does happen (in certain games). This reset feature also may not work at all (in certain games). This prompt also also added just in case you clicked this button by accident.</font>]],
             'Reset',
             'Cancel',
             function(result)
