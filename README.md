@@ -37,9 +37,8 @@ Here is an example:
 - OPPOSER VR [Alpha]
 - Classic Hangman
 - Shrimp Game (Works but when you actually join the game, it doesn't work. You can still find the script by executing Skibdi Hub in the Universal Scripts Tab)
-- Flee The Facility (YARHM Script)
+- Flee The Facility (YARHM Script in Universal Scripts Tab)
 - Jujutsu Shenanigans
-- Life Sentence
 - Drain City
 - Hard Time
 - a dusty trip
