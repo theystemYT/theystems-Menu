@@ -7,6 +7,7 @@ local Rayfield = loadstring(game:HttpGet("https://raw.githubusercontent.com/they
 local MarketplaceService = game:GetService("MarketplaceService")
 local players = game:GetService("Players")
 local plr = players.LocalPlayer
+local prompt = loadstring(game:HttpGet("https://raw.githubusercontent.com/SiriusSoftwareLtd/Sirius/refs/heads/request/prompt.lua"))()
 
 local Window = Rayfield:CreateWindow({
     Name = "theystem's Menu",
@@ -56,7 +57,6 @@ Tabs.Scripts:CreateButton({
 Tabs.Scripts:CreateButton({
     Name = "Force Reset Character",
     Callback = function()
-        local prompt = loadstring(game:HttpGet("https://raw.githubusercontent.com/SiriusSoftwareLtd/Sirius/refs/heads/request/prompt.lua"))()
         prompt.create(
             '',
             [[Are you sure you want to reset your character?
