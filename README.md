@@ -45,6 +45,7 @@ Here is an example:
 - RIVALS (In Universal Scripts Tab) (Has Key System)
 - FORTLINE (In Universal Scripts Tab)
 - Prison Life (In Universal Scripts Tab)
+- Forsaken
 </details>
 
 # Notes
