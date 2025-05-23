@@ -428,15 +428,6 @@ createGameSpecificTab(9391468976, {
     }
 })
 
-createGameSpecificTab(13083893317, {
-    {
-        Name = "Astral",
-        Callback = function()
-            loadstring(game:HttpGet('https://raw.githubusercontent.com/toeszzwozzy/loader/main/v2.4.luau'))()
-        end
-    }
-})
-
 createGameSpecificTab(10806004754, {
     {
         Name = "Astral",
@@ -467,6 +458,15 @@ createGameSpecificTab(16389395869, {
         Callback = function()
             Rayfield:Destroy()
             loadstring(game:HttpGet("https://raw.githubusercontent.com/aemos2/Skibidihub/refs/heads/main/SkibidiHUB.txt"))()
+        end
+    }
+})
+
+createGameSpecificTab(18687417158, {
+    {
+        Name = "YARHM",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Joystickplays/psychic-octo-invention/main/yarhm.lua", false))()
         end
     }
 })
