@@ -12,7 +12,7 @@ If the script doesn't work, try this one:
 loadstring(game:HttpGet("https://raw.githubusercontent.com/theystemYT/theystems-Menu/refs/heads/main/theystem's%20Menu.lua",true))()
 ```
 # Features of theystem's Menu
-- **Universal Scripts**: Has Universal scripts that work in most games.
+- **Universal Scripts**: Has Universal scripts that work in most games. Also has scripts for certain games due to the supported games feature doesn't work on those types of games. More info about that is in the note below the image example for the supported games feature.
 - **UI Settings**: Allows you to destroy the UI and change the UI's theme. Also allows you to load your Rayfield Configuration.
 - **Credits**: Has buttons that allows you to copy the links for my accounts to reach me.
 - **Contributions**: Allows you to send requests in Google Forms by getting the link though the button in the script and sending a request for something you want in theystem's Menu.
@@ -50,7 +50,6 @@ Here is an example:
 
 # Notes
 
-- This is a **basic menu**, so there are not many mods available yet. (More mods are coming soon.)  
 - Some scripts may not work on all games.  
 - The script is free to use.  
 - The menu is coded by [ChatGPT](https://chatgpt.com).
