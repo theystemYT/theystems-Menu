@@ -14,8 +14,6 @@ local Window = Rayfield:CreateWindow({
     LoadingTitle = "Loading theystem's Menu...",
     LoadingSubtitle = "Credits are in Credits Tab",
     Theme = "AmberGlow",
-
-    ToggleUIKeybind = "K"
     
     DisableRayfieldPrompts = false,
     DisableBuildWarnings = false,
