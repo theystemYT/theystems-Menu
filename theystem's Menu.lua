@@ -239,19 +239,7 @@ Tabs.Scripts:CreateButton({
 Tabs.UISettings:CreateButton({
     Name = "Destroy UI",
     Callback = function()
-        prompt.create(
-            "UI",
-            [[Are you sure you want to destroy the UI?
-
-<font transparency="0.4"></font>]],
-            "Destroy UI",
-            "Cancel",
-            function(result)
-                if result then
-                    Rayfield:Destroy()
-                end
-            end
-        )
+        Rayfield:Destroy()
     end
 })
 
