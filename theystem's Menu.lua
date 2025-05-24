@@ -470,4 +470,22 @@ createGameSpecificTab(18687417158, {
     }
 })
 
+createGameSpecificTab(18668065416, {
+    {
+        Name = "Ronix Hub",
+        Callback = function()
+            loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/c8c09494b048a1fc6a4dc43bec1f3713.lua"))()
+        end
+    }
+})
+
+createGameSpecificTab(18668065416, {
+    {
+        Name = "Ronix Hub",
+        Callback = function()
+            loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/588c84c135c213eb9badde611f08be9b.lua"))()
+        end
+    }
+})
+
 Window:SelectTab(Tabs.Scripts)
