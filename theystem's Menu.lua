@@ -481,12 +481,6 @@ createGameSpecificTab(18668065416, {
 
 createGameSpecificTab(17625359962, {
     {
-        Name = "Ronix Hub",
-        Callback = function()
-            loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/588c84c135c213eb9badde611f08be9b.lua"))()
-        end
-    },
-    {
         Name = "Skibidi Hub",
         Callback = function()
             Rayfield:Destroy()
