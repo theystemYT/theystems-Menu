@@ -14,8 +14,6 @@ local Window = Rayfield:CreateWindow({
     LoadingTitle = "Loading theystem's Menu...",
     LoadingSubtitle = "Credits are in Credits Tab",
     Theme = "AmberGlow",
-
-    ToggleUIKeybind = "T"
         
     DisableRayfieldPrompts = false,
     DisableBuildWarnings = false,
@@ -63,7 +61,7 @@ Tabs.Scripts:CreateButton({
             '',
             [[Are you sure you want to reset your character?
 
-<font transparency='0.4'>Note: This can cause stuff like not being able to respawn (in certain games). You also may experience not being able to respawn using Respawn in the Roblox menu if this does happen (in certain games). This reset feature also may not work at all (in certain games). This prompt also also added just in case you ckicked this button by accident.</font>]],
+<font transparency='0.4'>Note: This may cause respawn issues in certain games, or not work at all. This prompt is also added for accidental clicks.</font>]],
             'Reset',
             'Cancel',
             function(result)
@@ -430,15 +428,6 @@ createGameSpecificTab(9391468976, {
     }
 })
 
-createGameSpecificTab(13083893317, {
-    {
-        Name = "Astral",
-        Callback = function()
-            loadstring(game:HttpGet('https://raw.githubusercontent.com/toeszzwozzy/loader/main/v2.4.luau'))()
-        end
-    }
-})
-
 createGameSpecificTab(10806004754, {
     {
         Name = "Astral",
@@ -469,6 +458,15 @@ createGameSpecificTab(16389395869, {
         Callback = function()
             Rayfield:Destroy()
             loadstring(game:HttpGet("https://raw.githubusercontent.com/aemos2/Skibidihub/refs/heads/main/SkibidiHUB.txt"))()
+        end
+    }
+})
+
+createGameSpecificTab(18687417158, {
+    {
+        Name = "YARHM",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Joystickplays/psychic-octo-invention/main/yarhm.lua", false))()
         end
     }
 })
