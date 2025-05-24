@@ -2,7 +2,7 @@
 > Forks are not allowed on this repository due to the [copyright license](LICENSE.md).
 # theystem's Menu
 
-**theystem's Menu** is a **basic Roblox script menu** designed to enhance gameplay with a few essential mods. Built with **Rayfield Library**, this menu provides a simple and easy-to-use interface.  
+**theystem's Menu** is a **Roblox script menu** designed to enhance gameplay with a few essential stuff. Built with **Rayfield Library**, this menu provides a simple and easy-to-use interface.  
 To use theystem's Menu, copy this script:
 ```lua
 loadstring(game:HttpGet("https://raw.githubusercontent.com/theystemYT/theystems-Menu/refs/heads/main/theystem's%20Menu.lua"))()
