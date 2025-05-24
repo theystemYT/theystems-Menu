@@ -53,6 +53,7 @@ https://github.com/user-attachments/assets/b4ee4c30-bbd0-46fc-92de-669582442fef
 - Blox Fruits
 - Grow A Garden
 - Dead Rails
+- Blue Lock Rivals
 </details>
 
 # Notes
