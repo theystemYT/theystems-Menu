@@ -247,7 +247,7 @@ Tabs.UISettings:CreateButton({
             'Destroy UI',
             'Cancel',
             function(result)
-                if result == true then
+                if result then
                     Rayfield:Destroy()
                 end
             end
