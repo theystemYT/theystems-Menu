@@ -48,8 +48,9 @@ https://github.com/user-attachments/assets/b4ee4c30-bbd0-46fc-92de-669582442fef
 - FORTLINE (In Universal Scripts Tab)
 - Prison Life (In Universal Scripts Tab)
 - Forsaken
-- Blue Lock Rivals
+- Rivals
 - Bubble Gum Simulator INFINITY
+- Blox Fruits
 </details>
 
 # Notes
