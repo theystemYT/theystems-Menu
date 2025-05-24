@@ -488,4 +488,38 @@ createGameSpecificTab(18668065416, {
     }
 })
 
+createGameSpecificTab(2753915549, {
+    {
+        Name = "Ronix Hub",
+        Callback = function()
+            loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/b2db2af40b53ef0a502f6d561b4c6449.lua"))()
+        end
+    }
+})
+
+createGameSpecificTab(126884695634066, {
+    {
+        Name = "Ronix Hub",
+        Callback = function()
+            loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/a8f02a61fc38bf9256dd0f17be6b16d7.lua"))()
+        end
+    }
+})
+
+createGameSpecificTab(116495829188952, {
+    {
+        Name = "Ronix Hub",
+        Callback = function()
+            loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/34b20c9e914c2615f025a8cb6f434cb7.lua"))()
+        end
+    },
+    {
+        Name = "Skibidi Hub",
+        Callback = function()
+            Rayfield:Destroy()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/aemos2/Skibidihub/refs/heads/main/SkibidiHUB.txt"))()
+        end
+    }
+})
+
 Window:SelectTab(Tabs.Scripts)
