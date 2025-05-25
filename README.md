@@ -2,7 +2,7 @@
 > Forks are not allowed on this repository due to the [copyright license](LICENSE.md).
 # theystem's Menu
 
-**theystem's Menu** is a **Roblox script menu** designed to enhance gameplay with a few essential stuff. Built with **Rayfield Library**, this menu provides a simple and easy-to-use interface.  
+**theystem's Menu** is a **script** designed to enhance gameplay with a few essential stuff. Built with **Rayfield Library**, this menu provides a simple and easy-to-use interface.  
 To use theystem's Menu, copy this script:
 ```lua
 loadstring(game:HttpGet("https://raw.githubusercontent.com/theystemYT/theystems-Menu/refs/heads/main/theystem's%20Menu.lua"))()
@@ -11,7 +11,7 @@ If the script doesn't work, try this one:
 ```lua
 loadstring(game:HttpGet("https://raw.githubusercontent.com/theystemYT/theystems-Menu/refs/heads/main/theystem's%20Menu.lua",true))()
 ```
-(Still doesn't work? Try replaceing true with false.)
+(Still doesn't work? Try replacing true with false.)
 # Features of theystem's Menu
 - **Universal Scripts**: Has Universal scripts that work in most games. Also has scripts for certain games due to the supported games feature doesn't work on those types of games. More info about that is in the note below the image example for the supported games feature.
 - **UI Settings**: Allows you to destroy the UI and change the UI's theme. Also allows you to load your Rayfield Configuration.
