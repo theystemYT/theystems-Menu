@@ -27,8 +27,8 @@ local Window = Rayfield:CreateWindow({
 })
 
 Rayfield:Notify({
-   Title = "Notification Title",
-   Content = "theystem's Menu has been loaded in" .. tostring(tick() -start) .. "ms.",
+   Title = "theystem's Menu",
+   Content = "theystem's Menu has been loaded in " .. tostring(tick() -start) .. "ms.",
    Duration = 3,
    Image = "timer",
 })
