@@ -26,7 +26,7 @@ local Window = Rayfield:CreateWindow({
     }
 })
 
-Rayfield:Notify({
+local ShowHowMuchtheystemsMenuHasBeenLoadedInMs = Rayfield:Notify({
    Title = "theystem's Menu",
    Content = "theystem's Menu has been loaded in " .. tostring(tick() -start) .. " ms.",
    Duration = 3,
@@ -267,6 +267,19 @@ Tabs.UISettings:CreateButton({
     Callback = function()
         Rayfield:LoadConfiguration()
     end
+})
+
+Tabs.UISettings:CreateToggle({
+   Name = "Show How Much the System's Menu Has Been Loaded In Ms",
+   CurrentValue = false,
+   Flag = "ShowHowMuchtheystemsMenuHasBeenLoadedInMs",
+   Callback = function(Value)
+      if Value then
+         ShowHowMuchtheystemsMenuHasBeenLoadedInMs = true
+      else
+         ShowHowMuchtheystemsMenuHasBeenLoadedInMs = false
+      end
+   end,
 })
 
 Tabs.Credits:CreateButton({
