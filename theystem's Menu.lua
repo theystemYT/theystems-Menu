@@ -8,12 +8,6 @@ local MarketplaceService = game:GetService("MarketplaceService")
 local players = game:GetService("Players")
 local plr = players.LocalPlayer
 local start = tick()
-local ShowHowMuchtheystemsMenuHasBeenLoadedInMs = Rayfield:Notify({
-   Title = "theystem's Menu",
-   Content = "theystem's Menu has been loaded in " .. tostring(tick() -start) .. " ms.",
-   Duration = 3,
-   Image = "timer",
-})
 
 local Window = Rayfield:CreateWindow({
     Name = "theystem's Menu",
@@ -30,6 +24,13 @@ local Window = Rayfield:CreateWindow({
         FolderName = "theystem's Menu Configuration Saving",
         FileName = "theystem's Menu"
     }
+})
+
+Rayfield:Notify({
+   Title = "theystem's Menu",
+   Content = "theystem's Menu has been loaded in " .. tostring(tick() -start) .. " ms.",
+   Duration = 3,
+   Image = "timer",
 })
 
 local Tabs = {
@@ -266,19 +267,6 @@ Tabs.UISettings:CreateButton({
     Callback = function()
         Rayfield:LoadConfiguration()
     end
-})
-
-Tabs.UISettings:CreateToggle({
-   Name = "Show How Much theystem's Menu Has Been Loaded In Ms",
-   CurrentValue = false,
-   Flag = "ShowHowMuchtheystem'sMenuHasBeenLoadedInMs",
-   Callback = function(Value)
-      if Value then
-         local = ShowHowMuchtheystemsMenuHasBeenLoadedInMs = true
-      else
-         local = ShowHowMuchtheystemsMenuHasBeenLoadedInMs = false
-      end
-   end,
 })
 
 Tabs.Credits:CreateButton({
