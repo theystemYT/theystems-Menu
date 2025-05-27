@@ -49,12 +49,12 @@ https://github.com/user-attachments/assets/b4ee4c30-bbd0-46fc-92de-669582442fef
 - FORTLINE (In Universal Scripts Tab)
 - Prison Life (In Universal Scripts Tab)
 - Forsaken
-- Rivals
+- Rivals 
 - Bubble Gum Simulator INFINITY
 - Blox Fruits
 - Grow A Garden
-- Dead Rails
-- Blue Lock Rivals
+- Dead Rails (Works but when you actually join the game, it doesn't work. You can still find the script by executing Null Fire in the Universal Scripts Tab)
+- Blue Lock Rivals (Same thing but only in the tutorial of the game and when it takes you to "Match" once you have completed it. Also, if you get taken to "Customs" this will not work. Not added in Universal Scripts tab. Can be found in Ghost Hub by searching up blue lock in Ghost Hub and executing the script with Ronix Hub in the name.)
 </details>
 
 # Notes
