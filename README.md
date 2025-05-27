@@ -36,7 +36,7 @@ https://github.com/user-attachments/assets/b4ee4c30-bbd0-46fc-92de-669582442fef
 - Natural Disaster Survival
 - Murder Mystery 2 or any game that is Murder Mystery 2 but modified or changed in some way. (This game isn't a supported games tab, but the script is called "YARHM" and it's in the Universal scripts tab)
 - [UPD] Airsoft FE
-- Gunfight Arena (In Universal Scripts Tab)
+- Gunfight Arena (Removed) (Scripg Can Be Found In Universal Scripts Tab)
 - OPPOSER VR [Alpha]
 - Classic Hangman
 - Shrimp Game (Works but when you actually join the game, it doesn't work. You can still find the script by executing Skibdi Hub in the Universal Scripts Tab)
@@ -52,8 +52,8 @@ https://github.com/user-attachments/assets/b4ee4c30-bbd0-46fc-92de-669582442fef
 - Rivals 
 - Bubble Gum Simulator INFINITY
 - Blox Fruits
-- Grow A Garden
-- Dead Rails (Works but when you actually join the game, it doesn't work. You can still find the script by executing Null Fire in the Universal Scripts Tab)
+- Grow A Garden 
+- Dead Rails (Removed) (You can still find the script by executing Null Fire in the Universal Scripts Tab)
 - Blue Lock Rivals (Same thing but only in the tutorial of the game and when it takes you to "Match" once you have completed it. Also, if you get taken to "Customs" this will not work. Not added in Universal Scripts tab. Can be found in Ghost Hub by searching up blue lock in Ghost Hub and executing the script with Ronix Hub in the name.)
 </details>
 
