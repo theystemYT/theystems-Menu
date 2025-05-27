@@ -515,20 +515,4 @@ createGameSpecificTab(126884695634066, {
     }
 })
 
-createGameSpecificTab(116495829188952, {
-    {
-        Name = "Ronix Hub",
-        Callback = function()
-            loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/34b20c9e914c2615f025a8cb6f434cb7.lua"))()
-        end
-    },
-    {
-        Name = "Skibidi Hub",
-        Callback = function()
-            Rayfield:Destroy()
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/aemos2/Skibidihub/refs/heads/main/SkibidiHUB.txt"))()
-        end
-    }
-})
-
 Window:SelectTab(Tabs.Scripts)
