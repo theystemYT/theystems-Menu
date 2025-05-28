@@ -249,7 +249,8 @@ Tabs.UISettings:CreateDropdown({
     MultipleOptions = false,
     Flag = "Select UI Theme Dropdown",
     Callback = function(Options)
-        Window.ModifyTheme(Options)
+        local selectedTheme = Options[1]
+        Window.ModifyTheme(selectedTheme)
     end
 })
 
