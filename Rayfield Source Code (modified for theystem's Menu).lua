@@ -180,7 +180,8 @@ if not cachedSettings or not cachedSettings.System or not cachedSettings.System.
 			'Help us improve',
 	            [[Would you like to allow Sirius to collect usage statistics?
 
-<font transparency='0.4'>No data is linked to you or your personal activity.</font>]],
+<font transparency='0.4'>No data is linked to you or your personal activity.
+(You can disable/enable this feature anytime by disabling/enabling Anonymised Analytics.</font>]],
 			'Continue',
 			'Cancel',
 			function(result)
