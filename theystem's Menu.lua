@@ -57,12 +57,12 @@ Tabs.Scripts:CreateButton({
     Name = "Force Reset Character",
     Callback = function()
         local prompt = loadstring(game:HttpGet("https://raw.githubusercontent.com/SiriusSoftwareLtd/Sirius/refs/heads/request/prompt.lua"))()
-        prompt.create(
-		'Confirmation',
-        [[Are you sure you want to reset your character?
+         prompt.create(
+	          'Confirmation',
+	      [[Are you sure you want to reset your character?
 
-        <font transparency='0.4'>Note: This may cause respawn issues in certain games, or not work at all. This prompt is also added for accidental clicks.</font>]],
-            'Reset',
+        <font transparency='0.4'>Note: This may cause respawn issues in certain games, or not work at all. This prompt is also added for accidental clicks.</font>]],      
+	    'Reset',
             'Cancel',
             function(result)
                 if result == true then
