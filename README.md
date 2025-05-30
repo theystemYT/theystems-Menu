@@ -54,7 +54,7 @@ https://github.com/user-attachments/assets/b4ee4c30-bbd0-46fc-92de-669582442fef
 - Blox Fruits
 - Grow A Garden 
 - Dead Rails (Removed) (You can still find the script by executing Null Fire in the Universal Scripts Tab)
-- Blue Lock Rivals (Same thing but only in the tutorial of the game and when it takes you to "Match" once you have completed it. Also, if you get taken to "Customs" this will not work. Not added in Universal Scripts tab. Can be found in Ghost Hub by searching up blue lock in Ghost Hub and executing the script with Ronix Hub in the name.)
+- Blue Lock Rivals (Same thing but only in the tutorial of the game and when it takes you to "Match" once you have completed it. Also, if you get taken to "Customs" this will not work. Can be fixed by joining the private server in Servers and joining the private server in Private Servers. Script can be found in Ghost Hub by searching up blue lock in Ghost Hub and executing the script with Ronix Hub in the name.)
 </details>
 
 # Notes
