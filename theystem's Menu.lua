@@ -59,9 +59,9 @@ Tabs.Scripts:CreateButton({
         local prompt = loadstring(game:HttpGet("https://raw.githubusercontent.com/SiriusSoftwareLtd/Sirius/refs/heads/request/prompt.lua"))()
         prompt.create(
                 'Confirmation', 
-            [[Are you sure you want to reset your character?
+            [[Are you sure you want to reset your character? Note: This may cause respawn issues in certain games, or not work at all.
 
-<font transparency='0.4'>Note: This may cause respawn issues in certain games, or not work at all. This prompt is also added for accidental clicks.</font>]],
+<font transparency='0.4'>This prompt is also added for accidental clicks.</font>]],
             'Reset',
             'Cancel',
             function(result)
