@@ -60,7 +60,6 @@ Tabs.Scripts:CreateButton({
         prompt.create(
                 'Confirmation', 
             [[Are you sure you want to reset your character?
-
 <font transparency='0.4'>Note: This may cause respawn issues in certain games, or not work at all. This prompt is also added for accidental clicks.</font>]],
             'Reset',
             'Cancel',
