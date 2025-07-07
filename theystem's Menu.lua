@@ -469,15 +469,6 @@ createGameSpecificTab(18687417158, {
     }
 })
 
-createGameSpecificTab(18668065416, {
-    {
-        Name = "Ronix Hub",
-        Callback = function()
-            loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/c84ecefd7fa63a35d454d3ecefe3ee7e.lua"))()
-        end
-    }
-})
-
 createGameSpecificTab(17625359962, {
     {
         Name = "Skibidi Hub",
