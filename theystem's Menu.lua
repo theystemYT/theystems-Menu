@@ -497,7 +497,7 @@ createGameSpecificTab(126884695634066, {
     }
 })
 
-createGameSpecificTab(13388465281, {
+createGameSpecificTab(18668065416, {
     {
         Name = "No Cooldown",
         Callback = function()
