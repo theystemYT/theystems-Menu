@@ -41,7 +41,7 @@ https://github.com/user-attachments/assets/b4ee4c30-bbd0-46fc-92de-669582442fef
 - Classic Hangman
 - Shrimp Game (Works but when you actually join the game, it doesn't work. You can still find the script by executing Skibdi Hub in the Universal Scripts Tab)
 - Flee The Facility (YARHM Script in Universal Scripts Tab)
-- Jujutsu Shenanigans
+- Jujutsu Shenanigans (Doesn't really work but I don't wanna remove it)
 - Drain City
 - Hard Time
 - a dusty trip
@@ -54,7 +54,7 @@ https://github.com/user-attachments/assets/b4ee4c30-bbd0-46fc-92de-669582442fef
 - Blox Fruits
 - Grow A Garden 
 - Dead Rails (Removed) (You can still find the script by executing Null Fire in the Universal Scripts Tab)
-- Blue Lock Rivals (Removed, cause of removal: The script was deleted by its owner or it isn't loaded with V4 loader.)
+- Blue Lock Rivals (Renewed)
 </details>
 
 # Notes
