@@ -497,4 +497,26 @@ createGameSpecificTab(126884695634066, {
     }
 })
 
+createGameSpecificTab(13388465281, {
+    {
+        Name = "No Cooldown",
+        Callback = function()
+            local C=require(game:GetService("ReplicatedStorage").Controllers.AbilityController)
+local o=C.AbilityCooldown C.AbilityCooldown=function(s,n,...)return o(s,n,0,...)end
+        end
+    },
+    {
+        Name = "Ball Control Script (Key System)",
+        Callback = function()
+            loadstring(game:HttpGet("https://rawscripts.net/raw/Blue-Lock:-Rivals-Ball-control-script-38398"))()
+        end
+    },
+    {
+        Name = "Copy Key (Key is 111 if your executor doesn't support copying)",
+        Callback = function()
+            setclipboard("111")
+        end
+    }
+})
+
 Window:SelectTab(Tabs.Scripts)
