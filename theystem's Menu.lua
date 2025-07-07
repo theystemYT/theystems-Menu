@@ -501,8 +501,18 @@ createGameSpecificTab(18668065416, {
     {
         Name = "No Cooldown",
         Callback = function()
-            local C=require(game:GetService("ReplicatedStorage").Controllers.AbilityController)
-local o=C.AbilityCooldown C.AbilityCooldown=function(s,n,...)return o(s,n,0,...)end
+            local C = require(game:GetService("ReplicatedStorage").Controllers.AbilityController)
+            local o = C.AbilityCooldown
+            C.AbilityCooldown = function(s, n, ...)
+                return o(s, n, 0, ...)
+            end
+
+            Rayfield:Notify({
+                Title = "Blue Lock: Rivals",
+                Content = "No cooldown executed.",
+                Duration = 3,
+                Image = "check",
+            })
         end
     },
     {
