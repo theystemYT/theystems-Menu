@@ -58,6 +58,7 @@ https://github.com/user-attachments/assets/b4ee4c30-bbd0-46fc-92de-669582442fef
 - Grow A Garden 
 - Dead Rails (Removed) (You can still find the script by executing Null Fire in the Universal Scripts Tab)
 - Blue Lock Rivals (Renewed)
+- Azure Latch
 </details>
 
 # Notes
