@@ -50,7 +50,7 @@ https://github.com/user-attachments/assets/b4ee4c30-bbd0-46fc-92de-669582442fef
 - a dusty trip
 - RIVALS (In Universal Scripts Tab) (Has Key System)
 - FORTLINE (In Universal Scripts Tab)
-- Prison Life (In Universal Scripts Tab)
+- Prison Life (In Universal Scripts Tab) (Execute LHUB)
 - Forsaken
 - Rivals 
 - Bubble Gum Simulator INFINITY
@@ -58,7 +58,7 @@ https://github.com/user-attachments/assets/b4ee4c30-bbd0-46fc-92de-669582442fef
 - Grow A Garden 
 - Dead Rails (Removed) (You can still find the script by executing Null Fire in the Universal Scripts Tab)
 - Blue Lock Rivals (Renewed)
-- Azure Latch
+- Azure Latch (Removed due to not working script anymore)
 - Ink Game
 </details>
 
