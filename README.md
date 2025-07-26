@@ -50,7 +50,7 @@ https://github.com/user-attachments/assets/b4ee4c30-bbd0-46fc-92de-669582442fef
 - a dusty trip
 - RIVALS (In Universal Scripts Tab) (Has Key System)
 - FORTLINE (In Universal Scripts Tab)
-- Prison Life (In Universal Scripts Tab) (Execute LHUB)
+- Prison Life (In Universal Scripts Tab) (Execute PrizzLife)
 - Forsaken
 - Rivals 
 - Bubble Gum Simulator INFINITY
