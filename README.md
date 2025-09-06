@@ -32,6 +32,8 @@ https://github.com/user-attachments/assets/b4ee4c30-bbd0-46fc-92de-669582442fef
 
 >[!NOTE]
 >The reason why not all games have supported games tabs and the scripts for those games are in the Universal scripts tab is because some of these supported game tabs don't work. When you join a broken supported game, the tab doesn't show. So, that's why we have been doing this. There are some games that still have supported games tabs, but note, they may break soon. 
+>[!IMPORTANT]
+>Notice: Some scripts may be outdated, or not working. These will be ignored, unfortunately so please don't make any comments.
 
 <details>
   <summary>List of Supported Games</summary>
@@ -59,9 +61,9 @@ https://github.com/user-attachments/assets/b4ee4c30-bbd0-46fc-92de-669582442fef
 - Blox Fruits
 - Grow A Garden 
 - Dead Rails (Removed) (You can still find the script by executing Null Fire in the Universal Scripts Tab)
-- Blue Lock Rivals (Renewed)
+- Blue Lock Rivals (Renewed) (Doesn't work in Private Servers, 8v8, or any other subroom of the game)
 - Azure Latch (Removed due to not working script anymore)
-- Ink Game
+- Ink Game (Removed one script due to it not working anymore but kept the other) (In Universal Scripts)
 </details>
 
 # Notes
