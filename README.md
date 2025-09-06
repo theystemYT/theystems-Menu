@@ -27,6 +27,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/theystemYT/theystems-
 Here is an example:
 
 https://github.com/user-attachments/assets/b4ee4c30-bbd0-46fc-92de-669582442fef
+>[!NOTE]
+> (This video is old, This will not match the new version of the script.)
 
 >[!NOTE]
 >The reason why not all games have supported games tabs and the scripts for those games are in the Universal scripts tab is because some of these supported game tabs don't work. When you join a broken supported game, the tab doesn't show. So, that's why we have been doing this. There are some games that still have supported games tabs, but note, they may break soon. 
