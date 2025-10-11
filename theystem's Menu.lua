@@ -1,7 +1,9 @@
 if game.PlaceId == 18668065416 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/theystemYT/theystems-Menu/refs/heads/main/Blue%20Lock%20Rivals%20notif.lua"))()
 elseif game.PlaceId == 118915549367482 then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/theystemYT/theystems-Menu/refs/heads/main/just%20making%20sure%20your%20head%20isnt%20mentally%20fried.lua"))() wait(6) loadstring(game:HttpGet("https://raw.githubusercontent.com/theystemYT/theystems-Menu/refs/heads/main/Notifaction%20Chaos.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/theystemYT/theystems-Menu/refs/heads/main/just%20making%20sure%20your%20head%20isnt%20mentally%20fried.lua"))() 
+    wait(6) 
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/theystemYT/theystems-Menu/refs/heads/main/Notifaction%20Chaos.lua"))()
 end
 
 
