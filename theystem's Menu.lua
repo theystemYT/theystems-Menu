@@ -16,7 +16,7 @@ elseif game.PlaceId == 94647229517154 then
 end
 -- Username and Executor Check (Displays a notification for 3 seconds)
 --[[Checks if you already got the notification]]
-if not getgenv().ExecutedOnce == true then
+if not getgenv().ExecutedOnce
     getgenv().ExecutedOnce = true
     loadstring(game:HttpGet("https://raw.githubusercontent.com/theystemYT/theystems-Menu/refs/heads/main/Executor%20and%20Username%20check.lua"))()
     wait(3) -- Waits for notification to end
