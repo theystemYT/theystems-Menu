@@ -1,5 +1,6 @@
 > [!IMPORTANT]
 > Unfortunately, I accidently deleted the non obfuscated source code for this script. I am deeply saddended and hoping to retrieve the file but currently, there is no hope. There may be no updates for a long time or for a while, maybe even never. And I can't just make a new script, it takes a lot of time.
+> Update: I have managed to retrieve old code, but it will take some time before I republish theystem's Menu.
 
 > [!NOTE]
 > Forks are not allowed on this repository due to the [copyright license](LICENSE.md).
@@ -46,12 +47,10 @@ https://github.com/user-attachments/assets/b4ee4c30-bbd0-46fc-92de-669582442fef
 - Natural Disaster Survival
 - Murder Mystery 2 or any game that is Murder Mystery 2 but modified or changed in some way. (This game isn't a supported games tab, but the script is called "YARHM" and it's in the Universal scripts tab)
 - [UPD] Airsoft FE
-- Gunfight Arena (Removed) (Scripg Can Be Found In Universal Scripts Tab)
+- Gunfight Arena (Removed) (Script Can Be Found In Universal Scripts Tab)
 - OPPOSER VR [Alpha]
 - Classic Hangman
-- Shrimp Game (Works but when you actually join the game, it doesn't work. You can still find the script by executing Skibdi Hub in the Universal Scripts Tab)
 - Flee The Facility (YARHM Script in Universal Scripts Tab)
-- Jujutsu Shenanigans (Doesn't really work but I don't wanna remove it) (Now Removed)
 - Drain City
 - Hard Time
 - a dusty trip
@@ -64,8 +63,7 @@ https://github.com/user-attachments/assets/b4ee4c30-bbd0-46fc-92de-669582442fef
 - Blox Fruits
 - Grow A Garden 
 - Dead Rails (Removed) (You can still find the script by executing Null Fire in the Universal Scripts Tab)
-- Blue Lock Rivals (Renewed) (Doesn't work in Private Servers, 8v8, or any other subroom of the game)
-- Azure Latch (Removed due to not working script anymore)
+- Blue Lock Rivals (Renewed) (Doesn't work in Private Servers, or any other subroom) [All scripts do not work, this will not be removed tho]
 - Ink Game (Removed one script due to it not working anymore but kept the other) (In Universal Scripts)
 </details>
 
