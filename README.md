@@ -1,6 +1,5 @@
 > [!IMPORTANT]
-> Unfortunately, I accidently deleted the non obfuscated source code for this script. I am deeply saddended and hoping to retrieve the file but currently, there is no hope. There may be no updates for a long time or for a while, maybe even never. And I can't just make a new script, it takes a lot of time.
-> Update: I have managed to retrieve old code, but it will take some time before I republish theystem's Menu.
+> Unfortunately, I accidently deleted the non obfuscated source code for this script. I am deeply saddended and hoping to retrieve the file but currently, there is no hope.
 
 > [!NOTE]
 > Forks are not allowed on this repository due to the [copyright license](LICENSE.md).
