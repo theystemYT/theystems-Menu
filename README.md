@@ -1,13 +1,16 @@
 > [!IMPORTANT]
-> Unfortunately, I accidently deleted the non obfuscated source code for this script. I am deeply saddended and hoping to retrieve the file but currently, there is no hope.
+> [NEW] - Unfortunately, I accidently deleted the non obfuscated source code for this script. I am deeply saddended and hoping to retrieve the file but currently, there is no hope.
 
-> [!NOTE]
+> [!WARNING]
 > Forks are not allowed on this repository due to the [copyright license](LICENSE.md).
 
 > [!NOTE]
 > This script has a key system, and the key changes per script update. You may have an old key.
 # theystem's Menu
+> (Please read the text below this text before reading the other text below that text)
 
+> [!TIP]
+> When executing the script for the first time, it will ask if it can use 
 **theystem's Menu** is a **script** designed to enhance gameplay with a few essential stuff. Built with **Rayfield Library**, this menu provides a simple and easy-to-use interface.  
 To use theystem's Menu, copy this script:
 ```lua
