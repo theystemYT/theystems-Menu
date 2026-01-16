@@ -1139,7 +1139,7 @@ end
 local function Hide(notify: boolean?)
 	if MPrompt then
 		MPrompt.Title.Text = "Show theystem's Menu"
-                MPrompt.Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+        MPrompt.Title.TextColor3 = Color3.fromRGB(255, 255, 255)
 		MPrompt.Position = UDim2.new(0.5, 0, 0, -50)
 		MPrompt.Size = UDim2.new(0, 180, 0, 30)
 		MPrompt.BackgroundTransparency = 1
@@ -1152,7 +1152,7 @@ local function Hide(notify: boolean?)
 	Debounce = true
 	if notify then
 		if useMobilePrompt then 
-			RayfieldLibrary:Notify({Title = "Interface Hidden", Content = "The interface has been hidden, you can unhide the interface by tapping 'Show theystem's Menu'.", Duration = 7, Image = 4400697855})
+			RayfieldLibrary:Notify({Title = "Interface Hidden", Content = "The interface has been hidden, you can unhide the interface by tapping 'Show theystem's Menu'.", Duration = 5, Image = 4400697855})
 		else
 			RayfieldLibrary:Notify({Title = "Interface Hidden", Content = `The interface has been hidden, you can unhide the interface by tapping {settingsTable.General.rayfieldOpen.Value or 'K'}.`, Duration = 7, Image = 4400697855})
 		end
@@ -1768,7 +1768,7 @@ function RayfieldLibrary:CreateWindow(Settings)
 			KeyMain.KeyNote.TextTransparency = 1
 			KeyMain.Input.BackgroundTransparency = 1
 			KeyMain.Input.UIStroke.Transparency = 1
-			KeyMain.Input.InputBox.TextTransparency = 1
+			KeyMain.Input.InputBox.TextTransparency = 1		
 			KeyMain.NoteTitle.TextTransparency = 1
 			KeyMain.NoteMessage.TextTransparency = 1
 			KeyMain.Hide.ImageTransparency = 1
@@ -3927,4 +3927,5 @@ task.delay(4, function()
 end)
 
 return RayfieldLibrary
+
 
