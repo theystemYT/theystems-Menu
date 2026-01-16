@@ -1,4 +1,3 @@
-> [!IMPORTANT]
 > [NEW] - Unfortunately, I accidently deleted the non obfuscated source code for this script. I am deeply saddended and hoping to retrieve the file but currently, there is no hope.
 
 > [!WARNING]
@@ -30,6 +29,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/theystemYT/theystems-
 > [!NOTE]
 >I also recommend to send the code for the feature if you know how to make it.
 
+> [NEW] - Remember the [NEW] at the beginning of this WHOLE text? I also can't do Contributions unfortunately because of this.
+
 **Supported Games**: If you are in a supported game, a new tab will be made with a checkmark icon and the game name. If you click on it, you can find scripts for the game.
 Here is an example:
 
@@ -39,8 +40,8 @@ https://github.com/user-attachments/assets/b4ee4c30-bbd0-46fc-92de-669582442fef
 
 >[!NOTE]
 >The reason why not all games have supported games tabs and the scripts for those games are in the Universal scripts tab is because some of these supported game tabs don't work. When you join a broken supported game, the tab doesn't show. So, that's why we have been doing this. There are some games that still have supported games tabs, but note, they may break soon. 
->[!IMPORTANT]
->Notice: Some scripts may be outdated, or not working. These will be ignored, unfortunately so please don't make any comments.
+>[!NOTE]
+>Some scripts may be outdated, or not working. These will be ignored, unfortunately so please don't make any comments.
 
 <details>
   <summary>List of Supported Games</summary>
