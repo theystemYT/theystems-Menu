@@ -10,7 +10,8 @@
 > (Please read the text below this text before reading the other text below that text)
 
 > [!TIP]
-> When executing the script for the first time, it will ask if it can use 
+> When executing the script for the first time, it will show a prompt saying "Help us improve, would you like to allow Sirius to collect usage statistics? No data is linked to you or your personal activity. You can always change this later in Settings (Not UI Settings) and disabling/enabling Automized Analytics." "Continue" "Cancel". I didn't add this, Sirius (the makers of Rayfield) did, and you will have to choose Cancel or Continue, or the prompt will keep appearing everytime you execute the script. I recommend you press Cancel, but you can choose Continue if you want. (Sirius'(e)s prompt code is designed for PC, so the Cancel is kinda invisible until you hover over it, if you want to Cancel but your on mobile, it is next to the continue button, on the left.)
+	        
 **theystem's Menu** is a **script** designed to enhance gameplay with a few essential stuff. Built with **Rayfield Library**, this menu provides a simple and easy-to-use interface.  
 To use theystem's Menu, copy this script:
 ```lua
