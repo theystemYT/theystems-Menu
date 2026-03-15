@@ -29,7 +29,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/theystemYT/theystems-
 > [!NOTE]
 >I also recommend to send the code for the feature if you know how to make it.
 
-> [NEW] - Remember the [NEW] at the beginning of this WHOLE text? I also can't do Contributions unfortunately because of this.
+> [NEW] - Remember the [NEW] at the beginning of this WHOLE text? I also can't do Contributions unfortunately because of that.
 
 **Supported Games**: If you are in a supported game, a new tab will be made with a checkmark icon and the game name. If you click on it, you can find scripts for the game.
 Here is an example:
