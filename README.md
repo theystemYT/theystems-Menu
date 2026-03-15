@@ -20,15 +20,15 @@ If the script doesn't work, try this one:
 ```lua
 loadstring(game:HttpGet("https://raw.githubusercontent.com/theystemYT/theystems-Menu/refs/heads/main/theystem's%20Menu.lua",true))()
 ```
-# Features of theystem's Menu
-- **Universal Scripts**: Has Universal scripts that work in most games. Also has scripts for certain games due to the supported games feature doesn't work on those types of games. More info about that is in the note below the image example for the supported games feature.
-- **UI Settings**: Allows you to destroy the UI and change the UI's theme. Also allows you to load your Rayfield Configuration.
+# All of theystem's Menu's Tabs
+- **Universal Scripts**: Has universal scripts, and some game scripts.
+- **UI Settings**: Allows you to destroy the UI and change the UI's theme. Also allows you to load your Rayfield Configuration. This also includes a button that allows you to use a different UI than Rayfield. [As of now, this button is not working.]
 - **Credits**: Has buttons that allows you to copy the links for my accounts to reach me.
-- **Contributions**: Allows you to send requests in Google Forms by getting the link though the button in the script and sending a request for something you want in theystem's Menu.
+- **Contributions**: Allows you to send requests in Google Forms by getting the link though the button in the script and sending a request for something you want in theystem's Menu. [NEW: As of now, Contributions won't work anymore sadly. Read the message at the beginning of this README. Also, the Google Forms link has been deleted.]
 > [!NOTE]
 >I also recommend to send the code for the feature if you know how to make it.
 
-> [NEW] - Remember the [NEW] at the beginning of this WHOLE text? I also can't do Contributions unfortunately because of that.
+> [NEW] - Remember the [NEW] text at the beginning of this README? I also can't do Contributions unfortunately because of that.
 
 **Supported Games**: If you are in a supported game, a new tab will be made with a checkmark icon and the game name. If you click on it, you can find scripts for the game.
 Here is an example:
@@ -40,7 +40,7 @@ https://github.com/user-attachments/assets/b4ee4c30-bbd0-46fc-92de-669582442fef
 >[!NOTE]
 >The reason why not all games have supported games tabs and the scripts for those games are in the Universal scripts tab is because some of these supported game tabs don't work. When you join a broken supported game, the tab doesn't show. So, that's why we have been doing this. There are some games that still have supported games tabs, but note, they may break soon. 
 >[!NOTE]
->Some scripts may be outdated, or not working. These will be ignored, unfortunately so please don't make any comments.
+>Some scripts may be outdated, or not working.
 
 <details>
   <summary>List of Supported Games</summary>
